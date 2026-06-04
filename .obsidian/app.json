@@ -1,0 +1,15 @@
+{
+  "templateFolder": "模板",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "收集箱",
+  "attachmentFolderPath": "附件",
+  "showUnsupportedFiles": true,
+  "promptDelete": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
