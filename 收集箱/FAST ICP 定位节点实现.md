@@ -41,12 +41,20 @@ graph TB
         DS -->|Source| GICP[Fast GICP]
         MAP[(PCD 地图)] -->|Target| GICP
         LAST[上一帧位姿] -->|初值| GICP
+        GICP --> CAND[候选位姿]
+        CAND --> GATE[ICP结果门控<br/>平移 / yaw / fitness]
+        GATE -->|通过| ACCEPT[更新 last_pose_]
+        GATE -->|拒绝| KEEP[保持上一帧位姿]
+        ACCEPT --> LAST
+        KEEP --> LAST
         LEVEL --> ROTATE
     end
 
     subgraph Out[输出 / 可视化]
-        GICP --> POSE[icp_pose]
-        GICP --> TF[TF 变换]
+        ACCEPT --> POSE[icp_pose]
+        KEEP --> POSE
+        ACCEPT --> TF[TF 变换]
+        KEEP --> TF
         Node -.->|3s 定时| MAP_PUB[map_cloud<br/>仅 RViz 显示]
     end
 ```
@@ -60,7 +68,7 @@ graph TB
 用 ==上一帧 ICP 结果作为下一帧初始猜测==：
 
 ```
-last_pose_ → 当前帧初值 → GICP → 更新 last_pose_ → 循环
+last_pose_ → 当前帧初值 → GICP → 门控验收 → 更新/保持 last_pose_ → 循环
 ```
 
 首帧无 `last_pose_`，必须由用户在 RViz 用 **2D Pose Estimate** 给初始位姿。
@@ -106,6 +114,31 @@ for (const auto &p : msg->points)
 
 来自 `maps/clean/pcd_icp_latest.pcd`（经统计&半径滤波，去动态拖影）。
 
+### 5. ICP 结果门控
+
+Fast GICP 每帧会输出一个候选位姿，但候选位姿不直接写入 `last_pose_`。节点先比较候选位姿与上一帧位姿的差异，并检查 fitness：
+
+| 门控项 | 含义 | 超限处理 |
+|--------|------|----------|
+| `max_translation_delta` | 候选位姿相对上一帧的 xy 平移跳变量 | 拒绝候选位姿 |
+| `max_yaw_delta` | 候选位姿相对上一帧的 yaw 跳变量 | 拒绝候选位姿 |
+| `max_fitness_score` | ICP 匹配残差评分 | 拒绝候选位姿 |
+
+通过门控时：
+
+```cpp
+last_pose_ = candidate;
+```
+
+未通过门控或 ICP 未收敛时：
+
+```cpp
+// keeping last pose
+publishPose(last_pose_);
+```
+
+这个门控的目标是防止 ICP 在几何退化、动态障碍物、初始位姿偏差或旋转过程中特征不足时，把明显跳变的错误匹配写入定位状态。
+
 ---
 
 ## 启动时序
@@ -118,6 +151,7 @@ t≈0.3s  "IMU leveling done: ~18 deg" — 校平完成
         "Initial pose set" — 开始持续定位
         ↓
 每帧:   CustomMsg → 校平 → 降采样 → GICP → /icp_pose + TF
+        GICP候选位姿需先通过门控，否则保持上一帧位姿
 ```
 
 ```bash
@@ -136,8 +170,8 @@ t≈0.3s  "IMU leveling done: ~18 deg" — 校平完成
 
 > [!bug] LiveScan 看不到彩色点？
 > 1. `ros2 topic hz /livox/lidar` — 确认驱动在发数据
-> 2. `ros2 run tf2_ros tf2_echo camera_init livox_frame` — 确认 TF 在播
-> 3. RViz Fixed Frame 必须是 `camera_init`
+> 2. `ros2 run tf2_ros tf2_echo map base_link` — 确认定位 TF 在播
+> 3. RViz Fixed Frame 必须是 `map`
 > 4. 确认给了 `/initialpose`
 
 ---
@@ -146,15 +180,16 @@ t≈0.3s  "IMU leveling done: ~18 deg" — 校平完成
 
 | 帧 | 来源 | 说明 |
 |----|------|------|
-| `camera_init` | FASTer-LIO 建图 | PCD 地图参考系 |
-| `livox_frame` | Livox 驱动 | 实时扫描参考系（物理倾斜） |
+| `map` | PCD 地图 / Nav2 | 当前定位世界坐标系 |
+| `base_link` | 机器人本体 | ICP 输出的机器人位姿 |
+| `livox_frame` | Livox 驱动 / 静态 TF | 雷达物理坐标系，通常由 `base_link -> livox_frame` 静态 TF 给出 |
 
-> [!important] camera_init 的含义
-> 建图时 `camera_init` = IMU 启动时的朝向（倾斜的）。PCD 校平（`Finish()` 中的 `gravity_rotation_`）等价于 **换了一个坐标系**——校平后的点云已经不在原始的 `camera_init` 里，而是在一个新的水平坐标系中。但代码里 **frame_id 名称没有改**，仍然叫 `camera_init`。
+> [!important] 地图坐标系的含义
+> 建图时 FASTer-LIO 的原始参考系曾是 `camera_init`。PCD 校平（`Finish()` 中的 `gravity_rotation_`）等价于 **换了一个水平坐标系**；导航侧将这个校平后的地图参考系作为 `map` 使用。
 >
-> 所以这里说的 `camera_init` 实际是 **校平后的坐标系**（z 朝上，xy 水平），不是 IMU 启动时的原始朝向。
+> 所以这里的 `map` 实际对应 **校平后的地图坐标系**（z 朝上，xy 水平），不是 IMU 启动时的原始倾斜坐标系。
 
-ICP 节点核心工作：==在这个校平后的坐标系中找到 `livox_frame` 的位姿==。
+ICP 节点核心工作：==在这个校平后的 `map` 坐标系中找到 `base_link` 的位姿==。
 
 ---
 
@@ -164,11 +199,14 @@ ICP 节点核心工作：==在这个校平后的坐标系中找到 `livox_frame`
 # src/fast_icp_loc/config/fast_icp_loc.yaml
 map_pcd:        "maps/clean/pcd_icp_latest.pcd"
 scan_topic:     "/livox/lidar"
-world_frame:    "camera_init"
-body_frame:     "livox_frame"
-voxel_leaf:     0.15      # 降采样 (m)
-max_corr_dist:  2.0       # ICP 最大距离 (m)
-max_iterations: 30
+world_frame:    "map"
+body_frame:     "base_link"
+voxel_leaf:     0.25      # 降采样 (m)
+max_corr_dist:  1.5       # ICP 最大对应距离 (m)
+max_translation_delta: 0.45
+max_yaw_delta:         0.60
+max_fitness_score:    1.0
+max_iterations: 15
 ```
 
 ---
@@ -211,3 +249,4 @@ src/fast_icp_loc/
 
 > [!note] 更新记录
 > - 2026-07-02：创建，完成 Fast GICP 定位节点开发
+> - 2026-07-17：补充 ICP 结果门控说明，并在 Mermaid 中将门控拆成独立模块
