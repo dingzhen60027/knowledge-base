@@ -1,0 +1,2090 @@
+{
+  "schema": 1,
+  "run": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh",
+  "mode": "saved_map_inspection",
+  "run_status_snapshot": {
+    "stage": "complete",
+    "observed_counts": {
+      "/imu_driver/imu_central": 130719,
+      "/d1max/slam/imu": 171884,
+      "/front_lidar": 9364,
+      "/rear_lidar": 9325,
+      "/d1max/slam/points": 9069,
+      "/d1max/faster_lio/odometry": 9050,
+      "/d1max/faster_lio/cloud_registered": 9050,
+      "/d1max/faster_lio/cloud_registered_body": 9050
+    },
+    "sensor_seconds": 982.7000050544739,
+    "xyz": [
+      0.0414627575325525,
+      -0.819347188657399,
+      -4.392678430566051
+    ],
+    "pgo": {
+      "path_messages": 10078,
+      "keyframes": 644,
+      "accepted_loop_count_topic": 4,
+      "last_path_stamp_ns": 1772317421599980032,
+      "last_path_wall": 51208.324236008
+    }
+  },
+  "manifest_binary_sha256": {
+    "/home/dndx/d1max_nav_ws/build/faster_lio/libfaster_lio_lib.so": "4cb60b8e6326930d4f832b40035ca5107a45954cb92671f2382b78dea8f7cd6d",
+    "/home/dndx/d1max_nav_ws/install/faster_lio/lib/libfaster_lio_lib.so": "8f7a66b4a545a24fce4ba36cbc9764e16e8a2b9f5361833a376738831111f069",
+    "/home/dndx/d1max_nav_ws/install/faster_lio/lib/faster_lio/run_mapping_online": "90005feb780bdf79c20f8e1090e59c834ddc42ed96891e9ce9f4543876bdd762",
+    "/home/dndx/d1max_nav_ws/install/d1max_slam/lib/d1max_slam/dual_lidar_adapter": "313b716263fbcee91741307dfb21f5fda9b725cb775c6289b716fe6a0ce363ec",
+    "/home/dndx/d1max_nav_ws/install/d1max_slam/lib/d1max_slam/map_capture_node": "3781b42012c269d2be26d7afad5d584c61f1d5f6ad82e5c35ee164cb2dcf2b80",
+    "/home/dndx/d1max_nav_ws/install/sc_pgo/lib/sc_pgo/alaserPGO": "24a35b96bd8aa7e106926206377350c275f99a7b5cb5fc6f81fd6b324f553306"
+  },
+  "trajectory": {
+    "pose_count": 9050,
+    "finite_pose_count": 9050,
+    "first_last_header_sec": [
+      1772316443.49998,
+      1772317426.19998
+    ],
+    "duration_sec": 982.7000000476837,
+    "nonpositive_timestamp_intervals": 0,
+    "timestamp_interval_sec": {
+      "count": 9049,
+      "min": 0.0999598503112793,
+      "median": 0.09999990463256836,
+      "max": 0.5000100135803223,
+      "mean": 0.10859763510307037,
+      "p05": 0.0999898910522461,
+      "p95": 0.19999980926513672
+    },
+    "start_xyz_m": [
+      -0.000548145572965243,
+      -0.000512312002790602,
+      6.29300856635253e-05
+    ],
+    "endpoint_xyz_m": [
+      0.0414627575325525,
+      -0.819347188657399,
+      -4.39267843056605
+    ],
+    "endpoint_minus_start_xyz_m": [
+      0.04201090310551774,
+      -0.8188348766546084,
+      -4.392741360651713
+    ],
+    "endpoint_to_start_xy_distance_m": 0.8199118679502748,
+    "path_length_xy_m": 256.5622307354106,
+    "path_length_xyz_m": 256.8729458100173,
+    "excluded_path_segments": 0,
+    "height_z_m": {
+      "count": 9050,
+      "min": -4.40217700333396,
+      "median": -1.7935790983093352,
+      "max": 0.00835373470439097,
+      "mean": -2.073434238050403,
+      "p05": -4.313005643664772,
+      "p95": -0.16472598131312416
+    },
+    "height_span_m": 4.410530738038351,
+    "height_endpoint_minus_start_m": -4.392741360651713,
+    "gravity_tilt_from_initial_world_down_z_deg": {
+      "count": 9050,
+      "min": 7.801423514138488e-08,
+      "median": 1.564518167508445,
+      "max": 2.313946191917475,
+      "mean": 1.5205447877075888,
+      "p05": 0.3254178587455694,
+      "p95": 2.308123367934946
+    },
+    "gravity_direction_change_from_first_gravity_deg": {
+      "count": 9050,
+      "min": 0.0,
+      "median": 1.564518219832209,
+      "max": 2.3139462208410264,
+      "mean": 1.520544824820204,
+      "p05": 0.3254178558183256,
+      "p95": 2.308123397960421
+    },
+    "gravity_first_last_xyz": [
+      [
+        -8.73765554593635e-09,
+        -1.01012741378832e-08,
+        -9.809
+      ],
+      [
+        0.178054387710008,
+        0.0298701049594177,
+        -9.80733834492536
+      ]
+    ],
+    "gravity_tilt_first_last_deg": [
+      7.801423514138488e-08,
+      1.0546341573084426
+    ],
+    "gravity_norm": {
+      "count": 9050,
+      "min": 9.808999999999667,
+      "median": 9.808999999999811,
+      "max": 9.809000000000003,
+      "mean": 9.808999999999815,
+      "p05": 9.808999999999692,
+      "p95": 9.808999999999958
+    },
+    "quaternion_norm": {
+      "count": 9050,
+      "min": 1.0000000000002887,
+      "median": 1.0000000000004547,
+      "max": 1.0000000000005849,
+      "mean": 1.000000000000443,
+      "p05": 1.0000000000002982,
+      "p95": 1.0000000000005647
+    },
+    "diagnostics": {
+      "features": {
+        "count": 9050,
+        "min": 6498.0,
+        "median": 14495.5,
+        "max": 21955.0,
+        "mean": 15068.08685082873,
+        "p05": 11358.45,
+        "p95": 20116.0
+      },
+      "horizontal_features": {
+        "count": 9050,
+        "min": 868.0,
+        "median": 2362.0,
+        "max": 5501.0,
+        "mean": 2416.713591160221,
+        "p05": 1408.45,
+        "p95": 3748.0
+      },
+      "residual_rmse": {
+        "count": 9050,
+        "min": 0.00619875815194896,
+        "median": 0.01949367820205015,
+        "max": 0.0272773805120353,
+        "mean": 0.01947196785629333,
+        "p05": 0.01590662476940484,
+        "p95": 0.022538322830443307
+      },
+      "roll_variance": {
+        "count": 9050,
+        "min": 2.08845454652111e-09,
+        "median": 4.256106027724155e-09,
+        "max": 3.47599349474282e-08,
+        "mean": 5.866505694782426e-09,
+        "p05": 2.445694138035494e-09,
+        "p95": 1.9438477446222236e-08
+      },
+      "pitch_variance": {
+        "count": 9050,
+        "min": 4.20998706174427e-09,
+        "median": 4.65990853123939e-08,
+        "max": 3.41039482934516e-07,
+        "mean": 6.167346335394398e-08,
+        "p05": 8.564473358891832e-09,
+        "p95": 1.4875798599875342e-07
+      },
+      "z_variance": {
+        "count": 9050,
+        "min": 1.24303374742662e-07,
+        "median": 2.15669873390881e-07,
+        "max": 5.61809137248149e-07,
+        "mean": 2.1386781036420476e-07,
+        "p05": 1.3847951037241522e-07,
+        "p95": 2.9294740733335363e-07
+      },
+      "horizontal_feature_fraction": {
+        "count": 9050,
+        "min": 0.07604301731370605,
+        "median": 0.14936273251280816,
+        "max": 0.4159354781529735,
+        "mean": 0.16227376702264995,
+        "p05": 0.09884707099015738,
+        "p95": 0.25552241826362704
+      }
+    },
+    "csv_validation": {
+      "parsed_rows": 9050,
+      "malformed_complete_rows": 0,
+      "malformed_line_examples": [],
+      "ignored_incomplete_final_line": false,
+      "incomplete_final_lines_dropped_in_memory": 0,
+      "snapshot_bytes": 4302345,
+      "nonfinite_cells_by_column": {
+        "t": 0,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "bgx": 0,
+        "bgy": 0,
+        "bgz": 0,
+        "bax": 0,
+        "bay": 0,
+        "baz": 0,
+        "gx": 0,
+        "gy": 0,
+        "gz": 0,
+        "features": 0,
+        "horizontal_features": 0,
+        "residual_rmse": 0,
+        "roll_variance": 0,
+        "pitch_variance": 0,
+        "z_variance": 0
+      },
+      "all_numeric_cells_finite": true
+    },
+    "interpretation": "Height span and endpoint delta are raw estimated motion in this run's world frame, not ground-truth drift. Actual terrain, robot height, initial alignment and estimator error may all contribute."
+  },
+  "limitations": [
+    "A saved map alone does not establish that the full source bag completed; inspect the run status/result alongside these metrics.",
+    "Raw world Z or endpoint change is not surveyed drift; robot motion, terrain and estimator error are not separated here.",
+    "The original 20260917_190115 front-IMU run used a different frontend build. A comparison also changes IMU source and extrinsics, so it cannot isolate an IMU effect or establish equal gravity histories.",
+    "World yaw may differ between independently initialized runs; axes are not automatically aligned."
+  ],
+  "saved_map": {
+    "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/scans.pcd",
+    "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/d1max_map_20260919_131415.pcd",
+    "file_bytes": 34396128,
+    "declared_points": 2149746,
+    "finite_xyz_points": 2149746,
+    "nonfinite_xyz_points": 0,
+    "bounds_min_xyz_m": [
+      -100.75949096679688,
+      -68.225341796875,
+      -7.61859655380249
+    ],
+    "bounds_max_xyz_m": [
+      14.926043510437012,
+      55.14923095703125,
+      15.092181205749512
+    ],
+    "extent_xyz_m": [
+      115.68553447723389,
+      123.37457275390625,
+      22.710777759552002
+    ],
+    "plot_sample_points": 307107,
+    "plot_sample_stride": 7,
+    "plot_sample_z_percentile_1_99_m": [
+      -4.949505929946899,
+      10.665234165191654
+    ],
+    "sampling_note": "Counts and bounds use every point. Plot uses a deterministic stride sample; color scale clips at sample Z percentiles 1 and 99, without altering coordinates."
+  },
+  "floor_like_patch_check": {
+    "method": "stride-sampled saved map; poses every 3m; XY radius 1m; height band 0.2-1.0m below estimated pose; RANSAC 3cm/20deg; no map transformation",
+    "warning": "These are floor-like surfaces selected relative to the estimated trajectory. They are not surveyed floor truth, and accumulated maps may combine multiple passes. Furniture/platforms can satisfy the filter.",
+    "patches_found": 84,
+    "patches_queried": 86,
+    "sampled_plane_z_m": {
+      "count": 84,
+      "min": -4.876917866863691,
+      "median": -2.3714266714867875,
+      "max": -0.4825683438576794,
+      "mean": -2.647904794648182,
+      "p05": -4.780588120205522,
+      "p95": -0.7359113412663205
+    },
+    "pose_minus_plane_height_m": {
+      "count": 84,
+      "min": 0.4663773110648244,
+      "median": 0.48946478279456274,
+      "max": 0.5215781419657746,
+      "mean": 0.4897126810294337,
+      "p05": 0.47523280373507854,
+      "p95": 0.5032582470269377
+    },
+    "patches": [
+      {
+        "path_distance_m": 0.0,
+        "pose_xyz_m": [
+          -0.000548145572965243,
+          -0.000512312002790602,
+          6.29300856635253e-05
+        ],
+        "candidate_points": 161,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.4825683438576794,
+        "pose_minus_plane_height_m": 0.48263127394334293,
+        "normal_xyz": [
+          0.01326157245784998,
+          0.0005729374242946506,
+          0.999911904335022
+        ],
+        "plane_tilt_deg": 0.7605329751968384,
+        "inlier_count": 125,
+        "inlier_fraction": 0.7763975155279503,
+        "inlier_rmse_m": 0.01317962259054184
+      },
+      {
+        "path_distance_m": 3.0075642066320714,
+        "pose_xyz_m": [
+          -1.45470147358185,
+          2.62251547793924,
+          -0.0603717817582713
+        ],
+        "candidate_points": 170,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.5521079824919676,
+        "pose_minus_plane_height_m": 0.4917362007336963,
+        "normal_xyz": [
+          0.00801524892449379,
+          0.011410759761929512,
+          0.9999027848243713
+        ],
+        "plane_tilt_deg": 0.7989289164543152,
+        "inlier_count": 112,
+        "inlier_fraction": 0.6588235294117647,
+        "inlier_rmse_m": 0.013974047265946865
+      },
+      {
+        "path_distance_m": 6.016275633298635,
+        "pose_xyz_m": [
+          -2.88869776149119,
+          5.26521512109419,
+          -0.119587115865997
+        ],
+        "candidate_points": 174,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.60390260031499,
+        "pose_minus_plane_height_m": 0.48431548444899297,
+        "normal_xyz": [
+          -0.015145932324230671,
+          0.0516933798789978,
+          0.998548150062561
+        ],
+        "plane_tilt_deg": 3.087813377380371,
+        "inlier_count": 106,
+        "inlier_fraction": 0.6091954022988506,
+        "inlier_rmse_m": 0.016860809177160263
+      },
+      {
+        "path_distance_m": 9.003948788401019,
+        "pose_xyz_m": [
+          -4.28860998524049,
+          7.90086367339834,
+          -0.181485924615117
+        ],
+        "candidate_points": 156,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.6478632356799414,
+        "pose_minus_plane_height_m": 0.4663773110648244,
+        "normal_xyz": [
+          0.022259516641497612,
+          0.01772993803024292,
+          0.9995949864387512
+        ],
+        "plane_tilt_deg": 1.6307487487792969,
+        "inlier_count": 100,
+        "inlier_fraction": 0.6410256410256411,
+        "inlier_rmse_m": 0.015488648787140846
+      },
+      {
+        "path_distance_m": 12.006006014676407,
+        "pose_xyz_m": [
+          -5.70380842764271,
+          10.5456712950147,
+          -0.252904622637762
+        ],
+        "candidate_points": 161,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.724821393294672,
+        "pose_minus_plane_height_m": 0.47191677065691,
+        "normal_xyz": [
+          0.002695375820621848,
+          0.0012683571549132466,
+          0.9999955892562866
+        ],
+        "plane_tilt_deg": 0.17017418146133423,
+        "inlier_count": 115,
+        "inlier_fraction": 0.7142857142857143,
+        "inlier_rmse_m": 0.013457217253744602
+      },
+      {
+        "path_distance_m": 15.025555435846277,
+        "pose_xyz_m": [
+          -7.10642984201833,
+          13.2172605237468,
+          -0.314153680824656
+        ],
+        "candidate_points": 162,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.7987543797723262,
+        "pose_minus_plane_height_m": 0.4846006989476702,
+        "normal_xyz": [
+          0.008512672036886215,
+          0.007400644011795521,
+          0.9999364018440247
+        ],
+        "plane_tilt_deg": 0.6461929082870483,
+        "inlier_count": 132,
+        "inlier_fraction": 0.8148148148148148,
+        "inlier_rmse_m": 0.013481512665748596
+      },
+      {
+        "path_distance_m": 18.055432205508122,
+        "pose_xyz_m": [
+          -8.46943655208502,
+          15.922221658832,
+          -0.373776797171114
+        ],
+        "candidate_points": 160,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.8700244504015222,
+        "pose_minus_plane_height_m": 0.4962476532304082,
+        "normal_xyz": [
+          -0.013174726627767086,
+          0.012541311793029308,
+          0.9998345375061035
+        ],
+        "plane_tilt_deg": 1.0423015356063843,
+        "inlier_count": 103,
+        "inlier_fraction": 0.64375,
+        "inlier_rmse_m": 0.013474923558533192
+      },
+      {
+        "path_distance_m": 21.02564151561847,
+        "pose_xyz_m": [
+          -9.77693188092567,
+          18.5882824199888,
+          -0.42211906866274
+        ],
+        "candidate_points": 160,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.8885326611050646,
+        "pose_minus_plane_height_m": 0.46641359244232455,
+        "normal_xyz": [
+          -0.007377145811915398,
+          0.012941616587340832,
+          0.9998890161514282
+        ],
+        "plane_tilt_deg": 0.8536336421966553,
+        "inlier_count": 127,
+        "inlier_fraction": 0.79375,
+        "inlier_rmse_m": 0.014268046244978905
+      },
+      {
+        "path_distance_m": 24.002083897940466,
+        "pose_xyz_m": [
+          -11.0753202013352,
+          21.2660669728197,
+          -0.479790394292647
+        ],
+        "candidate_points": 172,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.9603687160258054,
+        "pose_minus_plane_height_m": 0.4805783217331584,
+        "normal_xyz": [
+          -0.005979920271784067,
+          0.006732395850121975,
+          0.9999594688415527
+        ],
+        "plane_tilt_deg": 0.5158620476722717,
+        "inlier_count": 144,
+        "inlier_fraction": 0.8372093023255814,
+        "inlier_rmse_m": 0.012516758404672146
+      },
+      {
+        "path_distance_m": 27.021856851766564,
+        "pose_xyz_m": [
+          -12.3626652445359,
+          23.9968399396341,
+          -0.531639919412726
+        ],
+        "candidate_points": 154,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.019059009421641,
+        "pose_minus_plane_height_m": 0.4874190900089149,
+        "normal_xyz": [
+          -0.021900177001953125,
+          0.021304380148649216,
+          0.9995331168174744
+        ],
+        "plane_tilt_deg": 1.7508890628814697,
+        "inlier_count": 105,
+        "inlier_fraction": 0.6818181818181818,
+        "inlier_rmse_m": 0.01678151823580265
+      },
+      {
+        "path_distance_m": 30.011694094701404,
+        "pose_xyz_m": [
+          -13.6425727741952,
+          26.6967513458585,
+          -0.583290783904008
+        ],
+        "candidate_points": 166,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.0596375382690781,
+        "pose_minus_plane_height_m": 0.4763467543650701,
+        "normal_xyz": [
+          -0.03159641847014427,
+          0.007852358743548393,
+          0.9994698762893677
+        ],
+        "plane_tilt_deg": 1.8657153844833374,
+        "inlier_count": 97,
+        "inlier_fraction": 0.5843373493975904,
+        "inlier_rmse_m": 0.014324776828289032
+      },
+      {
+        "path_distance_m": 33.03044631537169,
+        "pose_xyz_m": [
+          -15.1810644796507,
+          29.2933455140687,
+          -0.651544390061949
+        ],
+        "candidate_points": 142,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.1480181545721968,
+        "pose_minus_plane_height_m": 0.49647376451024783,
+        "normal_xyz": [
+          -0.04020103067159653,
+          -0.006797187030315399,
+          0.9991685152053833
+        ],
+        "plane_tilt_deg": 2.3366565704345703,
+        "inlier_count": 97,
+        "inlier_fraction": 0.6830985915492958,
+        "inlier_rmse_m": 0.01329450961202383
+      },
+      {
+        "path_distance_m": 36.02118056049474,
+        "pose_xyz_m": [
+          -16.7343455296332,
+          31.8481400919027,
+          -0.725892607743961
+        ],
+        "candidate_points": 152,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.2292371377515736,
+        "pose_minus_plane_height_m": 0.5033445300076126,
+        "normal_xyz": [
+          -0.05341481417417526,
+          0.01344224438071251,
+          0.9984819293022156
+        ],
+        "plane_tilt_deg": 3.1574649810791016,
+        "inlier_count": 105,
+        "inlier_fraction": 0.6907894736842105,
+        "inlier_rmse_m": 0.012736537493765354
+      },
+      {
+        "path_distance_m": 39.0226462393435,
+        "pose_xyz_m": [
+          -18.2657043577687,
+          34.4283388319441,
+          -0.794678356227354
+        ],
+        "candidate_points": 209,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.2806933979460293,
+        "pose_minus_plane_height_m": 0.48601504171867527,
+        "normal_xyz": [
+          -0.02812880277633667,
+          0.005249868147075176,
+          0.9995905160903931
+        ],
+        "plane_tilt_deg": 1.6397243738174438,
+        "inlier_count": 104,
+        "inlier_fraction": 0.49760765550239233,
+        "inlier_rmse_m": 0.01520077046006918
+      },
+      {
+        "path_distance_m": 42.0244802946988,
+        "pose_xyz_m": [
+          -16.5698097007499,
+          35.5820739152302,
+          -0.749409200410301
+        ],
+        "candidate_points": 181,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.238639189794346,
+        "pose_minus_plane_height_m": 0.48922998938404505,
+        "normal_xyz": [
+          -0.0499068982899189,
+          0.03105204552412033,
+          0.9982710480690002
+        ],
+        "plane_tilt_deg": 3.3697032928466797,
+        "inlier_count": 111,
+        "inlier_fraction": 0.6132596685082873,
+        "inlier_rmse_m": 0.011615839786827564
+      },
+      {
+        "path_distance_m": 45.00240158741761,
+        "pose_xyz_m": [
+          -13.912458329507,
+          36.9235176972517,
+          -0.659575171960874
+        ],
+        "candidate_points": 182,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.1577872177342026,
+        "pose_minus_plane_height_m": 0.49821204577332856,
+        "normal_xyz": [
+          -0.0528608039021492,
+          0.016062675043940544,
+          0.9984726905822754
+        ],
+        "plane_tilt_deg": 3.1670608520507812,
+        "inlier_count": 92,
+        "inlier_fraction": 0.5054945054945055,
+        "inlier_rmse_m": 0.014969170093536377
+      },
+      {
+        "path_distance_m": 48.0162787701465,
+        "pose_xyz_m": [
+          -11.2145418868638,
+          38.2657453356954,
+          -0.567837699752034
+        ],
+        "candidate_points": 184,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.0553262716639231,
+        "pose_minus_plane_height_m": 0.4874885719118891,
+        "normal_xyz": [
+          -0.042948540300130844,
+          0.0285057220607996,
+          0.9986705183982849
+        ],
+        "plane_tilt_deg": 2.954792022705078,
+        "inlier_count": 103,
+        "inlier_fraction": 0.5597826086956522,
+        "inlier_rmse_m": 0.013513715006411076
+      },
+      {
+        "path_distance_m": 51.00845027737813,
+        "pose_xyz_m": [
+          -8.6147204587743,
+          39.744765381859,
+          -0.475225270229169
+        ],
+        "candidate_points": 243,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.9652643527232242,
+        "pose_minus_plane_height_m": 0.4900390824940552,
+        "normal_xyz": [
+          -0.059351369738578796,
+          0.034891385585069656,
+          0.9976271986961365
+        ],
+        "plane_tilt_deg": 3.947791576385498,
+        "inlier_count": 110,
+        "inlier_fraction": 0.45267489711934156,
+        "inlier_rmse_m": 0.012722642160952091
+      },
+      {
+        "path_distance_m": 54.03055288857019,
+        "pose_xyz_m": [
+          -6.02147395891765,
+          41.2959579630328,
+          -0.38606674276367
+        ],
+        "candidate_points": 149,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.8784934166560312,
+        "pose_minus_plane_height_m": 0.4924266738923612,
+        "normal_xyz": [
+          -0.04768623784184456,
+          0.028287792578339577,
+          0.9984617233276367
+        ],
+        "plane_tilt_deg": 3.1784145832061768,
+        "inlier_count": 103,
+        "inlier_fraction": 0.6912751677852349,
+        "inlier_rmse_m": 0.015521341934800148
+      },
+      {
+        "path_distance_m": 57.0156337187599,
+        "pose_xyz_m": [
+          -7.57801698400173,
+          40.6063062992168,
+          -0.437266668747312
+        ],
+        "candidate_points": 200,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -0.9588448107130866,
+        "pose_minus_plane_height_m": 0.5215781419657746,
+        "normal_xyz": [
+          -0.00613546883687377,
+          -0.008372736163437366,
+          0.999946117401123
+        ],
+        "plane_tilt_deg": 0.5947902202606201,
+        "inlier_count": 101,
+        "inlier_fraction": 0.505,
+        "inlier_rmse_m": 0.012677930295467377
+      },
+      {
+        "path_distance_m": 60.00846907121846,
+        "pose_xyz_m": [
+          -9.7998392448703,
+          42.3372864492644,
+          -0.579452649911249
+        ],
+        "candidate_points": 181,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.0778536771850467,
+        "pose_minus_plane_height_m": 0.49840102727379765,
+        "normal_xyz": [
+          -0.034260135143995285,
+          0.04334554076194763,
+          0.9984725117683411
+        ],
+        "plane_tilt_deg": 3.1672463417053223,
+        "inlier_count": 99,
+        "inlier_fraction": 0.5469613259668509,
+        "inlier_rmse_m": 0.013871381990611553
+      },
+      {
+        "path_distance_m": 63.00148643953018,
+        "pose_xyz_m": [
+          -11.5324496241913,
+          44.7651347787902,
+          -0.699798565890723
+        ],
+        "candidate_points": 131,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.1857390223854674,
+        "pose_minus_plane_height_m": 0.4859404564947444,
+        "normal_xyz": [
+          -0.04660801962018013,
+          0.012830008752644062,
+          0.9988308548927307
+        ],
+        "plane_tilt_deg": 2.770857095718384,
+        "inlier_count": 105,
+        "inlier_fraction": 0.8015267175572519,
+        "inlier_rmse_m": 0.010814758948981762
+      },
+      {
+        "path_distance_m": 66.0115315746256,
+        "pose_xyz_m": [
+          -10.0242025923674,
+          42.2308975290684,
+          -0.584996558262037
+        ],
+        "candidate_points": 174,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.0752093697985823,
+        "pose_minus_plane_height_m": 0.4902128115365453,
+        "normal_xyz": [
+          -0.05283670127391815,
+          0.022462334483861923,
+          0.9983505010604858
+        ],
+        "plane_tilt_deg": 3.29134464263916,
+        "inlier_count": 104,
+        "inlier_fraction": 0.5977011494252874,
+        "inlier_rmse_m": 0.015721619129180908
+      },
+      {
+        "path_distance_m": 69.01215766419658,
+        "pose_xyz_m": [
+          -10.4615369472981,
+          39.4462692823841,
+          -0.562702789405008
+        ],
+        "candidate_points": 158,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.0563449076118179,
+        "pose_minus_plane_height_m": 0.4936421182068099,
+        "normal_xyz": [
+          -0.0476159006357193,
+          0.023641517385840416,
+          0.9985858798027039
+        ],
+        "plane_tilt_deg": 3.047417402267456,
+        "inlier_count": 100,
+        "inlier_fraction": 0.6329113924050633,
+        "inlier_rmse_m": 0.012787934392690659
+      },
+      {
+        "path_distance_m": 72.00878458877328,
+        "pose_xyz_m": [
+          -12.8571843986804,
+          37.8645970650001,
+          -0.627686937547126
+        ],
+        "candidate_points": 162,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.1250996051446978,
+        "pose_minus_plane_height_m": 0.49741266759757174,
+        "normal_xyz": [
+          -0.032674431800842285,
+          0.009944774210453033,
+          0.9994165897369385
+        ],
+        "plane_tilt_deg": 1.9572476148605347,
+        "inlier_count": 93,
+        "inlier_fraction": 0.5740740740740741,
+        "inlier_rmse_m": 0.014949153177440166
+      },
+      {
+        "path_distance_m": 75.02741224184618,
+        "pose_xyz_m": [
+          -15.4932453570314,
+          36.395683146338,
+          -0.715104150358404
+        ],
+        "candidate_points": 246,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.1975173095164877,
+        "pose_minus_plane_height_m": 0.4824131591580837,
+        "normal_xyz": [
+          -0.004099995829164982,
+          0.005076030269265175,
+          0.9999787211418152
+        ],
+        "plane_tilt_deg": 0.37377697229385376,
+        "inlier_count": 111,
+        "inlier_fraction": 0.45121951219512196,
+        "inlier_rmse_m": 0.013782109133899212
+      },
+      {
+        "path_distance_m": 78.01856217198453,
+        "pose_xyz_m": [
+          -18.1425202665945,
+          35.0086931944053,
+          -0.796910474961623
+        ],
+        "candidate_points": 233,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.2936378606422474,
+        "pose_minus_plane_height_m": 0.49672738568062436,
+        "normal_xyz": [
+          -0.05105648562312126,
+          0.041481152176856995,
+          0.9978339076042175
+        ],
+        "plane_tilt_deg": 3.771851062774658,
+        "inlier_count": 96,
+        "inlier_fraction": 0.41201716738197425,
+        "inlier_rmse_m": 0.01343043427914381
+      },
+      {
+        "path_distance_m": 81.02855089382857,
+        "pose_xyz_m": [
+          -20.8274499627884,
+          33.6512533374049,
+          -0.888466784568671
+        ],
+        "candidate_points": 216,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.3965804614035642,
+        "pose_minus_plane_height_m": 0.5081136768348932,
+        "normal_xyz": [
+          -0.03640677407383919,
+          0.04945937916636467,
+          0.9981123805046082
+        ],
+        "plane_tilt_deg": 3.5209767818450928,
+        "inlier_count": 102,
+        "inlier_fraction": 0.4722222222222222,
+        "inlier_rmse_m": 0.013869665563106537
+      },
+      {
+        "path_distance_m": 84.062642127631,
+        "pose_xyz_m": [
+          -23.4868812117922,
+          32.1923665269692,
+          -0.975060229903359
+        ],
+        "candidate_points": 140,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.4730916826102483,
+        "pose_minus_plane_height_m": 0.4980314527068892,
+        "normal_xyz": [
+          -0.04744389280676842,
+          0.04566294327378273,
+          0.9978296160697937
+        ],
+        "plane_tilt_deg": 3.7755870819091797,
+        "inlier_count": 98,
+        "inlier_fraction": 0.7,
+        "inlier_rmse_m": 0.014317242428660393
+      },
+      {
+        "path_distance_m": 87.01338121808921,
+        "pose_xyz_m": [
+          -26.0615467352681,
+          30.7526578392483,
+          -1.05196383553331
+        ],
+        "candidate_points": 164,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.5407916840250655,
+        "pose_minus_plane_height_m": 0.4888278484917554,
+        "normal_xyz": [
+          -0.042017191648483276,
+          0.020341074094176292,
+          0.9989098310470581
+        ],
+        "plane_tilt_deg": 2.675617218017578,
+        "inlier_count": 101,
+        "inlier_fraction": 0.6158536585365854,
+        "inlier_rmse_m": 0.012052945792675018
+      },
+      {
+        "path_distance_m": 90.00400338669169,
+        "pose_xyz_m": [
+          -28.678898307765,
+          29.3072129237961,
+          -1.12686262907642
+        ],
+        "candidate_points": 199,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.6201066081537008,
+        "pose_minus_plane_height_m": 0.4932439790772807,
+        "normal_xyz": [
+          -0.040308207273483276,
+          0.02004287764430046,
+          0.9989862442016602
+        ],
+        "plane_tilt_deg": 2.5801265239715576,
+        "inlier_count": 92,
+        "inlier_fraction": 0.4623115577889447,
+        "inlier_rmse_m": 0.012963696382939816
+      },
+      {
+        "path_distance_m": 93.00314688777189,
+        "pose_xyz_m": [
+          -31.3147275821736,
+          27.8773961326029,
+          -1.20408008061115
+        ],
+        "candidate_points": 157,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.6927242772237772,
+        "pose_minus_plane_height_m": 0.48864419661262715,
+        "normal_xyz": [
+          -0.02402753010392189,
+          -0.003296313341706991,
+          0.9997058510780334
+        ],
+        "plane_tilt_deg": 1.3897346258163452,
+        "inlier_count": 109,
+        "inlier_fraction": 0.6942675159235668,
+        "inlier_rmse_m": 0.015467205084860325
+      },
+      {
+        "path_distance_m": 96.05040428185318,
+        "pose_xyz_m": [
+          -33.9933240760502,
+          26.4256176116261,
+          -1.28374416413458
+        ],
+        "candidate_points": 175,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.7622652578885538,
+        "pose_minus_plane_height_m": 0.4785210937539739,
+        "normal_xyz": [
+          -0.013262108899652958,
+          0.008835706859827042,
+          0.9998730421066284
+        ],
+        "plane_tilt_deg": 0.9130026698112488,
+        "inlier_count": 134,
+        "inlier_fraction": 0.7657142857142857,
+        "inlier_rmse_m": 0.0130708497017622
+      },
+      {
+        "path_distance_m": 99.02467115999755,
+        "pose_xyz_m": [
+          -36.615116681498,
+          25.0223587541942,
+          -1.35537969209235
+        ],
+        "candidate_points": 188,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.8384978089676693,
+        "pose_minus_plane_height_m": 0.48311811687531936,
+        "normal_xyz": [
+          -0.003822784870862961,
+          0.00022141287627164274,
+          0.9999926686286926
+        ],
+        "plane_tilt_deg": 0.21939688920974731,
+        "inlier_count": 122,
+        "inlier_fraction": 0.648936170212766,
+        "inlier_rmse_m": 0.011461763642728329
+      },
+      {
+        "path_distance_m": 102.0232830882291,
+        "pose_xyz_m": [
+          -39.2699813908779,
+          23.6308376161029,
+          -1.41948557962027
+        ],
+        "candidate_points": 174,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.914914611981325,
+        "pose_minus_plane_height_m": 0.49542903236105484,
+        "normal_xyz": [
+          -0.015342938713729382,
+          0.004862734582275152,
+          0.9998704791069031
+        ],
+        "plane_tilt_deg": 0.9221726059913635,
+        "inlier_count": 120,
+        "inlier_fraction": 0.6896551724137931,
+        "inlier_rmse_m": 0.012859954498708248
+      },
+      {
+        "path_distance_m": 105.02179032794228,
+        "pose_xyz_m": [
+          -41.8953012711321,
+          22.1871840314064,
+          -1.48941068814236
+        ],
+        "candidate_points": 171,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -1.9814338174313466,
+        "pose_minus_plane_height_m": 0.4920231292889865,
+        "normal_xyz": [
+          -0.03245307132601738,
+          0.011973592452704906,
+          0.9994015097618103
+        ],
+        "plane_tilt_deg": 1.982384204864502,
+        "inlier_count": 104,
+        "inlier_fraction": 0.6081871345029239,
+        "inlier_rmse_m": 0.014450798742473125
+      },
+      {
+        "path_distance_m": 108.02367473227937,
+        "pose_xyz_m": [
+          -44.4593156809892,
+          20.6277508524267,
+          -1.55344419751678
+        ],
+        "candidate_points": 131,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.0508160164404985,
+        "pose_minus_plane_height_m": 0.4973718189237184,
+        "normal_xyz": [
+          -0.04129074513912201,
+          0.009636958129703999,
+          0.9991006851196289
+        ],
+        "plane_tilt_deg": 2.4301106929779053,
+        "inlier_count": 90,
+        "inlier_fraction": 0.6870229007633588,
+        "inlier_rmse_m": 0.014263947494328022
+      },
+      {
+        "path_distance_m": 111.0307522314468,
+        "pose_xyz_m": [
+          -47.0564399847385,
+          19.1142713493579,
+          -1.62161270152325
+        ],
+        "candidate_points": 113,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.1052599961693077,
+        "pose_minus_plane_height_m": 0.4836472946460577,
+        "normal_xyz": [
+          -0.020364129915833473,
+          -0.016886483877897263,
+          0.9996500015258789
+        ],
+        "plane_tilt_deg": 1.5159447193145752,
+        "inlier_count": 83,
+        "inlier_fraction": 0.7345132743362832,
+        "inlier_rmse_m": 0.014439056627452374
+      },
+      {
+        "path_distance_m": 114.00921040555077,
+        "pose_xyz_m": [
+          -49.631111856557,
+          17.6190452367436,
+          -1.68117000642692
+        ],
+        "candidate_points": 141,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.159907115945178,
+        "pose_minus_plane_height_m": 0.478737109518258,
+        "normal_xyz": [
+          -0.005988040007650852,
+          0.0015660054050385952,
+          0.9999808669090271
+        ],
+        "plane_tilt_deg": 0.35443031787872314,
+        "inlier_count": 123,
+        "inlier_fraction": 0.8723404255319149,
+        "inlier_rmse_m": 0.010825199075043201
+      },
+      {
+        "path_distance_m": 117.00666395128704,
+        "pose_xyz_m": [
+          -52.3008779988401,
+          16.2589153057271,
+          -1.73192066540949
+        ],
+        "candidate_points": 173,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.2282853203369672,
+        "pose_minus_plane_height_m": 0.49636465492747717,
+        "normal_xyz": [
+          -0.01597611978650093,
+          -0.012535165064036846,
+          0.9997937679290771
+        ],
+        "plane_tilt_deg": 1.1636520624160767,
+        "inlier_count": 107,
+        "inlier_fraction": 0.6184971098265896,
+        "inlier_rmse_m": 0.013713925145566463
+      },
+      {
+        "path_distance_m": 120.00157281527021,
+        "pose_xyz_m": [
+          -54.99853053719,
+          14.959591696512,
+          -1.79129665225185
+        ],
+        "candidate_points": 218,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.2798319557178113,
+        "pose_minus_plane_height_m": 0.4885353034659612,
+        "normal_xyz": [
+          -0.012101737782359123,
+          -0.03956529498100281,
+          0.9991437196731567
+        ],
+        "plane_tilt_deg": 2.371245861053467,
+        "inlier_count": 97,
+        "inlier_fraction": 0.44495412844036697,
+        "inlier_rmse_m": 0.015521473251283169
+      },
+      {
+        "path_distance_m": 123.00836677143349,
+        "pose_xyz_m": [
+          -57.7225525051049,
+          13.6888118539755,
+          -1.85545061087593
+        ],
+        "candidate_points": 148,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.340359738026342,
+        "pose_minus_plane_height_m": 0.484909127150412,
+        "normal_xyz": [
+          -0.00905701145529747,
+          -0.040962252765893936,
+          0.9991196393966675
+        ],
+        "plane_tilt_deg": 2.4043614864349365,
+        "inlier_count": 82,
+        "inlier_fraction": 0.5540540540540541,
+        "inlier_rmse_m": 0.014606566168367863
+      },
+      {
+        "path_distance_m": 126.02501897842602,
+        "pose_xyz_m": [
+          -60.4038530490142,
+          12.313297373107,
+          -1.91591939338486
+        ],
+        "candidate_points": 241,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.4024936049472334,
+        "pose_minus_plane_height_m": 0.48657421156237346,
+        "normal_xyz": [
+          -0.004034488927572966,
+          7.54837819840759e-05,
+          0.9999918341636658
+        ],
+        "plane_tilt_deg": 0.2315465211868286,
+        "inlier_count": 124,
+        "inlier_fraction": 0.5145228215767634,
+        "inlier_rmse_m": 0.011482922360301018
+      },
+      {
+        "path_distance_m": 129.00687832740905,
+        "pose_xyz_m": [
+          -63.0157486101993,
+          10.8756371481502,
+          -1.97451729722947
+        ],
+        "candidate_points": 154,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.4717680709910113,
+        "pose_minus_plane_height_m": 0.49725077376154125,
+        "normal_xyz": [
+          -0.0031789345666766167,
+          -0.004162581637501717,
+          0.9999862909317017
+        ],
+        "plane_tilt_deg": 0.3000143766403198,
+        "inlier_count": 90,
+        "inlier_fraction": 0.5844155844155844,
+        "inlier_rmse_m": 0.012941144406795502
+      },
+      {
+        "path_distance_m": 132.01037883301487,
+        "pose_xyz_m": [
+          -65.6437393104783,
+          9.4229039061191,
+          -2.03372086141867
+        ],
+        "candidate_points": 164,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.520359518303692,
+        "pose_minus_plane_height_m": 0.48663865688502206,
+        "normal_xyz": [
+          -0.013646075502038002,
+          -0.04890073835849762,
+          0.9987103939056396
+        ],
+        "plane_tilt_deg": 2.910132884979248,
+        "inlier_count": 96,
+        "inlier_fraction": 0.5853658536585366,
+        "inlier_rmse_m": 0.015445605851709843
+      },
+      {
+        "path_distance_m": 135.01610712677277,
+        "pose_xyz_m": [
+          -68.2635085920779,
+          7.95075507148292,
+          -2.08659179844582
+        ],
+        "candidate_points": 194,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.5781373159399728,
+        "pose_minus_plane_height_m": 0.49154551749415276,
+        "normal_xyz": [
+          -0.0013952262233942747,
+          -0.022822683677077293,
+          0.9997385740280151
+        ],
+        "plane_tilt_deg": 1.310151219367981,
+        "inlier_count": 106,
+        "inlier_fraction": 0.5463917525773195,
+        "inlier_rmse_m": 0.014319367706775665
+      },
+      {
+        "path_distance_m": 138.02203890972353,
+        "pose_xyz_m": [
+          -70.8298840828247,
+          6.38846438304715,
+          -2.15380368907228
+        ],
+        "candidate_points": 178,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.642814291744729,
+        "pose_minus_plane_height_m": 0.4890106026724488,
+        "normal_xyz": [
+          -0.0049363612197339535,
+          -0.01591121219098568,
+          0.9998612403869629
+        ],
+        "plane_tilt_deg": 0.9544961452484131,
+        "inlier_count": 120,
+        "inlier_fraction": 0.6741573033707865,
+        "inlier_rmse_m": 0.01238833088427782
+      },
+      {
+        "path_distance_m": 141.00689377268674,
+        "pose_xyz_m": [
+          -73.35901610494,
+          4.80622751568284,
+          -2.20697561803425
+        ],
+        "candidate_points": 220,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.70817416344015,
+        "pose_minus_plane_height_m": 0.5011985454059,
+        "normal_xyz": [
+          0.005013636779040098,
+          -0.04504382610321045,
+          0.9989724159240723
+        ],
+        "plane_tilt_deg": 2.5976669788360596,
+        "inlier_count": 103,
+        "inlier_fraction": 0.4681818181818182,
+        "inlier_rmse_m": 0.013226820155978203
+      },
+      {
+        "path_distance_m": 144.0192362444368,
+        "pose_xyz_m": [
+          -76.0223968750338,
+          3.40160801468574,
+          -2.25678562380803
+        ],
+        "candidate_points": 261,
+        "status": "no_dominant_near_horizontal_plane"
+      },
+      {
+        "path_distance_m": 147.0626903655774,
+        "pose_xyz_m": [
+          -76.5959316013246,
+          1.69395443107113,
+          -2.34763149431836
+        ],
+        "candidate_points": 158,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.86563933138099,
+        "pose_minus_plane_height_m": 0.5180078370626302,
+        "normal_xyz": [
+          -0.02248653955757618,
+          -0.005066209938377142,
+          0.9997342824935913
+        ],
+        "plane_tilt_deg": 1.320861577987671,
+        "inlier_count": 96,
+        "inlier_fraction": 0.6075949367088608,
+        "inlier_rmse_m": 0.01487177424132824
+      },
+      {
+        "path_distance_m": 150.01753201686662,
+        "pose_xyz_m": [
+          -75.005696447819,
+          -0.794273955429676,
+          -2.46839976395363
+        ],
+        "candidate_points": 150,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -2.959158138373675,
+        "pose_minus_plane_height_m": 0.4907583744200452,
+        "normal_xyz": [
+          -0.0026687653735280037,
+          -0.03246729075908661,
+          0.9994692206382751
+        ],
+        "plane_tilt_deg": 1.8668690919876099,
+        "inlier_count": 123,
+        "inlier_fraction": 0.82,
+        "inlier_rmse_m": 0.012455297634005547
+      },
+      {
+        "path_distance_m": 153.03259677106476,
+        "pose_xyz_m": [
+          -73.5644977124577,
+          -3.23478996304797,
+          -2.5842484785954
+        ],
+        "candidate_points": 147,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -3.0687093368913008,
+        "pose_minus_plane_height_m": 0.4844608582959009,
+        "normal_xyz": [
+          -0.007397384848445654,
+          -0.0518404096364975,
+          0.9986279606819153
+        ],
+        "plane_tilt_deg": 3.001722574234009,
+        "inlier_count": 107,
+        "inlier_fraction": 0.7278911564625851,
+        "inlier_rmse_m": 0.012087943963706493
+      },
+      {
+        "path_distance_m": 156.01198660153565,
+        "pose_xyz_m": [
+          -72.1275577844688,
+          -5.84355460828256,
+          -2.70492274326889
+        ],
+        "candidate_points": 145,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -3.193056996079084,
+        "pose_minus_plane_height_m": 0.4881342528101942,
+        "normal_xyz": [
+          -0.0016652254853397608,
+          -0.030495870858430862,
+          0.9995335340499878
+        ],
+        "plane_tilt_deg": 1.7501064538955688,
+        "inlier_count": 105,
+        "inlier_fraction": 0.7241379310344828,
+        "inlier_rmse_m": 0.01415011752396822
+      },
+      {
+        "path_distance_m": 159.01572868630012,
+        "pose_xyz_m": [
+          -70.6935443137174,
+          -8.48165287306172,
+          -2.83154489970978
+        ],
+        "candidate_points": 127,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -3.314220387404268,
+        "pose_minus_plane_height_m": 0.48267548769448787,
+        "normal_xyz": [
+          -0.006366708315908909,
+          -0.05728841572999954,
+          0.9983373880386353
+        ],
+        "plane_tilt_deg": 3.3044047355651855,
+        "inlier_count": 85,
+        "inlier_fraction": 0.6692913385826772,
+        "inlier_rmse_m": 0.013364890590310097
+      },
+      {
+        "path_distance_m": 162.02333065542982,
+        "pose_xyz_m": [
+          -69.2743518598088,
+          -11.1325679275142,
+          -2.95490351949529
+        ],
+        "candidate_points": 157,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -3.4346640746595303,
+        "pose_minus_plane_height_m": 0.4797605551642401,
+        "normal_xyz": [
+          -0.0073615689761936665,
+          -0.010121936909854412,
+          0.9999216794967651
+        ],
+        "plane_tilt_deg": 0.7170974612236023,
+        "inlier_count": 114,
+        "inlier_fraction": 0.7261146496815286,
+        "inlier_rmse_m": 0.014731592498719692
+      },
+      {
+        "path_distance_m": 165.0065249899504,
+        "pose_xyz_m": [
+          -67.8620840205209,
+          -13.7594452969196,
+          -3.08386990712767
+        ],
+        "candidate_points": 144,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -3.570531993795589,
+        "pose_minus_plane_height_m": 0.486662086667919,
+        "normal_xyz": [
+          0.0030466883908957243,
+          -0.053933411836624146,
+          0.9985398650169373
+        ],
+        "plane_tilt_deg": 3.0966131687164307,
+        "inlier_count": 118,
+        "inlier_fraction": 0.8194444444444444,
+        "inlier_rmse_m": 0.013848405331373215
+      },
+      {
+        "path_distance_m": 168.06202664490363,
+        "pose_xyz_m": [
+          -66.4091677938551,
+          -16.4466823735944,
+          -3.20891169057477
+        ],
+        "candidate_points": 116,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -3.690910543181836,
+        "pose_minus_plane_height_m": 0.4819988526070662,
+        "normal_xyz": [
+          -0.009261729195713997,
+          -0.029294107109308243,
+          0.9995279312133789
+        ],
+        "plane_tilt_deg": 1.7605863809585571,
+        "inlier_count": 94,
+        "inlier_fraction": 0.8103448275862069,
+        "inlier_rmse_m": 0.01526437234133482
+      },
+      {
+        "path_distance_m": 171.0228864324717,
+        "pose_xyz_m": [
+          -65.0160169420333,
+          -19.0585191286716,
+          -3.32138853886091
+        ],
+        "candidate_points": 173,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -3.8008796966943117,
+        "pose_minus_plane_height_m": 0.4794911578334018,
+        "normal_xyz": [
+          -0.02227993868291378,
+          -0.056707706302404404,
+          0.9981421828269958
+        ],
+        "plane_tilt_deg": 3.4930624961853027,
+        "inlier_count": 93,
+        "inlier_fraction": 0.5375722543352601,
+        "inlier_rmse_m": 0.015903597697615623
+      },
+      {
+        "path_distance_m": 174.02446567482957,
+        "pose_xyz_m": [
+          -63.6118515638571,
+          -21.7099135990726,
+          -3.45010016444743
+        ],
+        "candidate_points": 116,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -3.9244216635954534,
+        "pose_minus_plane_height_m": 0.4743214991480236,
+        "normal_xyz": [
+          -2.018262784986291e-05,
+          -0.018074853345751762,
+          0.9998366236686707
+        ],
+        "plane_tilt_deg": 1.0357097387313843,
+        "inlier_count": 102,
+        "inlier_fraction": 0.8793103448275862,
+        "inlier_rmse_m": 0.015346388332545757
+      },
+      {
+        "path_distance_m": 177.00819467499701,
+        "pose_xyz_m": [
+          -62.2636623132919,
+          -24.3709263502357,
+          -3.56139170585021
+        ],
+        "candidate_points": 109,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.046408888247535,
+        "pose_minus_plane_height_m": 0.48501718239732483,
+        "normal_xyz": [
+          0.009268944151699543,
+          -0.04476725682616234,
+          0.9989544153213501
+        ],
+        "plane_tilt_deg": 2.6203243732452393,
+        "inlier_count": 98,
+        "inlier_fraction": 0.8990825688073395,
+        "inlier_rmse_m": 0.013642465695738792
+      },
+      {
+        "path_distance_m": 180.00698289002585,
+        "pose_xyz_m": [
+          -60.9306207268715,
+          -27.0568467871216,
+          -3.67360247063143
+        ],
+        "candidate_points": 115,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.1633020468365105,
+        "pose_minus_plane_height_m": 0.4896995762050804,
+        "normal_xyz": [
+          0.009157214313745499,
+          -0.03275393694639206,
+          0.9994214773178101
+        ],
+        "plane_tilt_deg": 1.949030876159668,
+        "inlier_count": 111,
+        "inlier_fraction": 0.9652173913043478,
+        "inlier_rmse_m": 0.011839334852993488
+      },
+      {
+        "path_distance_m": 183.03192612601575,
+        "pose_xyz_m": [
+          -59.5841872600597,
+          -29.7652020881331,
+          -3.7901179176418
+        ],
+        "candidate_points": 107,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.283973762613952,
+        "pose_minus_plane_height_m": 0.4938558449721522,
+        "normal_xyz": [
+          0.029287027195096016,
+          -0.03448611497879028,
+          0.9989759922027588
+        ],
+        "plane_tilt_deg": 2.593142032623291,
+        "inlier_count": 104,
+        "inlier_fraction": 0.9719626168224299,
+        "inlier_rmse_m": 0.012266053818166256
+      },
+      {
+        "path_distance_m": 186.01273366283493,
+        "pose_xyz_m": [
+          -58.1083789403412,
+          -32.3277293483795,
+          -3.9012788023433
+        ],
+        "candidate_points": 123,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.40979368865531,
+        "pose_minus_plane_height_m": 0.5085148863120104,
+        "normal_xyz": [
+          0.019818902015686035,
+          -0.058024097234010696,
+          0.9981184601783752
+        ],
+        "plane_tilt_deg": 3.5153002738952637,
+        "inlier_count": 91,
+        "inlier_fraction": 0.7398373983739838,
+        "inlier_rmse_m": 0.01588839665055275
+      },
+      {
+        "path_distance_m": 189.0309294709192,
+        "pose_xyz_m": [
+          -55.3313150771553,
+          -31.5556460669353,
+          -3.96121049165265
+        ],
+        "candidate_points": 158,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.44669570477363,
+        "pose_minus_plane_height_m": 0.4854852131209797,
+        "normal_xyz": [
+          0.034247349947690964,
+          -0.04442533850669861,
+          0.9984255433082581
+        ],
+        "plane_tilt_deg": 3.2155847549438477,
+        "inlier_count": 103,
+        "inlier_fraction": 0.6518987341772152,
+        "inlier_rmse_m": 0.011245866306126118
+      },
+      {
+        "path_distance_m": 192.03086931914373,
+        "pose_xyz_m": [
+          -52.6590298972328,
+          -30.1985942707648,
+          -3.97414014858122
+        ],
+        "candidate_points": 187,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.467567421075601,
+        "pose_minus_plane_height_m": 0.4934272724943809,
+        "normal_xyz": [
+          0.0201275497674942,
+          -0.030633976683020592,
+          0.9993280172348022
+        ],
+        "plane_tilt_deg": 2.10058856010437,
+        "inlier_count": 116,
+        "inlier_fraction": 0.6203208556149733,
+        "inlier_rmse_m": 0.010658618062734604
+      },
+      {
+        "path_distance_m": 195.01284240829844,
+        "pose_xyz_m": [
+          -50.0886814805605,
+          -28.688026142794,
+          -3.97983130165385
+        ],
+        "candidate_points": 182,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.47783824536187,
+        "pose_minus_plane_height_m": 0.4980069437080199,
+        "normal_xyz": [
+          0.004993578419089317,
+          -0.008159627206623554,
+          0.9999542236328125
+        ],
+        "plane_tilt_deg": 0.5482263565063477,
+        "inlier_count": 105,
+        "inlier_fraction": 0.5769230769230769,
+        "inlier_rmse_m": 0.011552417650818825
+      },
+      {
+        "path_distance_m": 198.0284998243574,
+        "pose_xyz_m": [
+          -47.5062788951379,
+          -27.1339288274126,
+          -3.98257110272169
+        ],
+        "candidate_points": 211,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.478562029480443,
+        "pose_minus_plane_height_m": 0.4959909267587532,
+        "normal_xyz": [
+          0.013259222730994225,
+          -0.028849326074123383,
+          0.999495804309845
+        ],
+        "plane_tilt_deg": 1.8195140361785889,
+        "inlier_count": 133,
+        "inlier_fraction": 0.6303317535545023,
+        "inlier_rmse_m": 0.01248717401176691
+      },
+      {
+        "path_distance_m": 201.02857864218223,
+        "pose_xyz_m": [
+          -44.8826140657387,
+          -25.6816731966231,
+          -3.98700107069223
+        ],
+        "candidate_points": 183,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.479345855318574,
+        "pose_minus_plane_height_m": 0.49234478462634357,
+        "normal_xyz": [
+          0.0013024103827774525,
+          -0.00463348301127553,
+          0.9999884366989136
+        ],
+        "plane_tilt_deg": 0.2755363881587982,
+        "inlier_count": 125,
+        "inlier_fraction": 0.6830601092896175,
+        "inlier_rmse_m": 0.010820920579135418
+      },
+      {
+        "path_distance_m": 204.0165256239418,
+        "pose_xyz_m": [
+          -42.2349448810971,
+          -24.297816297872,
+          -3.99145938644281
+        ],
+        "candidate_points": 166,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.483875706846979,
+        "pose_minus_plane_height_m": 0.4924163204041685,
+        "normal_xyz": [
+          0.005885439459234476,
+          -0.003962215036153793,
+          0.9999748468399048
+        ],
+        "plane_tilt_deg": 0.406382292509079,
+        "inlier_count": 141,
+        "inlier_fraction": 0.8493975903614458,
+        "inlier_rmse_m": 0.010113609954714775
+      },
+      {
+        "path_distance_m": 207.00310722612446,
+        "pose_xyz_m": [
+          -39.5764550330255,
+          -22.9385180189671,
+          -3.9983961999792
+        ],
+        "candidate_points": 238,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.484115332547729,
+        "pose_minus_plane_height_m": 0.48571913256852906,
+        "normal_xyz": [
+          7.470797572750598e-05,
+          -0.0008656965801492333,
+          0.9999996423721313
+        ],
+        "plane_tilt_deg": 0.048456642776727676,
+        "inlier_count": 135,
+        "inlier_fraction": 0.5672268907563025,
+        "inlier_rmse_m": 0.011248406022787094
+      },
+      {
+        "path_distance_m": 210.01079647868443,
+        "pose_xyz_m": [
+          -36.7807324711156,
+          -22.4534019116861,
+          -3.99569533694632
+        ],
+        "candidate_points": 229,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.4810066348843725,
+        "pose_minus_plane_height_m": 0.4853112979380523,
+        "normal_xyz": [
+          0.003816311713308096,
+          -0.005393064580857754,
+          0.9999781847000122
+        ],
+        "plane_tilt_deg": 0.3784591257572174,
+        "inlier_count": 132,
+        "inlier_fraction": 0.5764192139737991,
+        "inlier_rmse_m": 0.010122079402208328
+      },
+      {
+        "path_distance_m": 213.01627618938443,
+        "pose_xyz_m": [
+          -34.1447010858009,
+          -23.6860497177502,
+          -4.01253001943089
+        ],
+        "candidate_points": 133,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.493118987383209,
+        "pose_minus_plane_height_m": 0.4805889679523192,
+        "normal_xyz": [
+          0.012271403335034847,
+          -0.0063688065856695175,
+          0.9999043941497803
+        ],
+        "plane_tilt_deg": 0.7922884225845337,
+        "inlier_count": 104,
+        "inlier_fraction": 0.7819548872180451,
+        "inlier_rmse_m": 0.012983351945877075
+      },
+      {
+        "path_distance_m": 216.02089406248527,
+        "pose_xyz_m": [
+          -31.4411901634422,
+          -22.3834275087666,
+          -4.04454619362562
+        ],
+        "candidate_points": 118,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.537274727693501,
+        "pose_minus_plane_height_m": 0.4927285340678811,
+        "normal_xyz": [
+          0.01745258830487728,
+          -0.0015898150159046054,
+          0.9998463988304138
+        ],
+        "plane_tilt_deg": 1.004246711730957,
+        "inlier_count": 86,
+        "inlier_fraction": 0.7288135593220338,
+        "inlier_rmse_m": 0.0119829336181283
+      },
+      {
+        "path_distance_m": 219.00754724265602,
+        "pose_xyz_m": [
+          -28.7891924864312,
+          -21.0118533530088,
+          -4.06560517830161
+        ],
+        "candidate_points": 177,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.55612645110847,
+        "pose_minus_plane_height_m": 0.49052127280686,
+        "normal_xyz": [
+          0.0019099372439086437,
+          -0.0033550113439559937,
+          0.9999925494194031
+        ],
+        "plane_tilt_deg": 0.22117342054843903,
+        "inlier_count": 150,
+        "inlier_fraction": 0.847457627118644,
+        "inlier_rmse_m": 0.006776193156838417
+      },
+      {
+        "path_distance_m": 222.0093596731305,
+        "pose_xyz_m": [
+          -26.277814876603,
+          -19.6990636002689,
+          -4.0802220379293
+        ],
+        "candidate_points": 168,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.565116342337017,
+        "pose_minus_plane_height_m": 0.4848943044077174,
+        "normal_xyz": [
+          0.006113427225500345,
+          0.0013258582912385464,
+          0.9999804496765137
+        ],
+        "plane_tilt_deg": 0.35827401280403137,
+        "inlier_count": 129,
+        "inlier_fraction": 0.7678571428571429,
+        "inlier_rmse_m": 0.010718289762735367
+      },
+      {
+        "path_distance_m": 225.01620197251717,
+        "pose_xyz_m": [
+          -23.6181781222277,
+          -18.2978593063672,
+          -4.11035983520071
+        ],
+        "candidate_points": 135,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.588772116412167,
+        "pose_minus_plane_height_m": 0.4784122812114564,
+        "normal_xyz": [
+          -0.009276123717427254,
+          0.03561994433403015,
+          0.9993223547935486
+        ],
+        "plane_tilt_deg": 2.1094212532043457,
+        "inlier_count": 88,
+        "inlier_fraction": 0.6518518518518519,
+        "inlier_rmse_m": 0.013131869025528431
+      },
+      {
+        "path_distance_m": 228.02215153178108,
+        "pose_xyz_m": [
+          -20.9995842941609,
+          -16.8244676587344,
+          -4.1373299751243
+        ],
+        "candidate_points": 170,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.6306526818003775,
+        "pose_minus_plane_height_m": 0.4933227066760777,
+        "normal_xyz": [
+          -0.0033589096274226904,
+          0.017321260645985603,
+          0.9998443126678467
+        ],
+        "plane_tilt_deg": 1.0110435485839844,
+        "inlier_count": 126,
+        "inlier_fraction": 0.7411764705882353,
+        "inlier_rmse_m": 0.012419681996107101
+      },
+      {
+        "path_distance_m": 231.01602240903037,
+        "pose_xyz_m": [
+          -18.6244825055112,
+          -15.1028524124889,
+          -4.16328356504696
+        ],
+        "candidate_points": 138,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.65942675570734,
+        "pose_minus_plane_height_m": 0.49614319066037993,
+        "normal_xyz": [
+          -0.004883323796093464,
+          0.03109039179980755,
+          0.9995046257972717
+        ],
+        "plane_tilt_deg": 1.8035252094268799,
+        "inlier_count": 120,
+        "inlier_fraction": 0.8695652173913043,
+        "inlier_rmse_m": 0.01420216728001833
+      },
+      {
+        "path_distance_m": 234.0192496901274,
+        "pose_xyz_m": [
+          -18.9958268508315,
+          -12.1943442599571,
+          -4.25062477144238
+        ],
+        "candidate_points": 193,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.725660995654519,
+        "pose_minus_plane_height_m": 0.47503622421213887,
+        "normal_xyz": [
+          -0.005558529403060675,
+          0.01157968770712614,
+          0.9999175071716309
+        ],
+        "plane_tilt_deg": 0.7359506487846375,
+        "inlier_count": 92,
+        "inlier_fraction": 0.47668393782383417,
+        "inlier_rmse_m": 0.011401654221117496
+      },
+      {
+        "path_distance_m": 237.01205000865863,
+        "pose_xyz_m": [
+          -16.8478932915403,
+          -10.3322778194256,
+          -4.27242618634527
+        ],
+        "candidate_points": 116,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.754501515717768,
+        "pose_minus_plane_height_m": 0.4820753293724982,
+        "normal_xyz": [
+          -0.013463369570672512,
+          0.03650016710162163,
+          0.9992429614067078
+        ],
+        "plane_tilt_deg": 2.2295849323272705,
+        "inlier_count": 90,
+        "inlier_fraction": 0.7758620689655172,
+        "inlier_rmse_m": 0.014677275903522968
+      },
+      {
+        "path_distance_m": 240.02383897015778,
+        "pose_xyz_m": [
+          -14.2245990357779,
+          -8.85613249939973,
+          -4.29300384828461
+        ],
+        "candidate_points": 134,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.7851916386445374,
+        "pose_minus_plane_height_m": 0.4921877903599272,
+        "normal_xyz": [
+          -0.006308292970061302,
+          0.017912011593580246,
+          0.9998196959495544
+        ],
+        "plane_tilt_deg": 1.0880450010299683,
+        "inlier_count": 104,
+        "inlier_fraction": 0.7761194029850746,
+        "inlier_rmse_m": 0.009939830750226974
+      },
+      {
+        "path_distance_m": 243.02760950451892,
+        "pose_xyz_m": [
+          -11.5725500040477,
+          -7.44850829858152,
+          -4.30627204025735
+        ],
+        "candidate_points": 162,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.800710726502619,
+        "pose_minus_plane_height_m": 0.4944386862452692,
+        "normal_xyz": [
+          -0.004519992973655462,
+          0.013818997889757156,
+          0.9998943209648132
+        ],
+        "plane_tilt_deg": 0.8329824805259705,
+        "inlier_count": 119,
+        "inlier_fraction": 0.7345679012345679,
+        "inlier_rmse_m": 0.009286027401685715
+      },
+      {
+        "path_distance_m": 246.0232277653137,
+        "pose_xyz_m": [
+          -8.90802627246963,
+          -6.08225895253606,
+          -4.32340481671947
+        ],
+        "candidate_points": 247,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.819117595886306,
+        "pose_minus_plane_height_m": 0.4957127791668361,
+        "normal_xyz": [
+          -0.0184918399900198,
+          0.03106057643890381,
+          0.9993464350700378
+        ],
+        "plane_tilt_deg": 2.071598529815674,
+        "inlier_count": 103,
+        "inlier_fraction": 0.41700404858299595,
+        "inlier_rmse_m": 0.012216576375067234
+      },
+      {
+        "path_distance_m": 249.02900798616417,
+        "pose_xyz_m": [
+          -6.30123736387446,
+          -4.58866028486461,
+          -4.3357480153817
+        ],
+        "candidate_points": 288,
+        "status": "no_dominant_near_horizontal_plane"
+      },
+      {
+        "path_distance_m": 252.03082445955764,
+        "pose_xyz_m": [
+          -3.69471952706644,
+          -3.10160512764602,
+          -4.36400822973903
+        ],
+        "candidate_points": 228,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.866777539875476,
+        "pose_minus_plane_height_m": 0.5027693101364461,
+        "normal_xyz": [
+          -0.007371075451374054,
+          0.020477207377552986,
+          0.9997631311416626
+        ],
+        "plane_tilt_deg": 1.2470967769622803,
+        "inlier_count": 107,
+        "inlier_fraction": 0.4692982456140351,
+        "inlier_rmse_m": 0.010037917643785477
+      },
+      {
+        "path_distance_m": 255.02279797550563,
+        "pose_xyz_m": [
+          -1.10551884080284,
+          -1.60381405829128,
+          -4.37782114247435
+        ],
+        "candidate_points": 175,
+        "status": "floor_like_plane_found",
+        "map_plane_z_at_pose_xy_m": -4.876917866863691,
+        "pose_minus_plane_height_m": 0.49909672438934116,
+        "normal_xyz": [
+          -0.0063257478177547455,
+          0.027728090062737465,
+          0.9995954632759094
+        ],
+        "plane_tilt_deg": 1.6297883987426758,
+        "inlier_count": 118,
+        "inlier_fraction": 0.6742857142857143,
+        "inlier_rmse_m": 0.009298483841121197
+      }
+    ]
+  },
+  "diagnostic_image": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/analysis/frontend_result.png"
+}

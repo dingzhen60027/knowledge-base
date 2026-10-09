@@ -1,0 +1,136 @@
+{
+  "before": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_compact_20260922/tomogram.npz",
+  "after": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v3_20260922/tomogram.npz",
+  "new_pcd": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_flat_floor_sc_pgo_0919_v3/processed_map.pcd",
+  "hashes": {
+    "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_compact_20260922/tomogram.npz": "08c8c149e6495898138adf69b0b2e477d61639f25da5a13b585f4a0cc4e05f59",
+    "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v3_20260922/tomogram.npz": "8d32e24f2ac7fe7b2339a624f07d0fba77286d36c5a88e87f41b4a921345797d",
+    "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_flat_floor_sc_pgo_0919_v3/processed_map.pcd": "efaa4334d876a785a4a5514daed077e4417c3b2d7ea606e728895eb23c646767"
+  },
+  "same_xy_grid_geometry": false,
+  "comparison_sampling": "Identical before-grid world XY centers; each map queried independently at the nearest native cell.",
+  "before_floor_reference": "Measured per-pose local floor modes, interpolated along optimized trajectory.",
+  "after_floor_reference_z": 0.0,
+  "matching_floor_tolerance_m": 0.12,
+  "trajectory_bands_halfwidth_m": {
+    "0.1": {
+      "before": {
+        "samples": 1227,
+        "matching_floor_supported": 1177,
+        "free": 971,
+        "raw_pass": 1151,
+        "raw_blocked": 26,
+        "inflation_only_blocked": 180,
+        "missing_matching_floor": 50
+      },
+      "after": {
+        "samples": 1227,
+        "matching_floor_supported": 1205,
+        "free": 1070,
+        "raw_pass": 1185,
+        "raw_blocked": 20,
+        "inflation_only_blocked": 115,
+        "missing_matching_floor": 22
+      },
+      "newly_free": 120,
+      "previously_free_now_rejected": 21
+    },
+    "0.4": {
+      "before": {
+        "samples": 4868,
+        "matching_floor_supported": 4302,
+        "free": 3115,
+        "raw_pass": 4131,
+        "raw_blocked": 171,
+        "inflation_only_blocked": 1016,
+        "missing_matching_floor": 566
+      },
+      "after": {
+        "samples": 4868,
+        "matching_floor_supported": 4785,
+        "free": 3973,
+        "raw_pass": 4715,
+        "raw_blocked": 70,
+        "inflation_only_blocked": 742,
+        "missing_matching_floor": 83
+      },
+      "newly_free": 942,
+      "previously_free_now_rejected": 84
+    },
+    "0.65": {
+      "before": {
+        "samples": 7833,
+        "matching_floor_supported": 7165,
+        "free": 4450,
+        "raw_pass": 6701,
+        "raw_blocked": 464,
+        "inflation_only_blocked": 2251,
+        "missing_matching_floor": 668
+      },
+      "after": {
+        "samples": 7833,
+        "matching_floor_supported": 7685,
+        "free": 5681,
+        "raw_pass": 7495,
+        "raw_blocked": 190,
+        "inflation_only_blocked": 1814,
+        "missing_matching_floor": 148
+      },
+      "newly_free": 1357,
+      "previously_free_now_rejected": 126
+    },
+    "1.0": {
+      "before": {
+        "samples": 11998,
+        "matching_floor_supported": 10461,
+        "free": 5886,
+        "raw_pass": 9168,
+        "raw_blocked": 1293,
+        "inflation_only_blocked": 3282,
+        "missing_matching_floor": 1537
+      },
+      "after": {
+        "samples": 11998,
+        "matching_floor_supported": 11173,
+        "free": 7286,
+        "raw_pass": 10417,
+        "raw_blocked": 756,
+        "inflation_only_blocked": 3131,
+        "missing_matching_floor": 825
+      },
+      "newly_free": 1547,
+      "previously_free_now_rejected": 147
+    }
+  },
+  "unknown_support_checks": {
+    "all_new_grid_floor_free_cells": 9853,
+    "free_cells_without_new_PCD_floor_band_support": 0,
+    "free_cells_in_original_completely_empty_XY_columns": 0,
+    "within_3m_trajectory_free_cells_without_original_local_floor_band_points": 0,
+    "caveat": "New PCD support may include explicitly generated support points. The source manifest must distinguish synthesis from measured points. Original local-floor audit is limited to 3 m from the recorded trajectory."
+  },
+  "before_traversability_config": {
+    "kernel_size": 7,
+    "interval_min": 0.55,
+    "interval_free": 0.7,
+    "slope_max_rad": 0.4,
+    "step_max": 0.17,
+    "standable_ratio": 0.2,
+    "cost_barrier": 50.0,
+    "safe_margin": 0.2,
+    "inflation": 0.2
+  },
+  "after_traversability_config": {
+    "kernel_size": 7,
+    "interval_min": 0.55,
+    "interval_free": 0.7,
+    "slope_max_rad": 0.4,
+    "step_max": 0.17,
+    "standable_ratio": 0.2,
+    "cost_barrier": 50.0,
+    "safe_margin": 0.2,
+    "inflation": 0.2
+  },
+  "inputs_unchanged": true,
+  "robot_control_or_ROS_used": false
+}

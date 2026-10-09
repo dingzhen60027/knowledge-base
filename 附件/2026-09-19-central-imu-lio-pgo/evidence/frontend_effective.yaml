@@ -1,0 +1,65 @@
+laserMapping:
+  ros__parameters:
+    common:
+      dataset: nclt
+      lid_topic: /d1max/slam/points
+      imu_topic: /d1max/slam/imu
+      time_sync_en: false
+    preprocess:
+      lidar_type: 2
+      scan_line: 192
+      blind: 0.5
+      time_scale: 1.0
+    mapping:
+      stationary_initialization: true
+      initialization_samples: 300
+      initialization_duration: 2.0
+      initialization_max_acc_std: 0.2
+      initialization_max_gyro_std: 0.015
+      initialization_max_gyro_mean: 0.05
+      gravity_aligned_world: true
+      acc_cov: 0.1
+      gyr_cov: 0.1
+      b_acc_cov: 0.0001
+      b_gyr_cov: 0.0001
+      fov_degree: 180
+      det_range: 100.0
+      extrinsic_est_en: false
+      extrinsic_T:
+      - 0.010936960637023726
+      - -0.36597692096910184
+      - 0.0026318472047164305
+      extrinsic_R:
+      - 0.9995380594227922
+      - 0.029871073968366767
+      - -0.005602383894348011
+      - 0.029829523643588367
+      - -0.9995279108342023
+      - -0.007359006903979359
+      - -0.005819560509171382
+      - 0.007188491037246056
+      - -0.9999572282413326
+    publish:
+      path_publish_en: true
+      scan_publish_en: true
+      scan_effect_pub_en: false
+      dense_publish_en: true
+      scan_bodyframe_pub_en: true
+      world_frame: camera_init
+      body_frame: central_imu
+    path_save_en: true
+    pcd_save:
+      pcd_save_en: false
+      interval: -1
+    feature_extract_enable: false
+    point_filter_num: 1
+    max_iteration: 3
+    filter_size_surf: 0.1
+    filter_size_map: 0.2
+    cube_side_length: 1000.0
+    ivox_grid_resolution: 0.2
+    ivox_nearby_type: 18
+    esti_plane_threshold: 0.1
+    use_sim_time: false
+    diagnostics:
+      state_log_path: /home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/frontend_state.csv

@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-17",
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "file": "raw_poses.txt",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/odom_poses.txt",
+      "sha256": "9d62f2b7e026565760ae3c6725e98b1b38e42ca5ca087e59e0b9e39dda6fd525"
+    },
+    {
+      "file": "optimized_poses.txt",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo_final/optimized_poses.txt",
+      "sha256": "0622e2142e354792321f044996377acd6c2e9695232ddfbb004614125fc971f9"
+    },
+    {
+      "file": "times.txt",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/times.txt",
+      "sha256": "013e23aaac68aeba17755c9c5444b3d471e483bbe24800431f9ffb3d3185e93a"
+    },
+    {
+      "file": "loop_events.csv",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo_final/loop_events.csv",
+      "sha256": "2abde41f42beb91a5b6eae8dc8ef76287f3a0a53922732bff868662255274ec0"
+    },
+    {
+      "file": "geometry_validation_final.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/geometry_validation_final.json",
+      "sha256": "fb8dab5c1647ed15450c70004d6681a5e07822fd8dcf385a671f6cf89ac7d304"
+    },
+    {
+      "file": "geometry_validation_initial.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/geometry_validation_initial.json",
+      "sha256": "f294d4e944aac0ac95c8ba0888825340d3f9d06782adf1448729078b8f2d7dba"
+    },
+    {
+      "file": "baseline_result.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_182845_bag_faster_lio_sc_pgo_dual_zenoh/result.json",
+      "sha256": "5bdc64add6e6413eb3241021a24dcc71117a5f3949d3382bc4bc04da85293555"
+    },
+    {
+      "file": "replay_result.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/result.json",
+      "sha256": "60b05dc5809da6c9d39d58f629a7c561a2f54970202bd897cd6b1726eb031101"
+    },
+    {
+      "file": "repair_result.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/repair_result.json",
+      "sha256": "e346832848498c3fe5a5f8c309cb421a4c8735c64defda6ad1b6baa8f4fb344f"
+    },
+    {
+      "file": "pgo_manifest.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo_final/manifest.json",
+      "sha256": "85a5b9c074566171017a19125198055b7568d106ffc8edb016a4d575ea30fd8b"
+    },
+    {
+      "file": "pgo_effective_config.yaml",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo_final/effective_config.yaml",
+      "sha256": "703bd617add7969e5730bea24ee3e1f80799e65f796118136bcddb06565a5147"
+    },
+    {
+      "file": "faster_lio_config.yaml",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/config/faster_lio_airy96.yaml",
+      "sha256": "07c2083d0f0644a7849720c2d7aa29fc1b25d58fa184e89d3dff87493a6870a8"
+    },
+    {
+      "file": "synthetic_result.json",
+      "source": "/tmp/d1max-large-loop-regression-0deo2mjh/test_result.json",
+      "sha256": "481f508d99e37223a6cacd4391d9149ff68ad5855e7998eafc7f2ba6e8de1f58"
+    },
+    {
+      "file": "synthetic_raw_poses.txt",
+      "source": "/tmp/d1max-large-loop-regression-0deo2mjh/odom_poses.txt",
+      "sha256": "5f4b6d2da816e85c3ef46a3b108d044c2dcfbf723d8a956dacee60878e9fcf34"
+    },
+    {
+      "file": "synthetic_optimized_poses.txt",
+      "source": "/tmp/d1max-large-loop-regression-0deo2mjh/optimized_poses.txt",
+      "sha256": "2367b8c300b3d284dfb1a18c21f2eea9add6ff698b7cd2d2be3e4ca835c2c954"
+    },
+    {
+      "file": null,
+      "source": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/diagnostics/EXTRINSICS_AUDIT_20260917.md",
+      "sha256": "175640780edf531335140b2227353626d050dd3f202ae1b59201b94a97ccb974",
+      "note": "Read for the diary; not copied, device identifiers omitted."
+    }
+  ],
+  "cloud_sources": [
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000000.pcd",
+      "sha256": "f889ee17e13acb591845daa7ae784bd92f875d70212acd8bbabadbbc25ef977c"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000001.pcd",
+      "sha256": "e8c000fab16e432db3bdf1992300f8a3b47cd53212f33c3eb83007696a58b787"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000002.pcd",
+      "sha256": "665e433fcccf4257e0db5ca7f0b24545a04b33f2aea11c8e85158756d23b0ee4"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000003.pcd",
+      "sha256": "3bd782cc3a9b0cdcc98664ae55c1a64362a51c7ddde1544e0bcdfa3a2796985e"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000004.pcd",
+      "sha256": "5223ff743ed171ce70105312314df5f6a673135bf0de46e10b8d42ce439cace6"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000005.pcd",
+      "sha256": "d058043794a43df37c9dc2611657447c68214b1132e5fea3f885555ba8a3c228"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000006.pcd",
+      "sha256": "43b80ef90dae1c9abe18709dbe36ecf927c1018a6c232dd6aff8ddd0cb1a11e9"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000007.pcd",
+      "sha256": "7f9d93bc6236a07b05ed367fa4420dc512426bfccb60406e74d51ef33658a745"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000008.pcd",
+      "sha256": "8d1278cca691540486be771ab4b3dcd8a405e0a801b654967b79a25845b8131f"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/Scans/000646.pcd",
+      "sha256": "c0765268ee5ed990c28a88d388d29402efdccd4b813bfa189b9064e16f5ec418"
+    }
+  ],
+  "cloud_visualization": "First 9 raw scans + final raw body scan; radius 10 m, voxel 0.10 m. XYZ only; no intensity or device identifiers.",
+  "original_data_modified": false,
+  "note": "Static evidence snapshot, not a new SLAM replay. No map or bag uploaded."
+}

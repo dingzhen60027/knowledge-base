@@ -1,0 +1,187 @@
+{
+  "schema": "d1max.offline_native_acceptance/v1",
+  "source_tomogram_sha256": "fb6897abb9624e493bea6f7c6ac723c20627bcd51f0dc97af9e320c6aab59433",
+  "parameters": {
+    "astar_cost_weight": 2.0,
+    "optimizer_cost_margin": 8.0,
+    "cost_threshold": 20.0,
+    "minimum_headroom_m": 0.55,
+    "max_ground_step_m": 0.17,
+    "unknown_ceiling_policy": "allow_unobserved"
+  },
+  "cases": [
+    {
+      "case": "preserved_user_39m",
+      "category": "preserved_user_goal",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/preserved_user_39m.json",
+      "error_code": null,
+      "length_m": 40.71971445666951,
+      "euclidean_xy_m": 33.5106867888708,
+      "length_over_euclidean_xy": 1.2151262286332158,
+      "maximum_local_route_length_m": null,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "preserved_user_29m",
+      "category": "preserved_user_goal",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/preserved_user_29m.json",
+      "error_code": null,
+      "length_m": 28.869825383419762,
+      "euclidean_xy_m": 27.297149834473757,
+      "length_over_euclidean_xy": 1.057613177876903,
+      "maximum_local_route_length_m": null,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "break_B1",
+      "category": "previous_gap",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/break_B1.json",
+      "error_code": null,
+      "length_m": 3.5919069434892137,
+      "euclidean_xy_m": 0.8810221336606698,
+      "length_over_euclidean_xy": 4.076976963750896,
+      "maximum_local_route_length_m": 5.0,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "break_B2",
+      "category": "previous_gap",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/break_B2.json",
+      "error_code": null,
+      "length_m": 1.2020555691914567,
+      "euclidean_xy_m": 0.9617692030835682,
+      "length_over_euclidean_xy": 1.249837866857762,
+      "maximum_local_route_length_m": 5.0,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "break_B3",
+      "category": "previous_gap",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/break_B3.json",
+      "error_code": null,
+      "length_m": 1.7240803985814606,
+      "euclidean_xy_m": 1.3863621460498652,
+      "length_over_euclidean_xy": 1.2436003128719646,
+      "maximum_local_route_length_m": 5.0,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "break_B4",
+      "category": "previous_gap",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/break_B4.json",
+      "error_code": null,
+      "length_m": 7.688095615616679,
+      "euclidean_xy_m": 7.439092686611721,
+      "length_over_euclidean_xy": 1.0334722175801214,
+      "maximum_local_route_length_m": 22.31727805983516,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "ring_quadrant_1",
+      "category": "ring_quadrant",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/ring_quadrant_1.json",
+      "error_code": null,
+      "length_m": 41.209995167452576,
+      "euclidean_xy_m": 39.21835604209193,
+      "length_over_euclidean_xy": 1.0507833404139397,
+      "maximum_local_route_length_m": null,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "ring_quadrant_2",
+      "category": "ring_quadrant",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/ring_quadrant_2.json",
+      "error_code": null,
+      "length_m": 71.2638759676702,
+      "euclidean_xy_m": 66.95213655890974,
+      "length_over_euclidean_xy": 1.0644003258203216,
+      "maximum_local_route_length_m": null,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "ring_quadrant_3",
+      "category": "ring_quadrant",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/ring_quadrant_3.json",
+      "error_code": null,
+      "length_m": 40.65652580149558,
+      "euclidean_xy_m": 39.706549822905785,
+      "length_over_euclidean_xy": 1.0239249187558919,
+      "maximum_local_route_length_m": null,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    },
+    {
+      "case": "ring_quadrant_4",
+      "category": "ring_quadrant",
+      "passed": true,
+      "result_file": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/ring_quadrant_4.json",
+      "error_code": null,
+      "length_m": 70.24890178657473,
+      "euclidean_xy_m": 66.2425181220642,
+      "length_over_euclidean_xy": 1.060480546001105,
+      "maximum_local_route_length_m": null,
+      "strict_native_curve_passed": true,
+      "xy_association_m": {
+        "start": 0.0,
+        "goal": 0.0
+      }
+    }
+  ],
+  "passed_cases": 10,
+  "total_cases": 10,
+  "all_passed": true,
+  "native_curve_guard_unchanged": "quintic_cell_boundary_roots_and_interval_interiors",
+  "ros_or_robot_used": false,
+  "input_tomogram_unchanged": true,
+  "limitations": [
+    "Planning-only conditioned geometry, not a localization-map replacement.",
+    "Diagnostic cell-centre associations are explicit; preserved user XY never moves.",
+    "Passing routes do not certify a body footprint, turning clearance or live navigation.",
+    "Ring quadrant routes are independent global routes, not a forced ordered circuit.",
+    "B1-B4 also require length <= max(5m,3*selected endpoint XY distance); a longer valid detour is blocked_local_corridor, not a passed gap."
+  ]
+}

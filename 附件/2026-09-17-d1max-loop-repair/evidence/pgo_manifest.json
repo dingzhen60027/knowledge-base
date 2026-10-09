@@ -1,0 +1,6 @@
+{
+  "source": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo",
+  "input": "unchanged body keyframes and frontend poses",
+  "rmw": "rmw_zenoh_cpp",
+  "binary_sha256": "24a35b96bd8aa7e106926206377350c275f99a7b5cb5fc6f81fd6b324f553306"
+}

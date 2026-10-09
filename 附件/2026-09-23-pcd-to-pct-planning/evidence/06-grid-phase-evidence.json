@@ -1,0 +1,62 @@
+[
+  {
+    "v3_point_index": 250016,
+    "xyz": [
+      -5.3199615478515625,
+      -4.286667346954346,
+      0.5462563633918762
+    ],
+    "same_15cm_cell_floor_count": 2,
+    "nearby_22cm_floor_count": 23,
+    "four_quadrant_floor_counts": [
+      5,
+      6,
+      5,
+      7
+    ],
+    "inside_floor_convex_hull": true,
+    "minimum_hull_interior_margin_m": 0.1637592426394767,
+    "floor_xy_smallest_std_m": 0.10697172182120193,
+    "floor_z_range": 0.0
+  },
+  {
+    "v3_point_index": 218961,
+    "xyz": [
+      -5.368344306945801,
+      -5.265265464782715,
+      0.3542053997516632
+    ],
+    "same_15cm_cell_floor_count": 2,
+    "nearby_22cm_floor_count": 24,
+    "four_quadrant_floor_counts": [
+      5,
+      5,
+      7,
+      7
+    ],
+    "inside_floor_convex_hull": true,
+    "minimum_hull_interior_margin_m": 0.17224093122898324,
+    "floor_xy_smallest_std_m": 0.11071849096483821,
+    "floor_z_range": 0.00977128860540688
+  },
+  {
+    "v3_point_index": 192339,
+    "xyz": [
+      -8.343149185180664,
+      -6.592504501342773,
+      0.20007561147212982
+    ],
+    "same_15cm_cell_floor_count": 2,
+    "nearby_22cm_floor_count": 20,
+    "four_quadrant_floor_counts": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "inside_floor_convex_hull": true,
+    "minimum_hull_interior_margin_m": 0.15022641299384334,
+    "floor_xy_smallest_std_m": 0.10695131570635846,
+    "floor_z_range": 0.0
+  }
+]

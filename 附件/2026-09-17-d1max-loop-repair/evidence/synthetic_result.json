@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "loops": 1,
+  "published_frames": 97,
+  "optimized_frames": 97,
+  "retained_height_peak_m": 1.1355389763650798,
+  "closure_error_m": 0.26293427084226784,
+  "output": "/tmp/d1max-large-loop-regression-0deo2mjh",
+  "rmw": "rmw_zenoh_cpp"
+}

@@ -1,0 +1,42 @@
+output_directory: /home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923
+vendor_root: /home/dndx/d1max_nav_ws/src/pct_planner_vendor
+preprocessing:
+  roi: null
+  voxel_size_m: 0.0
+  radius_outlier:
+    enabled: false
+    radius_m: 0.15
+    minimum_neighbors: 3
+pct:
+  resolution: 0.2
+  slice_dh: 0.5
+  ground_height: -0.35
+  simplify_layers: true
+  limits:
+    max_axis_cells: 2000
+    max_layers: 128
+    max_total_cells: 25000000
+    max_working_bytes: 2500000000
+  traversability:
+    kernel_size: 7
+    interval_min: 0.55
+    interval_free: 0.7
+    slope_max_rad: 0.4
+    step_max: 0.17
+    standable_ratio: 0.2
+    cost_barrier: 50.0
+    safe_margin: 0.2
+    inflation: 0.2
+export:
+  traversable_pcd: true
+notes:
+- Scene-specific flat-floor derivative; original source retained, no rigid TF to localization
+  map.
+- Actual observed floor XY support only; no synthetic floor or trajectory-tube clearing.
+- PCT equations and compact inflation parameters unchanged; first cut is 0.15m above
+  conditioned floor.
+- Offline global planning only; no robot, controller, SDK or active-map changes.
+schema_version: 1
+source_pcd: /home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/processed_map.pcd
+frame_id: d1max_flat_floor_planning
+source_processing_manifest: /home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/manifest.json

@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "name": "SC-PGO 建筑结构保留 · 离群清理",
+  "note": "结构保留离群清理；密集人物残影未作语义删除，未自动切换导航地图。",
+  "created_at": "2026-09-22T16:42:31+08:00",
+  "completed_at": "2026-09-22T16:42:31+08:00",
+  "source_id": "147a9766376e422f",
+  "source_name": "SC-PGO 优化地图 · 09-19 12:57",
+  "source_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_map.pcd",
+  "source_fields": [
+    "x",
+    "y",
+    "z",
+    "intensity"
+  ],
+  "source_sha256": "67475e7325b2b0b0686a08e7eacd0e56c3eed42b107d178018f37af514bfd0c2",
+  "source_unchanged": true,
+  "frame_id": "d1max_loc_map",
+  "config_id": "sc-pgo-0919-structure-v1",
+  "config_name": "SC-PGO 建筑结构保留 · 离群清理",
+  "config_sha256": "80bc3ece76e7100314cf2e12567b5f1e7f3c2b14f51fea2e5089fe2ebf83fe18",
+  "pipeline_file": "pipeline.yaml",
+  "pipeline": {
+    "schema": "d1max.structure_cleaning/v1",
+    "id": "sc-pgo-0919-structure-v1",
+    "name": "SC-PGO 建筑结构保留 · 离群清理",
+    "description": "独立预处理；保留实测局部面/线，仅移除缺少邻域支持的离群点。不是语义人物删除。",
+    "input": {
+      "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_map.pcd",
+      "sha256": "67475e7325b2b0b0686a08e7eacd0e56c3eed42b107d178018f37af514bfd0c2",
+      "source_id": "147a9766376e422f",
+      "source_name": "SC-PGO 优化地图 · 09-19 12:57",
+      "frame_id": "d1max_loc_map"
+    },
+    "output": {
+      "root": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed",
+      "basename": "processed_map.pcd",
+      "preserve_all_fields": true,
+      "save_removed": true,
+      "maximum_removed_fraction": 0.12
+    },
+    "runtime": {
+      "workers": 4,
+      "maximum_points": 5000000
+    },
+    "modules": [
+      {
+        "id": "isolated-neighbors",
+        "type": "radius_outlier",
+        "enabled": true,
+        "parameters": {
+          "radius_m": 0.15,
+          "minimum_other_neighbors": 3
+        }
+      },
+      {
+        "id": "sparse-distance",
+        "type": "statistical_outlier",
+        "enabled": true,
+        "parameters": {
+          "neighbors": 24,
+          "std_ratio": 3.0
+        }
+      },
+      {
+        "id": "protect-local-structure",
+        "type": "structure_support",
+        "enabled": true,
+        "parameters": {
+          "neighbors": 32,
+          "minimum_neighbors": 8,
+          "support_radius_m": 0.45,
+          "trim_fraction": 0.75,
+          "plane_fit_tolerance_m": 0.02,
+          "maximum_surface_variation": 0.035,
+          "minimum_plane_spread_m": 0.04,
+          "query_to_plane_m": 0.025,
+          "minimum_linearity_fraction": 0.98,
+          "minimum_line_span_m": 0.15,
+          "query_to_line_m": 0.02,
+          "edge_allowance_m": 0.08
+        }
+      }
+    ],
+    "notes": [
+      "No voxel averaging, height clipping, smoothing, flattening, hole filling or coordinate changes.",
+      "All modules measure the unchanged finite input, so deleting one point does not cause cascading erosion.",
+      "Sparse structure is protected only if the query point itself fits the measured local plane or line.",
+      "Dense person ghosts and real static obstacles are not reliably distinguishable from one accumulated PCD.",
+      "Removed points are archived separately; this build does not activate a navigation map."
+    ],
+    "resolved_output_directory": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_164231_sc-pgo-0919-structure-v1_572b51"
+  },
+  "output_file": "processed_map.pcd",
+  "input_points": 1127596,
+  "output_points": 1076976,
+  "output_fields": [
+    "x",
+    "y",
+    "z",
+    "intensity"
+  ],
+  "removed_points": 50620,
+  "removed_fraction": 0.04489196485266,
+  "stage_counts": [
+    {
+      "stage": "source",
+      "type": "input",
+      "label": "原始输入",
+      "points": 1127596
+    },
+    {
+      "stage": "finite",
+      "type": "finite_xyz",
+      "label": "有效坐标",
+      "points": 1127596
+    },
+    {
+      "stage": "radius",
+      "type": "radius_outlier",
+      "label": "半径离群清理（含结构保护）",
+      "points": 1077835,
+      "proposed": 66848,
+      "protected": 17087,
+      "removed": 49761
+    },
+    {
+      "stage": "statistical",
+      "type": "statistical_outlier",
+      "label": "统计离群清理（含结构保护）",
+      "points": 1076976,
+      "proposed": 15552,
+      "protected": 2521,
+      "removed": 859
+    }
+  ],
+  "filter_statistics": {
+    "statistical_mean_distance_threshold_m": 0.4149158817569875,
+    "radius_count_excludes_self": true,
+    "fixed_source_neighborhoods": true,
+    "candidate_union": 67924,
+    "plane_supported_candidates": 17290,
+    "line_supported_candidates": 14,
+    "protected_candidate_union": 17304,
+    "removed_reason_codes": {
+      "1": "nonfinite_xyz",
+      "2": "radius_unsupported",
+      "3": "statistical_unsupported"
+    },
+    "stage_counts": [
+      {
+        "stage": "source",
+        "type": "input",
+        "label": "原始输入",
+        "points": 1127596
+      },
+      {
+        "stage": "finite",
+        "type": "finite_xyz",
+        "label": "有效坐标",
+        "points": 1127596
+      },
+      {
+        "stage": "radius",
+        "type": "radius_outlier",
+        "label": "半径离群清理（含结构保护）",
+        "points": 1077835,
+        "proposed": 66848,
+        "protected": 17087,
+        "removed": 49761
+      },
+      {
+        "stage": "statistical",
+        "type": "statistical_outlier",
+        "label": "统计离群清理（含结构保护）",
+        "points": 1076976,
+        "proposed": 15552,
+        "protected": 2521,
+        "removed": 859
+      }
+    ]
+  },
+  "record_preservation": "byte_exact_original_records_in_original_order",
+  "removed_points_file": "audit/removed_points.pcd",
+  "selection_indices_file": "audit/selection_indices.npz",
+  "output_sha256": "9acb981006da500e927be60763656c3fe29bfcef8081f7bdcacce70846694b9c",
+  "elapsed_seconds": 12.436210718000439,
+  "implementation_sha256": {
+    "runner.py": "489ca7e75dbaaa1347dd380fe2c6a4dbb52f627c7a9c35dd15f5e6ee9f4fddb5",
+    "__init__.py": "47d73ae669b4060d8e85c932c462b4eacd99a41f330eb9c8424ad80a4b9cd37e",
+    "algorithms.py": "0ac35dd45eade5a2ca0a4b142642bb4885161046a5c1025f6de0312e2b681d83",
+    "pcd_io.py": "6f015eee69c92699b6a7a340164031138745b30215d1dca7e9514e949aabe076"
+  },
+  "limitations": [
+    "Not a semantic person detector; dense ambiguous objects remain.",
+    "Only static geometry filtering; removed cells are not certified free space.",
+    "No hole filling, global flattening, resampling, or active map switch."
+  ]
+}

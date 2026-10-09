@@ -1,0 +1,339 @@
+{
+  "source_tomogram": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v3_20260922/tomogram.npz",
+  "source_sha256": "8d32e24f2ac7fe7b2339a624f07d0fba77286d36c5a88e87f41b4a921345797d",
+  "frame_id": "d1max_flat_floor_planning",
+  "retained_layer": 0,
+  "source_layer": 0,
+  "graph": "4-neighbor known/allowed floor cells with <= max_ground_step edges",
+  "max_ground_step_m": 0.17,
+  "component_count": 30,
+  "component_sizes_descending": [
+    3104,
+    2515,
+    1921,
+    1638,
+    517,
+    97,
+    7,
+    6,
+    6,
+    4,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "trajectory_samples": 3021,
+  "sampling_spacing_m": 0.1,
+  "reference_xy_total_length_m": 254.88610706047757,
+  "exact_reference_cell_allowed": 2604,
+  "exact_reference_cell_components": [
+    1,
+    4,
+    5,
+    7,
+    21,
+    22,
+    27,
+    28,
+    29
+  ],
+  "association_radius_m": 0.6,
+  "nearest_floor_component_counts": {
+    "0": 43,
+    "1": 680,
+    "3": 10,
+    "4": 539,
+    "5": 508,
+    "6": 3,
+    "7": 209,
+    "20": 1,
+    "21": 931,
+    "22": 3,
+    "24": 2,
+    "27": 59,
+    "28": 15,
+    "29": 18
+  },
+  "primary_component": 21,
+  "samples_within_primary_component_radius": 946,
+  "all_sampled_trajectory_near_one_component": false,
+  "primary_component_distance_percentiles_m": [
+    0.0027869979604221574,
+    21.192150754888516,
+    65.49515594934803,
+    65.86579139854152,
+    65.98284753520896
+  ],
+  "representative_landmarks": [
+    {
+      "pose_index": 0,
+      "reference_xy": [
+        -0.000548146,
+        -0.000512312
+      ],
+      "candidate_xy": [
+        0.08821563720703551,
+        0.0277099609375
+      ],
+      "distance_m": 0.09314239581943523,
+      "within_association_radius": true,
+      "component": 21
+    },
+    {
+      "pose_index": 40,
+      "reference_xy": [
+        -9.54037,
+        18.0154
+      ],
+      "candidate_xy": [
+        -9.511784362792966,
+        18.0277099609375
+      ],
+      "distance_m": 0.03112352474921373,
+      "within_association_radius": true,
+      "component": 21
+    },
+    {
+      "pose_index": 80,
+      "reference_xy": [
+        -18.4797,
+        34.5914
+      ],
+      "candidate_xy": [
+        -18.311784362792967,
+        34.6277099609375
+      ],
+      "distance_m": 0.17179660788830292,
+      "within_association_radius": true,
+      "component": 21
+    },
+    {
+      "pose_index": 120,
+      "reference_xy": [
+        -10.0955,
+        38.934
+      ],
+      "candidate_xy": [
+        -10.111784362792967,
+        39.0277099609375
+      ],
+      "distance_m": 0.09511433777554908,
+      "within_association_radius": true,
+      "component": 21
+    },
+    {
+      "pose_index": 160,
+      "reference_xy": [
+        -10.3311,
+        42.8963
+      ],
+      "candidate_xy": [
+        -10.311784362792967,
+        42.827709960937504
+      ],
+      "distance_m": 0.07125789289129958,
+      "within_association_radius": true,
+      "component": 21
+    },
+    {
+      "pose_index": 200,
+      "reference_xy": [
+        -13.9513,
+        37.2908
+      ],
+      "candidate_xy": [
+        -13.911784362792968,
+        37.2277099609375
+      ],
+      "distance_m": 0.07444352633227976,
+      "within_association_radius": true,
+      "component": 21
+    },
+    {
+      "pose_index": 240,
+      "reference_xy": [
+        -32.2521,
+        27.3488
+      ],
+      "candidate_xy": [
+        -18.311784362792967,
+        32.0277099609375
+      ],
+      "distance_m": 14.70457746715352,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 280,
+      "reference_xy": [
+        -50.4066,
+        17.1475
+      ],
+      "candidate_xy": [
+        -18.311784362792967,
+        32.0277099609375
+      ],
+      "distance_m": 35.376515363555704,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 320,
+      "reference_xy": [
+        -68.6683,
+        7.69526
+      ],
+      "candidate_xy": [
+        -18.311784362792967,
+        32.0277099609375
+      ],
+      "distance_m": 55.92715608916481,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 360,
+      "reference_xy": [
+        -77.3642,
+        2.72913
+      ],
+      "candidate_xy": [
+        -18.311784362792967,
+        32.0277099609375
+      ],
+      "distance_m": 65.92112393092901,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 400,
+      "reference_xy": [
+        -67.8298,
+        -14.535
+      ],
+      "candidate_xy": [
+        -3.9117843627929645,
+        -3.7722900390625007
+      ],
+      "distance_m": 64.8178111995577,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 440,
+      "reference_xy": [
+        -58.8763,
+        -32.4107
+      ],
+      "candidate_xy": [
+        -3.9117843627929645,
+        -3.7722900390625007
+      ],
+      "distance_m": 61.977871085763354,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 480,
+      "reference_xy": [
+        -46.8716,
+        -26.9904
+      ],
+      "candidate_xy": [
+        -3.9117843627929645,
+        -3.7722900390625007
+      ],
+      "distance_m": 48.8326365225246,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 520,
+      "reference_xy": [
+        -35.0485,
+        -24.3881
+      ],
+      "candidate_xy": [
+        -3.9117843627929645,
+        -3.7722900390625007
+      ],
+      "distance_m": 37.34309415431162,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 560,
+      "reference_xy": [
+        -20.811,
+        -17.3892
+      ],
+      "candidate_xy": [
+        -3.9117843627929645,
+        -3.7722900390625007
+      ],
+      "distance_m": 21.70262025740444,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 600,
+      "reference_xy": [
+        -18.9563,
+        -12.3908
+      ],
+      "candidate_xy": [
+        -3.9117843627929645,
+        -3.7722900390625007
+      ],
+      "distance_m": 17.338286094794544,
+      "within_association_radius": false,
+      "component": 21
+    },
+    {
+      "pose_index": 640,
+      "reference_xy": [
+        -0.815872,
+        -2.43812
+      ],
+      "candidate_xy": [
+        -0.9117843627929645,
+        -2.3722900390625004
+      ],
+      "distance_m": 0.11633041345049011,
+      "within_association_radius": true,
+      "component": 21
+    },
+    {
+      "pose_index": 643,
+      "reference_xy": [
+        -0.083452,
+        -1.89067
+      ],
+      "candidate_xy": [
+        -0.11178436279296733,
+        -1.9722900390625
+      ],
+      "distance_m": 0.08639764787305458,
+      "within_association_radius": true,
+      "component": 21
+    }
+  ],
+  "caveat": "Association is an offline geometry coverage test, not a robot footprint/turning clearance certification. It does not require every historic pose centre to be a legal new waypoint, and does not modify or snap user endpoints."
+}

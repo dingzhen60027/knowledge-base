@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "wait_sec": 15.011547415997484,
+  "stable_sec": 14.504027561997646,
+  "minimum_wait_sec": 15.0,
+  "maximum_wait_sec": 120.0,
+  "method": "Heuristic observable stability; no direct input/ICP queue API is available.",
+  "state": {
+    "keyframes": 644,
+    "odometry_rows": 644,
+    "optimized_rows": 644,
+    "loop_events": {
+      "candidate_hold": 21,
+      "candidate_queued": 92,
+      "reject_correction": 75,
+      "geometry_hold": 4,
+      "geometry_verified": 4,
+      "accepted": 4,
+      "reject_geometry": 9
+    },
+    "accepted_loops": 4,
+    "pending_candidates": [],
+    "file_fingerprints": {
+      "times.txt": [
+        12078,
+        1789794825707441926
+      ],
+      "odom_poses.txt": [
+        75205,
+        1789794825760441975
+      ],
+      "optimized_poses.txt": [
+        76200,
+        1789794825759441974
+      ],
+      "loop_events.csv": [
+        14691,
+        1789794820039436761
+      ]
+    }
+  },
+  "observed": {
+    "path_messages": 10075,
+    "keyframes": 644,
+    "accepted_loop_count_topic": 4,
+    "last_path_stamp_ns": 1772317421599980032,
+    "last_path_wall": 51208.024543316
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "config": {
+    "input_topic": "/imu_driver/imu_central",
+    "output_topic": "/d1max/slam/imu",
+    "frame_id": "central_imu",
+    "acceleration_scale": 9.80665,
+    "gyro_scale": 1.0,
+    "timestamp_offset_sec": -0.013,
+    "duplicate_policy": "preserve_and_count",
+    "lio_extrinsic": {
+      "rotation": [
+        0.9995380594227922,
+        0.029871073968366767,
+        -0.005602383894348011,
+        0.029829523643588367,
+        -0.9995279108342023,
+        -0.007359006903979359,
+        -0.005819560509171382,
+        0.007188491037246056,
+        -0.9999572282413326
+      ],
+      "translation": [
+        0.010936960637023726,
+        -0.36597692096910184,
+        0.0026318472047164305
+      ]
+    },
+    "provenance": {
+      "classification": "experimental_rotation_time_estimate_and_nominal_lever_arm",
+      "bag": "/home/dndx/d1max_nav_ws/bags/slam_raw_20260917_171716_fe8f38",
+      "gyro_rotation_fit": "calibration/gyro_rotation_candidate.json",
+      "conventions_and_sources": "calibration/calibration_notes.md",
+      "rotation_method": "Robust SO3 gyro fit using alternating 60-second train/heldout blocks, then expressed from existing normalized front IMU axes to raw central axes.",
+      "time_method": "central(t+13ms) best matches front(t); subtract 13ms from central header. May include filter phase, not a proven pure clock correction.",
+      "acceleration_units": "Inferred g from initial low-motion magnitude near 1; SDK units are not used as proof of this ROS topic's units.",
+      "lever_arm_method": "R_C_B = R_C_front_raw_IMU * R_B_front_raw_IMU_nominal.T; t_C_N = R_C_B * [0.366149765, 0.000000325, 0.000000219].",
+      "manufacturer_nominal_base_from_front_raw_imu": [
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "nominal_central_position_in_manufacturer_base_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "limitations": [
+        "Central IMU physical origin is assumed at manufacturer base, not measured. CAD alternative IMU origins differ by centimeters; this is not an error bound.",
+        "No hardware model identity asserted for imu_link.",
+        "Existing dual LiDAR geometry and normalized point transform are deliberately retained; their separate calibration uncertainty remains.",
+        "No position-height lock, ground flattening or loop closure used.",
+        "Relative gyro-fit intercept is NOT subtracted as absolute central IMU bias; normal LIO initialization estimates bias.",
+        "Repeated six-axis messages are preserved and counted; this run is not a driver repair."
+      ]
+    }
+  },
+  "counts": {
+    "received": 192971,
+    "published": 192971,
+    "six_axis_repeated_pairs": 18410,
+    "gaps_over_30ms": 448,
+    "gaps_over_50ms": 18
+  },
+  "input_frames": {
+    "imu_link": 192971
+  },
+  "first_output_stamp_ns": 1772316441257133700,
+  "last_output_stamp_ns": 1772317426312128225,
+  "maximum_header_gap_ms": 74.981234,
+  "elapsed_wall_sec": 1011.0455019469955,
+  "notes": [
+    "No frame rotation applied to IMU vectors; Faster-LIO owns LiDAR-to-central extrinsics.",
+    "Repeated values preserved, not classified as hardware duplicates or synthesized.",
+    "A time shift inferred from relative signal phase is an experimental assumption."
+  ]
+}

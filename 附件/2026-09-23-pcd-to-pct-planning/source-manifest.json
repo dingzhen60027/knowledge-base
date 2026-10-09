@@ -1,0 +1,256 @@
+{
+  "schema": "d1max.knowledge_base_evidence_archive/v1",
+  "recorded_date": "2026-09-23",
+  "timezone": "Asia/Shanghai",
+  "article": "../../项目/D1 Max 从原始 PCD 到 PCT 全局规划的完整处理流程.md",
+  "scope": "Existing offline artifacts copied byte-for-byte; documentation only, no mapping, planning or robot process started.",
+  "primary_artifacts_not_copied": [
+    {
+      "role": "source_sc_pgo_pcd",
+      "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_map.pcd",
+      "points": 1127596,
+      "sha256": "67475e7325b2b0b0686a08e7eacd0e56c3eed42b107d178018f37af514bfd0c2"
+    },
+    {
+      "role": "structure_cleaned_pcd",
+      "path": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_164231_sc-pgo-0919-structure-v1_572b51/processed_map.pcd",
+      "points": 1076976,
+      "sha256": "9acb981006da500e927be60763656c3fe29bfcef8081f7bdcacce70846694b9c"
+    },
+    {
+      "role": "v6_planning_pcd",
+      "path": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/processed_map.pcd",
+      "points": 679006,
+      "sha256": "8ea5a159ba3f780b5eea6189e8327a9bb653024cadbf6fbe82475aeb70f9a30a"
+    },
+    {
+      "role": "v6_pct_tomogram",
+      "path": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/tomogram.npz",
+      "sha256": "fb6897abb9624e493bea6f7c6ac723c20627bcd51f0dc97af9e320c6aab59433"
+    }
+  ],
+  "files": [
+    {
+      "file": "01-source-map-comparison.png",
+      "source": "/home/dndx/knowledge-base/附件/2026-09-19-central-imu-lio-pgo/01-loop-comparison.png",
+      "sha256": "40ad9b9a0a52150a87dc94efa12a214999da9157d073f88b2a0dc136b084b60d",
+      "bytes": 936073
+    },
+    {
+      "file": "02-early-cost-stages.png",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/diagnostics_20260922/corridor_cost_stages.png",
+      "sha256": "2b172e21c29b5719c88b099e7df45cafa462f99fa434ae6fe3906e571ed7a122",
+      "bytes": 472519
+    },
+    {
+      "file": "03-observed-floor-height.png",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/trajectory_ground_diagnostic.png",
+      "sha256": "bdde11de23f099bd2e512faeb9eefa5b12e2ef81d12e81fb48db98dfa8178a68",
+      "bytes": 211273
+    },
+    {
+      "file": "04-compact-vs-v3.png",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/flat_floor_v3_comparison/before_after_floor_pct.png",
+      "sha256": "ba4ca73ee0c03b5307021774e14986c06843eabd51a823b023b6ab47e68bd811",
+      "bytes": 391323
+    },
+    {
+      "file": "05-v3-breaks-diagnosis.png",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/connectivity_repair_20260922/breaks_overview.png",
+      "sha256": "b11493787cd36d567f226fbe70707f1b80871c4a98abac9db6c9d54503e4841a",
+      "bytes": 570749
+    },
+    {
+      "file": "06-compact-vs-v6.png",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/flat_floor_v6_comparison/before_after_floor_pct.png",
+      "sha256": "fd5b23b49ff92a8653d3d6d502b29d09bf02dedf3ed31efa457658907918e1ad",
+      "bytes": 381721
+    },
+    {
+      "file": "evidence/01-structure-config.yaml",
+      "source": "/home/dndx/d1max_nav_ws/tools/pointcloud_preprocessing/configs/sc_pgo_0919_structure.yaml",
+      "sha256": "80bc3ece76e7100314cf2e12567b5f1e7f3c2b14f51fea2e5089fe2ebf83fe18",
+      "bytes": 2101
+    },
+    {
+      "file": "evidence/02-structure-manifest.json",
+      "source": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_164231_sc-pgo-0919-structure-v1_572b51/manifest.json",
+      "sha256": "fe29de2de5a0efe908d9afa050408bb09f8938a28d074f55ec5625c09f8131b0",
+      "bytes": 6944
+    },
+    {
+      "file": "evidence/03-trajectory-ground-audit.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/trajectory_ground_audit.json",
+      "sha256": "16f1bd64aa69758f92098b5d7d7cca2b970330a9344da079b10f95701c01b476",
+      "bytes": 17253
+    },
+    {
+      "file": "evidence/04-v3-comparison.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/flat_floor_v3_comparison/comparison.json",
+      "sha256": "fccbdfdf6b9b8e43b2e706e3302d6bb1f96b9f6b8ebabd5ae48837a7058f675c",
+      "bytes": 4784
+    },
+    {
+      "file": "evidence/05-v3-breaks.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/connectivity_repair_20260922/breaks.json",
+      "sha256": "0e086f0446ffece9979bc4c8842224dc3f975013909e56debcc1c7ade5b04e1f",
+      "bytes": 161952
+    },
+    {
+      "file": "evidence/06-grid-phase-evidence.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/connectivity_repair_20260922/b4_support_grid_phase_evidence.json",
+      "sha256": "825942800644587de0b11d52eae4195668ce1a1a6bdb19a7ebb2cf1b3e0744d3",
+      "bytes": 1399
+    },
+    {
+      "file": "evidence/07-flat-floor-v6-config.yaml",
+      "source": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/pipeline.yaml",
+      "sha256": "25594c4fef3dbe25b3e2c559c76ca2662c0dd77290b79332d8b7f48a04d4ac6f",
+      "bytes": 4787
+    },
+    {
+      "file": "evidence/08-flat-floor-v6-manifest.json",
+      "source": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/manifest.json",
+      "sha256": "5c5471436c17d27763203216b4f23454af65147cec815508f70e1cd98a9c5a39",
+      "bytes": 12092
+    },
+    {
+      "file": "evidence/09-pct-config.yaml",
+      "source": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/pct_pipeline.yaml",
+      "sha256": "57a2625cc9b63d7c1ef20315be1be164d0d0a9041e4eda1da500ef23c3b0c1d4",
+      "bytes": 1538
+    },
+    {
+      "file": "evidence/10-pct-manifest.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/manifest.json",
+      "sha256": "8fb40a8aaf9933851981a0102b15b5bd5f201757232e0e6176a7b89acca842c5",
+      "bytes": 17452
+    },
+    {
+      "file": "evidence/11-v6-comparison.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/flat_floor_v6_comparison/comparison.json",
+      "sha256": "bec710a35f9942e0effa7782c81ae941cf5c673183926b86b7ea900f7ad494fb",
+      "bytes": 4678
+    },
+    {
+      "file": "evidence/12-v3-connectivity.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/connectivity_v3_strict/connectivity.json",
+      "sha256": "c144b6885476f6d0aa2535c32c1cb86c5aebac10ab620a4fca7dfe36696d4e7f",
+      "bytes": 7151
+    },
+    {
+      "file": "evidence/13-v6-connectivity.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/connectivity_v6_strict/connectivity.json",
+      "sha256": "10cdeee1bb73f31d62614a1c6cfe72a55db8a2157c37e0a706adc59adda4f4aa",
+      "bytes": 6705
+    },
+    {
+      "file": "evidence/14-native-acceptance-plan.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/acceptance_plan.json",
+      "sha256": "381784d5f7bcfa143a76d66fd54f327c59451f300557158ba7dc5e58569e8e13",
+      "bytes": 32312
+    },
+    {
+      "file": "evidence/15-native-acceptance-summary.json",
+      "source": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/summary.json",
+      "sha256": "037a3e7661042a6120277c12baa1719a86c9ae77709fc3ba53c97861c3d041cb",
+      "bytes": 6995
+    },
+    {
+      "file": "evidence/16-preview-config.yaml",
+      "source": "/home/dndx/d1max_nav_ws/src/d1max_pct_planner/config/preview_flat_floor.yaml",
+      "sha256": "456462ae39539f2dee030643d7692102184347a8fe88fe90eea54dd01f7e3af5",
+      "bytes": 1144
+    },
+    {
+      "file": "evidence/17-published-path-000003.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/20260923_101221_25a7db3835ad/path_000003.json",
+      "sha256": "bf9d70738810867181a3f64b2b8333ad8a4655e31340cece7760becf3106d93f",
+      "bytes": 107908
+    },
+    {
+      "file": "evidence/18-rviz-topic-verification.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/20260923_101221_25a7db3835ad/readonly_verification.json",
+      "sha256": "1118bd4ee946a74d02367d9dce5d496b10e6c5fac6c70e58763f81f6abaa0cf5",
+      "bytes": 38910
+    },
+    {
+      "file": "evidence/19-published-path-000038.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/20260923_101221_25a7db3835ad/path_000038.json",
+      "sha256": "876a61834a342d87bb5d5b4db5aa6330a8dabed79995a1bbd6ced058be7a040b",
+      "bytes": 122114
+    },
+    {
+      "file": "evidence/20-optimized-poses.txt",
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_poses.txt",
+      "sha256": "95d490af3ca8eee59ffd23ef8edd5bfad349b63cb2e9060f95f58ef86c453da5",
+      "bytes": 76200
+    },
+    {
+      "file": "07-path-quality-before-after.png",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/path_quality_before_after.png",
+      "bytes": 273212,
+      "sha256": "4b59fea9c0a9c426128d8b1cb301699e32c9e9cc83bc94d348cbaecc212c7177"
+    },
+    {
+      "file": "evidence/21-path-before-summary.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/baseline_native_2_8/summary.json",
+      "bytes": 23893,
+      "sha256": "d96eb77d56adc475116e4e1f7405eaca2b28413e7669436a83013f75f1767ee6"
+    },
+    {
+      "file": "evidence/22-path-after-summary.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/final_corridor_14/summary.json",
+      "bytes": 26085,
+      "sha256": "417ec3d76f80231a4fdd1dcf7a2dc7a9f1e9d5d22823c90d38746df744f3c023"
+    },
+    {
+      "file": "evidence/23-path-contract.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/final_corridor_14/contract.json",
+      "bytes": 4790,
+      "sha256": "b58463711264edf0fa8b5796ef46a0a526b31aeab915d29d82e531bd3dccd465"
+    },
+    {
+      "file": "evidence/24-path-preview-config.yaml",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/20260923_112428_41cd27714bc0/preview.yaml",
+      "bytes": 1022,
+      "sha256": "111341bb9667a142362823b0370fbfbf73d301b59b1717050100c3b101912864"
+    },
+    {
+      "file": "evidence/25-path-rviz-verification.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/20260923_112428_41cd27714bc0/quality_live_verification.json",
+      "bytes": 60019,
+      "sha256": "9dca54daa3d02744680c5d45765213c8b64cc500918b6186b8514637774e1442"
+    },
+    {
+      "file": "evidence/26-path-straight-23m.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/final_corridor_14/straight_23m.json",
+      "bytes": 75881,
+      "sha256": "7005ac1257c5f8aa9cf851f468dfc74e4d978b5e86bae93cd25cfddceb0f0156"
+    },
+    {
+      "file": "evidence/27-path-user-39m.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/final_corridor_14/preserved_user_39m.json",
+      "bytes": 120974,
+      "sha256": "f1707bcfe2ee8769ae4ded8a026065195b49fc29c123b01fcb62dfa2780bb037"
+    },
+    {
+      "file": "evidence/28-path-last-user-45m.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/final_corridor_14/last_user_45m.json",
+      "bytes": 137181,
+      "sha256": "ccafc514fb0b64b5f54cbea80868fa9f5cd10b61fac1e49079795312fdd42553"
+    },
+    {
+      "file": "evidence/29-path-before-straight-23m.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/baseline_native_2_8/straight_23m.json",
+      "bytes": 78661,
+      "sha256": "c5c5deae3f21aa1e0d26578126112304cb2b2ae8fc54fa21743434a6a1a6497e"
+    },
+    {
+      "file": "evidence/30-path-before-user-39m.json",
+      "source": "/home/dndx/d1max_nav_ws/log/pct_preview/path_quality_20260923_audit/baseline_native_2_8/preserved_user_39m.json",
+      "bytes": 125879,
+      "sha256": "ddfb2dcbb9772406eb887ec858863385a520bde4f46647f8260b849654228178"
+    }
+  ]
+}

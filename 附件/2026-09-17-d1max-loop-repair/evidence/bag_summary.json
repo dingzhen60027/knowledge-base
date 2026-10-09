@@ -1,0 +1,34 @@
+{
+  "duration_sec": 984.989342829,
+  "messages": 685529,
+  "topics": [
+    {
+      "name": "/front_lidar",
+      "count": 9364
+    },
+    {
+      "name": "/front_lidar/imu",
+      "count": 189626
+    },
+    {
+      "name": "/tf_static",
+      "count": 47134
+    },
+    {
+      "name": "/imu_driver/imu_central",
+      "count": 192971
+    },
+    {
+      "name": "/rear_lidar",
+      "count": 9325
+    },
+    {
+      "name": "/rear_lidar/imu",
+      "count": 190011
+    },
+    {
+      "name": "/tf",
+      "count": 47098
+    }
+  ]
+}

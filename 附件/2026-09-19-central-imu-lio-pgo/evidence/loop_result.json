@@ -1,0 +1,886 @@
+{
+  "schema_version": 1,
+  "run": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh",
+  "run_name": "20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh",
+  "pgo_directory": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo",
+  "output_directory": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/analysis",
+  "frontend": {
+    "source": {
+      "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/frontend_state.csv",
+      "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/frontend_state.csv",
+      "exists": true,
+      "bytes": 4302345,
+      "mtime_ns": 1789794861223474406
+    },
+    "source_kind": "frontend_state.csv",
+    "metrics": {
+      "pose_count": 9050,
+      "finite_pose_count": 9050,
+      "first_last_header_sec": [
+        1772316443.49998,
+        1772317426.19998
+      ],
+      "duration_sec": 982.7000000476837,
+      "nonpositive_timestamp_intervals": 0,
+      "timestamp_interval_sec": {
+        "count": 9049,
+        "min": 0.0999598503112793,
+        "median": 0.09999990463256836,
+        "max": 0.5000100135803223,
+        "mean": 0.10859763510307037,
+        "p05": 0.0999898910522461,
+        "p95": 0.19999980926513672
+      },
+      "start_xyz_m": [
+        -0.000548145572965243,
+        -0.000512312002790602,
+        6.29300856635253e-05
+      ],
+      "endpoint_xyz_m": [
+        0.0414627575325525,
+        -0.819347188657399,
+        -4.39267843056605
+      ],
+      "endpoint_minus_start_xyz_m": [
+        0.04201090310551774,
+        -0.8188348766546084,
+        -4.392741360651713
+      ],
+      "endpoint_to_start_xy_distance_m": 0.8199118679502748,
+      "path_length_xy_m": 256.5622307354106,
+      "path_length_xyz_m": 256.8729458100173,
+      "excluded_path_segments": 0,
+      "height_z_m": {
+        "count": 9050,
+        "min": -4.40217700333396,
+        "median": -1.7935790983093352,
+        "max": 0.00835373470439097,
+        "mean": -2.073434238050403,
+        "p05": -4.313005643664772,
+        "p95": -0.16472598131312416
+      },
+      "height_span_m": 4.410530738038351,
+      "height_endpoint_minus_start_m": -4.392741360651713,
+      "gravity_tilt_from_initial_world_down_z_deg": {
+        "count": 9050,
+        "min": 7.801423514138488e-08,
+        "median": 1.564518167508445,
+        "max": 2.313946191917475,
+        "mean": 1.5205447877075888,
+        "p05": 0.3254178587455694,
+        "p95": 2.308123367934946
+      },
+      "gravity_direction_change_from_first_gravity_deg": {
+        "count": 9050,
+        "min": 0.0,
+        "median": 1.564518219832209,
+        "max": 2.3139462208410264,
+        "mean": 1.520544824820204,
+        "p05": 0.3254178558183256,
+        "p95": 2.308123397960421
+      },
+      "gravity_first_last_xyz": [
+        [
+          -8.73765554593635e-09,
+          -1.01012741378832e-08,
+          -9.809
+        ],
+        [
+          0.178054387710008,
+          0.0298701049594177,
+          -9.80733834492536
+        ]
+      ],
+      "gravity_tilt_first_last_deg": [
+        7.801423514138488e-08,
+        1.0546341573084426
+      ],
+      "gravity_norm": {
+        "count": 9050,
+        "min": 9.808999999999667,
+        "median": 9.808999999999811,
+        "max": 9.809000000000003,
+        "mean": 9.808999999999815,
+        "p05": 9.808999999999692,
+        "p95": 9.808999999999958
+      },
+      "quaternion_norm": {
+        "count": 9050,
+        "min": 1.0000000000002887,
+        "median": 1.0000000000004547,
+        "max": 1.0000000000005849,
+        "mean": 1.000000000000443,
+        "p05": 1.0000000000002982,
+        "p95": 1.0000000000005647
+      },
+      "diagnostics": {
+        "features": {
+          "count": 9050,
+          "min": 6498.0,
+          "median": 14495.5,
+          "max": 21955.0,
+          "mean": 15068.08685082873,
+          "p05": 11358.45,
+          "p95": 20116.0
+        },
+        "horizontal_features": {
+          "count": 9050,
+          "min": 868.0,
+          "median": 2362.0,
+          "max": 5501.0,
+          "mean": 2416.713591160221,
+          "p05": 1408.45,
+          "p95": 3748.0
+        },
+        "residual_rmse": {
+          "count": 9050,
+          "min": 0.00619875815194896,
+          "median": 0.01949367820205015,
+          "max": 0.0272773805120353,
+          "mean": 0.01947196785629333,
+          "p05": 0.01590662476940484,
+          "p95": 0.022538322830443307
+        },
+        "roll_variance": {
+          "count": 9050,
+          "min": 2.08845454652111e-09,
+          "median": 4.256106027724155e-09,
+          "max": 3.47599349474282e-08,
+          "mean": 5.866505694782426e-09,
+          "p05": 2.445694138035494e-09,
+          "p95": 1.9438477446222236e-08
+        },
+        "pitch_variance": {
+          "count": 9050,
+          "min": 4.20998706174427e-09,
+          "median": 4.65990853123939e-08,
+          "max": 3.41039482934516e-07,
+          "mean": 6.167346335394398e-08,
+          "p05": 8.564473358891832e-09,
+          "p95": 1.4875798599875342e-07
+        },
+        "z_variance": {
+          "count": 9050,
+          "min": 1.24303374742662e-07,
+          "median": 2.15669873390881e-07,
+          "max": 5.61809137248149e-07,
+          "mean": 2.1386781036420476e-07,
+          "p05": 1.3847951037241522e-07,
+          "p95": 2.9294740733335363e-07
+        },
+        "horizontal_feature_fraction": {
+          "count": 9050,
+          "min": 0.07604301731370605,
+          "median": 0.14936273251280816,
+          "max": 0.4159354781529735,
+          "mean": 0.16227376702264995,
+          "p05": 0.09884707099015738,
+          "p95": 0.25552241826362704
+        }
+      },
+      "csv_validation": {
+        "parsed_rows": 9050,
+        "malformed_complete_rows": 0,
+        "malformed_line_examples": [],
+        "ignored_incomplete_final_line": false,
+        "incomplete_final_lines_dropped_in_memory": 0,
+        "snapshot_bytes": 4302345,
+        "nonfinite_cells_by_column": {
+          "t": 0,
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "qx": 0,
+          "qy": 0,
+          "qz": 0,
+          "qw": 0,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0,
+          "bgx": 0,
+          "bgy": 0,
+          "bgz": 0,
+          "bax": 0,
+          "bay": 0,
+          "baz": 0,
+          "gx": 0,
+          "gy": 0,
+          "gz": 0,
+          "features": 0,
+          "horizontal_features": 0,
+          "residual_rmse": 0,
+          "roll_variance": 0,
+          "pitch_variance": 0,
+          "z_variance": 0
+        },
+        "all_numeric_cells_finite": true
+      },
+      "interpretation": "Height span and endpoint delta are raw estimated motion in this run's world frame, not ground-truth drift. Actual terrain, robot height, initial alignment and estimator error may all contribute."
+    }
+  },
+  "keyframe_time_association": {
+    "source": {
+      "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/times.txt",
+      "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/times.txt",
+      "exists": true,
+      "bytes": 12078,
+      "mtime_ns": 1789794825707441926
+    },
+    "associated": true,
+    "semantics": "Cloud header time written once per selected keyframe by process_pg; not loop processing ros_time.",
+    "row_order_assumption": "Same-directory exports from contiguous integer Pose3 keyframe IDs in the inspected SC-PGO implementation.",
+    "synthetic_timestamps_created": false,
+    "row_count": 644,
+    "first_last_header_sec": [
+      1772316443.499978,
+      1772317421.59998
+    ],
+    "duration_sec": 978.1000020503998,
+    "nearest_frontend_time_abs_difference_sec": {
+      "count": 644,
+      "min": 0.0,
+      "median": 2.384185791015625e-06,
+      "max": 5.0067901611328125e-06,
+      "mean": 2.4734076505862407e-06,
+      "p05": 0.0,
+      "p95": 4.76837158203125e-06
+    },
+    "nearest_frontend_position_difference_m": {
+      "count": 644,
+      "min": 4.2728445525251517e-10,
+      "median": 3.46384678473118e-05,
+      "max": 6.959175585210139e-05,
+      "mean": 3.251168501139209e-05,
+      "p05": 3.775607930153736e-06,
+      "p95": 5.7152006121809485e-05
+    },
+    "exact_frontend_matches_within_1us": 156,
+    "frontend_matches_within_30ms": 644,
+    "shared_frontend_time_axis_validated": true,
+    "alignment_note": "Nearest-time and position checks are diagnostics only; no new times or poses are fitted."
+  },
+  "raw_keyframe_trajectory": {
+    "pose_count": 644,
+    "start_xyz_m": [
+      -0.000548146,
+      -0.000512312,
+      6.29301e-05
+    ],
+    "endpoint_xyz_m": [
+      0.0550542,
+      -0.808879,
+      -4.39708
+    ],
+    "endpoint_minus_start_xyz_m": [
+      0.055602346,
+      -0.808366688,
+      -4.3971429301
+    ],
+    "endpoint_to_start_distance_xyz_m": 4.471175938260226,
+    "endpoint_to_start_distance_xy_m": 0.8102766954249598,
+    "height_span_m": 4.39767493,
+    "height_z_m": {
+      "count": 644,
+      "min": -4.39708,
+      "median": -2.107175,
+      "max": 0.00059493,
+      "mean": -2.25540140829177,
+      "p05": -4.2919455,
+      "p95": -0.34323609999999977
+    },
+    "path_length_xyz_m": 255.01011307974207,
+    "path_length_xy_m": 254.851249074327,
+    "first_last_header_sec": [
+      1772316443.499978,
+      1772317421.59998
+    ],
+    "duration_sec": 978.1000020503998,
+    "source": {
+      "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/odom_poses.txt",
+      "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/odom_poses.txt",
+      "exists": true,
+      "bytes": 75205,
+      "mtime_ns": 1789794825760441975
+    },
+    "format": "KITTI: r00 r01 r02 tx r10 r11 r12 ty r20 r21 r22 tz; no timestamps",
+    "rotation_determinant": {
+      "count": 644,
+      "min": 0.9999986733929296,
+      "median": 1.000000000720528,
+      "max": 1.0000014425097443,
+      "mean": 1.0000000167633685,
+      "p05": 0.9999991716126442,
+      "p95": 1.000000877962574
+    },
+    "rotation_orthonormality_frobenius_error": {
+      "count": 644,
+      "min": 2.9879743018153186e-07,
+      "median": 1.1256486680053319e-06,
+      "max": 1.8630379484267233e-06,
+      "mean": 1.1142272359621279e-06,
+      "p05": 5.753796228705341e-07,
+      "p95": 1.5501497166531172e-06
+    },
+    "precision_note": "Exporter uses default stream precision for matrices; small rounding errors are expected."
+  },
+  "optimized_keyframe_trajectory": {
+    "pose_count": 644,
+    "start_xyz_m": [
+      -0.000548146,
+      -0.000512312,
+      6.29301e-05
+    ],
+    "endpoint_xyz_m": [
+      -0.083452,
+      -1.89067,
+      0.0496875
+    ],
+    "endpoint_minus_start_xyz_m": [
+      -0.082903854,
+      -1.8901576880000002,
+      0.049624569900000005
+    ],
+    "endpoint_to_start_distance_xyz_m": 1.8926256186714052,
+    "endpoint_to_start_distance_xy_m": 1.891974929673636,
+    "height_span_m": 1.485149,
+    "height_z_m": {
+      "count": 644,
+      "min": -0.897155,
+      "median": -0.1205165,
+      "max": 0.587994,
+      "mean": -0.17488025304487576,
+      "p05": -0.7132929,
+      "p95": 0.5346926500000002
+    },
+    "path_length_xyz_m": 255.00041308994898,
+    "path_length_xy_m": 254.88610706047757,
+    "first_last_header_sec": [
+      1772316443.499978,
+      1772317421.59998
+    ],
+    "duration_sec": 978.1000020503998,
+    "source": {
+      "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_poses.txt",
+      "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_poses.txt",
+      "exists": true,
+      "bytes": 76200,
+      "mtime_ns": 1789794825759441974
+    },
+    "format": "KITTI: r00 r01 r02 tx r10 r11 r12 ty r20 r21 r22 tz; no timestamps",
+    "rotation_determinant": {
+      "count": 644,
+      "min": 0.9999985603671205,
+      "median": 1.0000000040087555,
+      "max": 1.0000015849245558,
+      "mean": 0.9999999929476087,
+      "p05": 0.9999991423535365,
+      "p95": 1.000000820423509
+    },
+    "rotation_orthonormality_frobenius_error": {
+      "count": 644,
+      "min": 1.8043663581694244e-07,
+      "median": 1.104888589217425e-06,
+      "max": 1.8463774592163827e-06,
+      "mean": 1.1040221030146649e-06,
+      "p05": 5.73869538379939e-07,
+      "p95": 1.582914107793715e-06
+    },
+    "precision_note": "Exporter uses default stream precision for matrices; small rounding errors are expected."
+  },
+  "loops": {
+    "source": {
+      "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/loop_events.csv",
+      "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/loop_events.csv",
+      "exists": true,
+      "bytes": 14691,
+      "mtime_ns": 1789794820039436761
+    },
+    "event_counts": {
+      "candidate_hold": 21,
+      "candidate_queued": 92,
+      "reject_correction": 75,
+      "geometry_hold": 4,
+      "geometry_verified": 4,
+      "accepted": 4,
+      "reject_geometry": 9
+    },
+    "total_event_rows": 209,
+    "accepted_event_count": 4,
+    "accepted_unique_keyframe_pairs": 4,
+    "accepted_counter_is_contiguous_1_to_N": true,
+    "all_accepted_indices_in_export": true,
+    "accepted_events": [
+      {
+        "csv_line": 16,
+        "ros_time": 1789794136.9343688,
+        "history_keyframe": 118,
+        "current_keyframe": 178,
+        "cumulative_counter_value1": 1.0,
+        "indices_within_exported_optimized_poses": true,
+        "history_cloud_header_sec": 1772316655.2999969,
+        "current_cloud_header_sec": 1772316732.2999873
+      },
+      {
+        "csv_line": 20,
+        "ros_time": 1789794146.0005844,
+        "history_keyframe": 117,
+        "current_keyframe": 193,
+        "cumulative_counter_value1": 2.0,
+        "indices_within_exported_optimized_poses": true,
+        "history_cloud_header_sec": 1772316654.899977,
+        "current_cloud_header_sec": 1772316741.1999831
+      },
+      {
+        "csv_line": 25,
+        "ros_time": 1789794178.3509028,
+        "history_keyframe": 101,
+        "current_keyframe": 209,
+        "cumulative_counter_value1": 3.0,
+        "indices_within_exported_optimized_poses": true,
+        "history_cloud_header_sec": 1772316627.799982,
+        "current_cloud_header_sec": 1772316773.699982
+      },
+      {
+        "csv_line": 210,
+        "ros_time": 1789794820.040668,
+        "history_keyframe": 0,
+        "current_keyframe": 640,
+        "cumulative_counter_value1": 4.0,
+        "indices_within_exported_optimized_poses": true,
+        "history_cloud_header_sec": 1772316443.499978,
+        "current_cloud_header_sec": 1772317415.4999793
+      }
+    ],
+    "count_definition": "Only exact event=accepted, emitted after inserting a loop BetweenFactor; candidate/geometry events are not counted.",
+    "time_warning": "ros_time is backend processing clock; do not treat it as a keyframe sensor timestamp.",
+    "accuracy_warning": "Accepted means a factor was admitted, not independently verified physical correctness or surveyed map accuracy."
+  },
+  "frontend_map": {
+    "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/scans.pcd",
+    "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/d1max_map_20260919_131415.pcd",
+    "file_bytes": 34396128,
+    "declared_points": 2149746,
+    "finite_xyz_points": 2149746,
+    "nonfinite_xyz_points": 0,
+    "bounds_min_xyz_m": [
+      -100.75949096679688,
+      -68.225341796875,
+      -7.61859655380249
+    ],
+    "bounds_max_xyz_m": [
+      14.926043510437012,
+      55.14923095703125,
+      15.092181205749512
+    ],
+    "extent_xyz_m": [
+      115.68553447723389,
+      123.37457275390625,
+      22.710777759552002
+    ],
+    "plot_sample_points": 238861,
+    "plot_sample_stride": 9,
+    "plot_sample_z_percentile_1_99_m": [
+      -4.951673603057861,
+      10.686349868774409
+    ],
+    "sampling_note": "Counts and bounds use every point. Plot uses a deterministic stride sample; color scale clips at sample Z percentiles 1 and 99, without altering coordinates.",
+    "available": true
+  },
+  "optimized_map": {
+    "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_map.pcd",
+    "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_map.pcd",
+    "file_bytes": 18041728,
+    "declared_points": 1127596,
+    "finite_xyz_points": 1127596,
+    "nonfinite_xyz_points": 0,
+    "bounds_min_xyz_m": [
+      -100.74417877197266,
+      -68.53840637207031,
+      -4.751631736755371
+    ],
+    "bounds_max_xyz_m": [
+      30.003522872924805,
+      59.693199157714844,
+      15.470518112182617
+    ],
+    "extent_xyz_m": [
+      130.74770164489746,
+      128.23160552978516,
+      20.22214984893799
+    ],
+    "plot_sample_points": 225520,
+    "plot_sample_stride": 5,
+    "plot_sample_z_percentile_1_99_m": [
+      -1.4224268651008607,
+      9.431728534698482
+    ],
+    "sampling_note": "Counts and bounds use every point. Plot uses a deterministic stride sample; color scale clips at sample Z percentiles 1 and 99, without altering coordinates.",
+    "available": true
+  },
+  "same_keyframe_count": true,
+  "run_provenance": {
+    "run_manifest": {
+      "source": {
+        "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/manifest.json",
+        "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/manifest.json",
+        "exists": true,
+        "bytes": 4212,
+        "mtime_ns": 1789793843117707955
+      },
+      "contents": {
+        "bag": "/home/dndx/d1max_nav_ws/bags/slam_raw_20260917_171716_fe8f38",
+        "output": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh",
+        "rmw": "rmw_zenoh_cpp",
+        "domain": 219,
+        "topics": [
+          "/front_lidar",
+          "/rear_lidar",
+          "/imu_driver/imu_central"
+        ],
+        "rate": 1.0,
+        "requested_duration": 0.0,
+        "duration_sec": 984.989342829,
+        "raw_bag_unmodified": true,
+        "duplicate_imu_values_preserved": true,
+        "loop_closure_enabled": true,
+        "backend": "faster_lio+sc_pgo",
+        "save_keyframe_scans": false,
+        "pgo_source_config": "/home/dndx/d1max_nav_ws/src/d1max_slam/config/sc_pgo_d1max.yaml",
+        "loop_detection_frequency_override": 15.0,
+        "height_lock_enabled": false,
+        "clock_policy": "No /clock playback; use_sim_time=false. Bag/raw LiDAR stamps remain unchanged; central IMU output stamp adds the configured experimental offset.",
+        "central_timestamp_offset_sec": -0.013,
+        "source_config": "/home/dndx/d1max_nav_ws/src/d1max_slam/config/faster_lio_airy96.yaml",
+        "source_stats": {
+          "slam_raw_20260917_171716_fe8f38_0.db3": [
+            17181650944,
+            1789637038618603465
+          ],
+          "slam_raw_20260917_171716_fe8f38_1.db3": [
+            17181405184,
+            1789637443850637578
+          ],
+          "slam_raw_20260917_171716_fe8f38_2.db3": [
+            7718453248,
+            1789637623580192004
+          ]
+        },
+        "expected_raw_counts": {
+          "/front_lidar": 9364,
+          "/rear_lidar": 9325,
+          "/imu_driver/imu_central": 192971
+        },
+        "binary_sha256": {
+          "/home/dndx/d1max_nav_ws/build/faster_lio/libfaster_lio_lib.so": "4cb60b8e6326930d4f832b40035ca5107a45954cb92671f2382b78dea8f7cd6d",
+          "/home/dndx/d1max_nav_ws/install/faster_lio/lib/libfaster_lio_lib.so": "8f7a66b4a545a24fce4ba36cbc9764e16e8a2b9f5361833a376738831111f069",
+          "/home/dndx/d1max_nav_ws/install/faster_lio/lib/faster_lio/run_mapping_online": "90005feb780bdf79c20f8e1090e59c834ddc42ed96891e9ce9f4543876bdd762",
+          "/home/dndx/d1max_nav_ws/install/d1max_slam/lib/d1max_slam/dual_lidar_adapter": "313b716263fbcee91741307dfb21f5fda9b725cb775c6289b716fe6a0ce363ec",
+          "/home/dndx/d1max_nav_ws/install/d1max_slam/lib/d1max_slam/map_capture_node": "3781b42012c269d2be26d7afad5d584c61f1d5f6ad82e5c35ee164cb2dcf2b80",
+          "/home/dndx/d1max_nav_ws/install/sc_pgo/lib/sc_pgo/alaserPGO": "24a35b96bd8aa7e106926206377350c275f99a7b5cb5fc6f81fd6b324f553306"
+        },
+        "snapshot_sha256": {
+          "frontend.yaml": "61611dac31320ba83cfc8004160e5bc2c10dd6136291e693de41c6f1a6d578e5",
+          "dual_lidar.yaml": "5e6d27004f59e6b44fd8b2c0a1e757f22984c2940305df4b826c6811c3019b71",
+          "zenoh-router-local.json5": "6fa4ac4494f448802a5c31c61973e583df25c7ae3019bf019282cf2127d0d2f0",
+          "calibration.yaml": "bb60c7f62193b68279a4bd080357ef012224c36dc36f5621126aa396724806bd",
+          "zenoh-local.json5": "b5bc1eeff6d529ced21183c28a2dd9710a753c4aa5a05296703547e574c15111",
+          "sc_pgo_source.yaml": "256926b076db3f9b0eded3c266d3981f9433db3b127a17f8de36042fcdd1eb45",
+          "frontend_source.yaml": "699bdea74457c1a418eec98ced6a1cb8e8fcebdf6a01692ecb9177660e7bc544",
+          "mapping.launch.py": "c55270a9301c920250307d3240bf8a4ef701d0ad169a2ab0dd6322462865bae1",
+          "sc_pgo.yaml": "a678697fa85b48b80f174edfdf146f636ac30c39e2698388414356028fdcdd27",
+          "run.sh": "5ea80cae2567926cb9fa86238f65e73342e87a5772bf70779a1c6bde6cf49f71",
+          "view.rviz": "efd9fae15d18bf2a35d01f20791e8a3c329c8d71cfcfadac9231bfa35c16f9af",
+          "run.py": "7eff46f28bfa54a3250df55adde987eb517d43c1a2d3f8e350d830aeb84340f2",
+          "central_imu_adapter.py": "4dd0e30009326223398e3ba9a21079b410b5aa210329bf67552343ee6165a6d8",
+          "source_metadata.yaml": "a961da8fcfc05ddf55e0c53057ec10eea9b074cfce14de7a3fca17d85a8b5c8b",
+          "calibration/estimate_gyro_rotation.py": "b2afc4ae6de8e3e5d95f7a67b53437c6441aa522d6338bc34f40989e3f39e176",
+          "calibration/calibration_notes.md": "d7e0a54837561a3817987d0cd7854dd56e94502fe9f8ab6cc06d3d639a3d6b6a",
+          "calibration/gyro_rotation_candidate.json": "d516d16ad74c4d93a982dbba39108e0c2f05509eb4e6b8252f3b4406f83da650"
+        },
+        "trajectory_policy": "frontend_odometry.tum is authoritative; native gflags trajectory argument is not parsed by this binary; legacy logs are backed up and copied after shutdown.",
+        "rviz_enabled": true
+      }
+    },
+    "run_result": {
+      "source": {
+        "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/result.json",
+        "resolved_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/result.json",
+        "exists": true,
+        "bytes": 5433,
+        "mtime_ns": 1789794861315474490
+      },
+      "contents": {
+        "complete": true,
+        "loop_closure_enabled": true,
+        "height_lock_enabled": false,
+        "ground_truth_accuracy_validated": false,
+        "pgo_drain": {
+          "passed": true,
+          "wait_sec": 15.011547415997484,
+          "stable_sec": 14.504027561997646,
+          "minimum_wait_sec": 15.0,
+          "maximum_wait_sec": 120.0,
+          "method": "Heuristic observable stability; no direct input/ICP queue API is available.",
+          "state": {
+            "keyframes": 644,
+            "odometry_rows": 644,
+            "optimized_rows": 644,
+            "loop_events": {
+              "candidate_hold": 21,
+              "candidate_queued": 92,
+              "reject_correction": 75,
+              "geometry_hold": 4,
+              "geometry_verified": 4,
+              "accepted": 4,
+              "reject_geometry": 9
+            },
+            "accepted_loops": 4,
+            "pending_candidates": [],
+            "file_fingerprints": {
+              "times.txt": [
+                12078,
+                1789794825707441926
+              ],
+              "odom_poses.txt": [
+                75205,
+                1789794825760441975
+              ],
+              "optimized_poses.txt": [
+                76200,
+                1789794825759441974
+              ],
+              "loop_events.csv": [
+                14691,
+                1789794820039436761
+              ]
+            }
+          },
+          "observed": {
+            "path_messages": 10075,
+            "keyframes": 644,
+            "accepted_loop_count_topic": 4,
+            "last_path_stamp_ns": 1772317421599980032,
+            "last_path_wall": 51208.024543316
+          }
+        },
+        "save_message": "Saved 2149746 points to /home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/d1max_map_20260919_131415.pcd",
+        "pgo": {
+          "keyframes": 644,
+          "odometry_rows": 644,
+          "optimized_rows": 644,
+          "loop_events": {
+            "candidate_hold": 21,
+            "candidate_queued": 92,
+            "reject_correction": 75,
+            "geometry_hold": 4,
+            "geometry_verified": 4,
+            "accepted": 4,
+            "reject_geometry": 9
+          },
+          "accepted_loops": 4,
+          "pending_candidates": [],
+          "file_fingerprints": {
+            "times.txt": [
+              12078,
+              1789794825707441926
+            ],
+            "odom_poses.txt": [
+              75205,
+              1789794825760441975
+            ],
+            "optimized_poses.txt": [
+              76200,
+              1789794825759441974
+            ],
+            "loop_events.csv": [
+              14691,
+              1789794820039436761
+            ]
+          },
+          "map": {
+            "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_map.pcd",
+            "points": 1127596,
+            "size_bytes": 18041728
+          },
+          "loop_closure_succeeded": true,
+          "note": "A saved optimized map and completed replay do not imply an accepted or geometrically validated loop."
+        },
+        "accepted_loops": 4,
+        "loop_closure_succeeded": true,
+        "segment_only": false,
+        "poses": 9050,
+        "sensor_seconds": 982.7000050544739,
+        "bag_coverage_fraction": 0.9976757740668027,
+        "endpoint_delta_xyz": [
+          0.04201090310551774,
+          -0.8188348766546084,
+          -4.392741360651715
+        ],
+        "frontend_map": {
+          "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/d1max_map_20260919_131415.pcd",
+          "points": 2149746,
+          "size_bytes": 34396128
+        },
+        "map_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/d1max_map_20260919_131415.pcd",
+        "pgo_observed": {
+          "path_messages": 10078,
+          "keyframes": 644,
+          "accepted_loop_count_topic": 4,
+          "last_path_stamp_ns": 1772317421599980032,
+          "last_path_wall": 51208.324236008
+        },
+        "pgo_final_state": {
+          "keyframes": 644,
+          "odometry_rows": 644,
+          "optimized_rows": 644,
+          "loop_events": {
+            "candidate_hold": 21,
+            "candidate_queued": 92,
+            "reject_correction": 75,
+            "geometry_hold": 4,
+            "geometry_verified": 4,
+            "accepted": 4,
+            "reject_geometry": 9
+          },
+          "accepted_loops": 4,
+          "pending_candidates": [],
+          "file_fingerprints": {
+            "times.txt": [
+              12078,
+              1789794825707441926
+            ],
+            "odom_poses.txt": [
+              75205,
+              1789794825760441975
+            ],
+            "optimized_poses.txt": [
+              76200,
+              1789794825759441974
+            ],
+            "loop_events.csv": [
+              14691,
+              1789794820039436761
+            ]
+          }
+        },
+        "pgo_map_exists": true,
+        "legacy_logs_restored": [
+          "/home/dndx/d1max_nav_ws/src/faster_lio/Log/traj.txt",
+          "/home/dndx/d1max_nav_ws/src/faster_lio/Log/imu_.txt"
+        ],
+        "observed_counts": {
+          "/imu_driver/imu_central": 130719,
+          "/d1max/slam/imu": 171884,
+          "/front_lidar": 9364,
+          "/rear_lidar": 9325,
+          "/d1max/slam/points": 9069,
+          "/d1max/faster_lio/odometry": 9050,
+          "/d1max/faster_lio/cloud_registered": 9050,
+          "/d1max/faster_lio/cloud_registered_body": 9050
+        },
+        "last_observed_stamp_ns": {
+          "/imu_driver/imu_central": 1772317426325128225,
+          "/d1max/slam/imu": 1772317426312128225,
+          "/front_lidar": 1772317426099988937,
+          "/rear_lidar": 1772317426099994898,
+          "/d1max/slam/points": 1772317426099988992,
+          "/d1max/faster_lio/odometry": 1772317426199983104,
+          "/d1max/faster_lio/cloud_registered": 1772317426199983104,
+          "/d1max/faster_lio/cloud_registered_body": 1772317426199983104
+        },
+        "observed_count_caveat": "Observer best-effort receipt counts, not proof of algorithm consumption; compare frontend_state.csv.",
+        "child_returncodes": {
+          "router": null,
+          "central_adapter": 1,
+          "frontend": 0,
+          "pgo": 0,
+          "rviz": 0,
+          "playback": 0
+        },
+        "source_unchanged": true
+      }
+    }
+  },
+  "ground_truth_accuracy_validated": false,
+  "whole_site_floor_flatness_validated": false,
+  "central_imu_extrinsics_status": "Experimental rotation/time candidate and nominal lever arm; no surveyed factory calibration claim. Historical test runs may use front IMU instead; inspect manifest.",
+  "interpretation": [
+    "Endpoint delta is end minus start of the named trajectory, not an absolute error; physical start/end may differ.",
+    "Compare raw and optimized selected-keyframe endpoints, not the final frontend frame against an earlier last keyframe.",
+    "Smaller endpoint separation alone cannot establish whole-site floor flatness or correct local geometry.",
+    "Global point-cloud height bounds include walls/objects/terrain and are not floor-flatness metrics.",
+    "PGO changes keyframe poses and reconstructs a global map; it does not fix the frontend IMU estimate or rewrite its trajectory.",
+    "Raw full map and optimized keyframe map use different selection/downsampling, so point counts are not a quality score.",
+    "Historical Sept17 comparisons are not a controlled same-software/same-IMU experiment."
+  ],
+  "visualization": {
+    "coordinates_modified": false,
+    "world_frames_aligned": false,
+    "same_xy_z_axes_between_map_panels": true,
+    "point_sampling": "Deterministic stride for display; reported map counts/bounds use all points",
+    "side_projection_unit_xy": [
+      0.9985430013268106,
+      0.05396178741707207
+    ],
+    "side_projection_origin_xy_m": [
+      -0.000548146,
+      -0.000512312
+    ],
+    "shared_z_color_limits_m": [
+      -4.797541904449463,
+      10.169454765319825
+    ]
+  },
+  "implementation_evidence": {
+    "exporter": {
+      "path": "/home/dndx/d1max_nav_ws/src/sc_pgo/src/laserPosegraphOptimization.cpp",
+      "resolved_path": "/home/dndx/d1max_nav_ws/src/sc_pgo/src/laserPosegraphOptimization.cpp",
+      "exists": true,
+      "bytes": 58849,
+      "mtime_ns": 1789644850035944405
+    },
+    "exporter_sha256_at_analysis": "db9a81315dea049fb114ce3312012124e7fd32c9e4729ea85bc28bbcf7aab8a4",
+    "source_note": "Inspected source defines export semantics; current source hash alone does not prove historical binary identity.",
+    "kitti_export_functions": "saveOdometryVerticesKITTIformat; saveOptimizedVerticesKITTIformat",
+    "times_writer": "process_pg: pgTimeSaveStream << timeLaser",
+    "accepted_writer": "process_icp: add BetweenFactor, increment accepted_loop_count, logLoopEvent(\"accepted\")"
+  },
+  "same_index_world_translation_difference": {
+    "note": "Coordinate difference in their existing world gauges, not a rigid-aligned error or ground truth.",
+    "norm_m": {
+      "count": 644,
+      "min": 0.0,
+      "median": 2.53695525226543,
+      "max": 4.57855839038618,
+      "mean": 2.1721203674382017,
+      "p05": 0.05167739242639367,
+      "p95": 4.451335214882525
+    },
+    "z_m": {
+      "count": 644,
+      "min": -0.313862,
+      "median": 2.5339169999999998,
+      "max": 4.4467675,
+      "mean": 2.0805211552468945,
+      "p05": -0.21059325000000007,
+      "p95": 4.344679855
+    },
+    "first_last_xyz_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.1385062,
+        -1.081791,
+        4.4467675
+      ]
+    ]
+  },
+  "frontend_keyframe_time_coverage": {
+    "first_keyframe_after_first_frontend_sec": -1.9073486328125e-06,
+    "last_frontend_after_last_keyframe_sec": 4.599999904632568,
+    "note": "Unselected frontend tail frames are excluded from the like-for-like keyframe endpoint comparison."
+  }
+}

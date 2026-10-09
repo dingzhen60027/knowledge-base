@@ -1,0 +1,73 @@
+{
+  "bag": "/home/dndx/d1max_nav_ws/bags/slam_raw_20260917_171716_fe8f38",
+  "output": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh",
+  "rmw": "rmw_zenoh_cpp",
+  "domain": 219,
+  "topics": [
+    "/front_lidar",
+    "/rear_lidar",
+    "/imu_driver/imu_central"
+  ],
+  "rate": 1.0,
+  "requested_duration": 0.0,
+  "duration_sec": 984.989342829,
+  "raw_bag_unmodified": true,
+  "duplicate_imu_values_preserved": true,
+  "loop_closure_enabled": true,
+  "backend": "faster_lio+sc_pgo",
+  "save_keyframe_scans": false,
+  "pgo_source_config": "/home/dndx/d1max_nav_ws/src/d1max_slam/config/sc_pgo_d1max.yaml",
+  "loop_detection_frequency_override": 15.0,
+  "height_lock_enabled": false,
+  "clock_policy": "No /clock playback; use_sim_time=false. Bag/raw LiDAR stamps remain unchanged; central IMU output stamp adds the configured experimental offset.",
+  "central_timestamp_offset_sec": -0.013,
+  "source_config": "/home/dndx/d1max_nav_ws/src/d1max_slam/config/faster_lio_airy96.yaml",
+  "source_stats": {
+    "slam_raw_20260917_171716_fe8f38_0.db3": [
+      17181650944,
+      1789637038618603465
+    ],
+    "slam_raw_20260917_171716_fe8f38_1.db3": [
+      17181405184,
+      1789637443850637578
+    ],
+    "slam_raw_20260917_171716_fe8f38_2.db3": [
+      7718453248,
+      1789637623580192004
+    ]
+  },
+  "expected_raw_counts": {
+    "/front_lidar": 9364,
+    "/rear_lidar": 9325,
+    "/imu_driver/imu_central": 192971
+  },
+  "binary_sha256": {
+    "/home/dndx/d1max_nav_ws/build/faster_lio/libfaster_lio_lib.so": "4cb60b8e6326930d4f832b40035ca5107a45954cb92671f2382b78dea8f7cd6d",
+    "/home/dndx/d1max_nav_ws/install/faster_lio/lib/libfaster_lio_lib.so": "8f7a66b4a545a24fce4ba36cbc9764e16e8a2b9f5361833a376738831111f069",
+    "/home/dndx/d1max_nav_ws/install/faster_lio/lib/faster_lio/run_mapping_online": "90005feb780bdf79c20f8e1090e59c834ddc42ed96891e9ce9f4543876bdd762",
+    "/home/dndx/d1max_nav_ws/install/d1max_slam/lib/d1max_slam/dual_lidar_adapter": "313b716263fbcee91741307dfb21f5fda9b725cb775c6289b716fe6a0ce363ec",
+    "/home/dndx/d1max_nav_ws/install/d1max_slam/lib/d1max_slam/map_capture_node": "3781b42012c269d2be26d7afad5d584c61f1d5f6ad82e5c35ee164cb2dcf2b80",
+    "/home/dndx/d1max_nav_ws/install/sc_pgo/lib/sc_pgo/alaserPGO": "24a35b96bd8aa7e106926206377350c275f99a7b5cb5fc6f81fd6b324f553306"
+  },
+  "snapshot_sha256": {
+    "frontend.yaml": "61611dac31320ba83cfc8004160e5bc2c10dd6136291e693de41c6f1a6d578e5",
+    "dual_lidar.yaml": "5e6d27004f59e6b44fd8b2c0a1e757f22984c2940305df4b826c6811c3019b71",
+    "zenoh-router-local.json5": "6fa4ac4494f448802a5c31c61973e583df25c7ae3019bf019282cf2127d0d2f0",
+    "calibration.yaml": "bb60c7f62193b68279a4bd080357ef012224c36dc36f5621126aa396724806bd",
+    "zenoh-local.json5": "b5bc1eeff6d529ced21183c28a2dd9710a753c4aa5a05296703547e574c15111",
+    "sc_pgo_source.yaml": "256926b076db3f9b0eded3c266d3981f9433db3b127a17f8de36042fcdd1eb45",
+    "frontend_source.yaml": "699bdea74457c1a418eec98ced6a1cb8e8fcebdf6a01692ecb9177660e7bc544",
+    "mapping.launch.py": "c55270a9301c920250307d3240bf8a4ef701d0ad169a2ab0dd6322462865bae1",
+    "sc_pgo.yaml": "a678697fa85b48b80f174edfdf146f636ac30c39e2698388414356028fdcdd27",
+    "run.sh": "5ea80cae2567926cb9fa86238f65e73342e87a5772bf70779a1c6bde6cf49f71",
+    "view.rviz": "efd9fae15d18bf2a35d01f20791e8a3c329c8d71cfcfadac9231bfa35c16f9af",
+    "run.py": "7eff46f28bfa54a3250df55adde987eb517d43c1a2d3f8e350d830aeb84340f2",
+    "central_imu_adapter.py": "4dd0e30009326223398e3ba9a21079b410b5aa210329bf67552343ee6165a6d8",
+    "source_metadata.yaml": "a961da8fcfc05ddf55e0c53057ec10eea9b074cfce14de7a3fca17d85a8b5c8b",
+    "calibration/estimate_gyro_rotation.py": "b2afc4ae6de8e3e5d95f7a67b53437c6441aa522d6338bc34f40989e3f39e176",
+    "calibration/calibration_notes.md": "d7e0a54837561a3817987d0cd7854dd56e94502fe9f8ab6cc06d3d639a3d6b6a",
+    "calibration/gyro_rotation_candidate.json": "d516d16ad74c4d93a982dbba39108e0c2f05509eb4e6b8252f3b4406f83da650"
+  },
+  "trajectory_policy": "frontend_odometry.tum is authoritative; native gflags trajectory argument is not parsed by this binary; legacy logs are backed up and copied after shutdown.",
+  "rviz_enabled": true
+}

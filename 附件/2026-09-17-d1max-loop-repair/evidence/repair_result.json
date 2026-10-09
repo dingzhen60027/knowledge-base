@@ -1,0 +1,33 @@
+{
+  "stage": "complete",
+  "fix_verified": "large_loop_closure_on_saved_real_body_keyframes",
+  "original_bag": "/home/dndx/d1max_nav_ws/bags/slam_raw_20260917_171716_fe8f38",
+  "raw_bag_unmodified": true,
+  "rmw": "rmw_zenoh_cpp",
+  "lidars": ["front", "rear"],
+  "extrinsics_changed": false,
+  "full_frontend_replay_complete": true,
+  "final_backend_validation": "all_647_saved_keyframes_reprocessed_with_final_binary",
+  "final_backend_full_realtime_replay_verified": false,
+  "ground_truth_absolute_accuracy_verified": false,
+  "optimized_map": "sc_pgo_final/optimized_map.pcd",
+  "points": 1118515,
+  "accepted_constraints": 6,
+  "main_closing_pair": [0, 642],
+  "geometry_report": "geometry_validation_final.json",
+  "frontend_closure_translation_error_m": 4.431253845854934,
+  "optimized_closure_translation_error_m": 0.14680059967329795,
+  "frontend_endpoint_z_difference_m": -4.1888907917,
+  "optimized_endpoint_z_difference_m": 0.0541002083,
+  "optimized_closure_rotation_error_deg": 2.3136262335285687,
+  "geometry_overlap": 0.8033435987681479,
+  "geometry_inlier_rmse_m": 0.10821550170492258,
+  "synthetic_regression": "sc_pgo_final/synthetic_test_result.json",
+  "ctest_targets_passed": 4,
+  "limitations": [
+    "Frontend odometry still accumulates drift; corrected output is the PGO map.",
+    "Residual floor tilt remains; the map was not forcibly flattened.",
+    "Internal closure consistency is not surveyed absolute map accuracy.",
+    "Robot SDK, live robot operation and multi-floor ambiguity were not exercised."
+  ]
+}

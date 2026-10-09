@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-23T02:08:56.143200+00:00",
+  "status": "complete",
+  "backend": "pct-official-equations-numpy-scipy-cpu",
+  "upstream_commit": "35cd73fd82bcd51bc538429294af7646b2a09815",
+  "upstream_reference_sha256": {
+    "tomography/scripts/tomography.py": "51f1c7ec78510db15ad29ee8955dce30d70c821276e89c04be1ee9cd706c66e8",
+    "tomography/scripts/tomogram.py": "d97a86da9aabd0bf6f87eeec2ea75ab3715f531af4cf9c874680090b1150e13e",
+    "tomography/scripts/kernels.py": "a3e9ba14964126406673b43c3151b642cf5498cd2ea223cf7f452c7a813bed3e",
+    "tomography/config/scene_building.py": "2b4d407cf2f4cccb7b8b934ad9dc9faa769d790ba7be7a4d56e9c17d2794d07e",
+    "tomography/config/scene_spiral.py": "42850944fbe2f80f05091f92e51b85c3d7756127e08b0302c173b3a8b7fbe139",
+    "tomography/config/scene_plaza.py": "0a7f7a6a7767660c32e5d4e9fff017c2f1f259333bbd759b19c32d465a0d14eb"
+  },
+  "source_pcd": "/home/dndx/\u667a\u5143\u56db\u8db3\u673a\u5668\u4ebaD1 Max\u4e8c\u6b21\u5f00\u53d1\u6587\u6863\u8d44\u6599\u5305v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/processed_map.pcd",
+  "source_sha256": "8ea5a159ba3f780b5eea6189e8327a9bb653024cadbf6fbe82475aeb70f9a30a",
+  "source_unchanged": true,
+  "config_sha256": "57a2625cc9b63d7c1ef20315be1be164d0d0a9041e4eda1da500ef23c3b0c1d4",
+  "canonical_config_sha256": "25b2c2e23e37edc6f225223ca24136980cbe266de42ba1b92a6d7812f8325c2d",
+  "source_points": 679006,
+  "used_points": 679006,
+  "used_bounds_min": [
+    -79.9194564819336,
+    -35.02197265625,
+    -0.07999158650636673
+  ],
+  "used_bounds_max": [
+    2.495889663696289,
+    47.077392578125,
+    3.284169912338257
+  ],
+  "preprocessing": [
+    {
+      "stage": "loaded",
+      "points": 679006
+    },
+    {
+      "stage": "finite_xyz",
+      "points": 679006
+    },
+    {
+      "stage": "explicit_roi",
+      "enabled": false,
+      "points": 679006
+    },
+    {
+      "stage": "fine_voxel_average",
+      "enabled": false,
+      "points": 679006
+    },
+    {
+      "stage": "isolated_point_filter",
+      "enabled": false,
+      "points": 679006
+    }
+  ],
+  "config": {
+    "output_directory": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923",
+    "vendor_root": "/home/dndx/d1max_nav_ws/src/pct_planner_vendor",
+    "preprocessing": {
+      "roi": null,
+      "voxel_size_m": 0.0,
+      "radius_outlier": {
+        "enabled": false,
+        "radius_m": 0.15,
+        "minimum_neighbors": 3
+      }
+    },
+    "pct": {
+      "resolution": 0.2,
+      "slice_dh": 0.5,
+      "ground_height": -0.35,
+      "simplify_layers": true,
+      "limits": {
+        "max_axis_cells": 2000,
+        "max_layers": 128,
+        "max_total_cells": 25000000,
+        "max_working_bytes": 2500000000
+      },
+      "traversability": {
+        "kernel_size": 7,
+        "interval_min": 0.55,
+        "interval_free": 0.7,
+        "slope_max_rad": 0.4,
+        "step_max": 0.17,
+        "standable_ratio": 0.2,
+        "cost_barrier": 50.0,
+        "safe_margin": 0.2,
+        "inflation": 0.2
+      }
+    },
+    "export": {
+      "traversable_pcd": true
+    },
+    "notes": [
+      "Scene-specific flat-floor derivative; original source retained, no rigid TF to localization map.",
+      "Actual observed floor XY support only; no synthetic floor or trajectory-tube clearing.",
+      "PCT equations and compact inflation parameters unchanged; first cut is 0.15m above conditioned floor.",
+      "Offline global planning only; no robot, controller, SDK or active-map changes."
+    ],
+    "schema_version": 1,
+    "source_pcd": "/home/dndx/\u667a\u5143\u56db\u8db3\u673a\u5668\u4ebaD1 Max\u4e8c\u6b21\u5f00\u53d1\u6587\u6863\u8d44\u6599\u5305v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/processed_map.pcd",
+    "frame_id": "d1max_flat_floor_planning",
+    "source_processing_manifest": "/home/dndx/\u667a\u5143\u56db\u8db3\u673a\u5668\u4ebaD1 Max\u4e8c\u6b21\u5f00\u53d1\u6587\u6863\u8d44\u6599\u5305v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/manifest.json"
+  },
+  "output_directory": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923",
+  "data_shape": [
+    5,
+    3,
+    417,
+    415
+  ],
+  "data_dtype": "float32",
+  "tensor_channels": [
+    "inflated_cost",
+    "cost_difference_x",
+    "cost_difference_y",
+    "input_derived_ground_z",
+    "input_derived_ceiling_z"
+  ],
+  "frame_id": "d1max_flat_floor_planning",
+  "minimum_headroom_m": 0.55,
+  "preview_traversable_points": 29934,
+  "statistics": {
+    "initial_shape": [
+      8,
+      417,
+      415
+    ],
+    "total_cells": 1384440,
+    "estimated_working_bytes": 154211584,
+    "selected_source_layers": [
+      0,
+      4,
+      6
+    ],
+    "selected_slice_heights_m": [
+      0.15000000000000002,
+      2.15,
+      3.15
+    ],
+    "raw_traversability": [
+      {
+        "layer": 0,
+        "measured_ground_cells": 20435,
+        "measured_ground_and_ceiling_cells": 20366,
+        "unobserved_above_supported_cells": 69,
+        "traversable_cells": 16522,
+        "components_4_connected": 12,
+        "largest_component_cells": 16510,
+        "cost_percentiles_on_support": [
+          0.0,
+          0.0,
+          0.06654980778694153,
+          9.31944990158081,
+          50.0
+        ]
+      },
+      {
+        "layer": 1,
+        "measured_ground_cells": 20678,
+        "measured_ground_and_ceiling_cells": 20549,
+        "unobserved_above_supported_cells": 129,
+        "traversable_cells": 14453,
+        "components_4_connected": 13,
+        "largest_component_cells": 14438,
+        "cost_percentiles_on_support": [
+          0.0,
+          0.0,
+          0.12376026809215546,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 2,
+        "measured_ground_cells": 20994,
+        "measured_ground_and_ceiling_cells": 20814,
+        "unobserved_above_supported_cells": 180,
+        "traversable_cells": 12677,
+        "components_4_connected": 51,
+        "largest_component_cells": 12528,
+        "cost_percentiles_on_support": [
+          0.0,
+          0.0,
+          2.0020893812179565,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 3,
+        "measured_ground_cells": 21129,
+        "measured_ground_and_ceiling_cells": 20863,
+        "unobserved_above_supported_cells": 266,
+        "traversable_cells": 12451,
+        "components_4_connected": 38,
+        "largest_component_cells": 6431,
+        "cost_percentiles_on_support": [
+          0.0,
+          0.0,
+          2.1117799282073975,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 4,
+        "measured_ground_cells": 21214,
+        "measured_ground_and_ceiling_cells": 20643,
+        "unobserved_above_supported_cells": 571,
+        "traversable_cells": 11625,
+        "components_4_connected": 73,
+        "largest_component_cells": 6156,
+        "cost_percentiles_on_support": [
+          0.0,
+          0.0,
+          3.7768598794937134,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 5,
+        "measured_ground_cells": 21387,
+        "measured_ground_and_ceiling_cells": 8556,
+        "unobserved_above_supported_cells": 12831,
+        "traversable_cells": 12965,
+        "components_4_connected": 87,
+        "largest_component_cells": 4905,
+        "cost_percentiles_on_support": [
+          0.0,
+          0.7218500673770905,
+          7.710289001464844,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 6,
+        "measured_ground_cells": 21478,
+        "measured_ground_and_ceiling_cells": 9,
+        "unobserved_above_supported_cells": 21469,
+        "traversable_cells": 17739,
+        "components_4_connected": 24,
+        "largest_component_cells": 5038,
+        "cost_percentiles_on_support": [
+          0.0030338559299707413,
+          0.7098759710788727,
+          4.801718473434448,
+          11.694440603256226,
+          50.0
+        ]
+      },
+      {
+        "layer": 7,
+        "measured_ground_cells": 21479,
+        "measured_ground_and_ceiling_cells": 0,
+        "unobserved_above_supported_cells": 21479,
+        "traversable_cells": 17738,
+        "components_4_connected": 24,
+        "largest_component_cells": 5038,
+        "cost_percentiles_on_support": [
+          0.0030338559299707413,
+          0.7099085450172424,
+          4.801821231842041,
+          11.70065975189209,
+          50.0
+        ]
+      }
+    ],
+    "inflated_traversability": [
+      {
+        "layer": 0,
+        "measured_ground_cells": 20435,
+        "measured_ground_and_ceiling_cells": 20366,
+        "unobserved_above_supported_cells": 69,
+        "traversable_cells": 11728,
+        "components_4_connected": 4,
+        "largest_component_cells": 11725,
+        "cost_percentiles_on_support": [
+          0.0,
+          1.5026097297668457,
+          8.065650939941406,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 1,
+        "measured_ground_cells": 20678,
+        "measured_ground_and_ceiling_cells": 20549,
+        "unobserved_above_supported_cells": 129,
+        "traversable_cells": 9786,
+        "components_4_connected": 3,
+        "largest_component_cells": 9784,
+        "cost_percentiles_on_support": [
+          0.0,
+          2.3065168261528015,
+          25.0,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 2,
+        "measured_ground_cells": 20994,
+        "measured_ground_and_ceiling_cells": 20814,
+        "unobserved_above_supported_cells": 180,
+        "traversable_cells": 7368,
+        "components_4_connected": 47,
+        "largest_component_cells": 2178,
+        "cost_percentiles_on_support": [
+          0.0,
+          4.35422420501709,
+          50.0,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 3,
+        "measured_ground_cells": 21129,
+        "measured_ground_and_ceiling_cells": 20863,
+        "unobserved_above_supported_cells": 266,
+        "traversable_cells": 7179,
+        "components_4_connected": 46,
+        "largest_component_cells": 1906,
+        "cost_percentiles_on_support": [
+          0.0,
+          4.478138446807861,
+          50.0,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 4,
+        "measured_ground_cells": 21214,
+        "measured_ground_and_ceiling_cells": 20643,
+        "unobserved_above_supported_cells": 571,
+        "traversable_cells": 6182,
+        "components_4_connected": 74,
+        "largest_component_cells": 1671,
+        "cost_percentiles_on_support": [
+          0.0,
+          19.09830093383789,
+          50.0,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 5,
+        "measured_ground_cells": 21387,
+        "measured_ground_and_ceiling_cells": 8556,
+        "unobserved_above_supported_cells": 12831,
+        "traversable_cells": 7935,
+        "components_4_connected": 54,
+        "largest_component_cells": 3516,
+        "cost_percentiles_on_support": [
+          0.0,
+          11.300765991210938,
+          50.0,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 6,
+        "measured_ground_cells": 21478,
+        "measured_ground_and_ceiling_cells": 9,
+        "unobserved_above_supported_cells": 21469,
+        "traversable_cells": 12024,
+        "components_4_connected": 19,
+        "largest_component_cells": 3510,
+        "cost_percentiles_on_support": [
+          0.11516457051038742,
+          8.296555519104004,
+          19.09830093383789,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 7,
+        "measured_ground_cells": 21479,
+        "measured_ground_and_ceiling_cells": 0,
+        "unobserved_above_supported_cells": 21479,
+        "traversable_cells": 12024,
+        "components_4_connected": 19,
+        "largest_component_cells": 3510,
+        "cost_percentiles_on_support": [
+          0.11516457051038742,
+          8.296555519104004,
+          19.09830093383789,
+          50.0,
+          50.0
+        ]
+      }
+    ],
+    "selected_traversability": [
+      {
+        "layer": 0,
+        "measured_ground_cells": 20435,
+        "measured_ground_and_ceiling_cells": 20366,
+        "unobserved_above_supported_cells": 69,
+        "traversable_cells": 11728,
+        "components_4_connected": 4,
+        "largest_component_cells": 11725,
+        "cost_percentiles_on_support": [
+          0.0,
+          1.5026097297668457,
+          8.065650939941406,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 4,
+        "measured_ground_cells": 21214,
+        "measured_ground_and_ceiling_cells": 20643,
+        "unobserved_above_supported_cells": 571,
+        "traversable_cells": 6182,
+        "components_4_connected": 74,
+        "largest_component_cells": 1671,
+        "cost_percentiles_on_support": [
+          0.0,
+          19.09830093383789,
+          50.0,
+          50.0,
+          50.0
+        ]
+      },
+      {
+        "layer": 6,
+        "measured_ground_cells": 21478,
+        "measured_ground_and_ceiling_cells": 9,
+        "unobserved_above_supported_cells": 21469,
+        "traversable_cells": 12024,
+        "components_4_connected": 19,
+        "largest_component_cells": 3510,
+        "cost_percentiles_on_support": [
+          0.11516457051038742,
+          8.296555519104004,
+          19.09830093383789,
+          50.0,
+          50.0
+        ]
+      }
+    ],
+    "seconds": {
+      "height_layers": 0.1995854480046546,
+      "traversability_and_stats": 0.05865050399734173,
+      "inflation": 0.030389662002562545,
+      "simplification_and_export_tensor": 0.004737415001727641
+    }
+  },
+  "hardware": {
+    "nvidia_smi_available": false,
+    "cupy_installed": false,
+    "cuda_executed_for_build": false
+  },
+  "files": {
+    "tomogram.pickle": {
+      "sha256": "fb84591c72bd453f109d7d33ad922802540e598023f04f4217a7dfb77a8afce6",
+      "bytes": 10385091
+    },
+    "tomogram.npz": {
+      "sha256": "fb6897abb9624e493bea6f7c6ac723c20627bcd51f0dc97af9e320c6aab59433",
+      "bytes": 678300
+    },
+    "pipeline.yaml": {
+      "sha256": "57a2625cc9b63d7c1ef20315be1be164d0d0a9041e4eda1da500ef23c3b0c1d4",
+      "bytes": 1538
+    },
+    "traversable.pcd": {
+      "sha256": "542965dd589ba59cf2797b23aab3485c73f2a47f60ce5699f609ef4bfdb0e569",
+      "bytes": 479126
+    }
+  },
+  "elapsed_seconds": 0.48539946699747816,
+  "differences_from_upstream_runtime": [
+    "NumPy/SciPy CPU implementation of the checked upstream equations; no ROS1/CuPy/CUDA build executed.",
+    "Validated against independent scalar kernel tests, not a GPU numerical-equivalence run on this machine.",
+    "Finite-value checks, optional explicit conservative preprocessing and bounded allocations added.",
+    "NPZ and trusted-local pickle retain float32; upstream export defaults to float16.",
+    "Explicit selected_source_layers, source/config hashes and per-stage diagnostics added.",
+    "CUDA point rounding follows half-away-from-zero; upstream Python query rounding uses ties-to-even.",
+    "A single flat-height input is supported as one slice instead of allocating zero upstream slices."
+  ],
+  "limitations": [
+    "Offline static geometry only; D1 body/gait/braking envelope has not been physically certified.",
+    "No ceiling return is unobserved_above, not verified open sky; raw PCD does not prove free volume.",
+    "Unmeasured ground remains NaN and cannot be treated as traversable even if its raw cost is low.",
+    "Input already has non-rigid Z conditioning in a dedicated planning frame; surface heights are input-derived, not original measured ground truth.",
+    "Single-floor task may retain several geometric slices; roof/table surfaces require operator floor selection.",
+    "Conditioned geometry is planning-only, not a localization reference or original 3D geometry; a single rigid TF cannot undo a spatially varying Z shift."
+  ],
+  "source_processing": {
+    "manifest_path": "/home/dndx/\u667a\u5143\u56db\u8db3\u673a\u5668\u4ebaD1 Max\u4e8c\u6b21\u5f00\u53d1\u6587\u6863\u8d44\u6599\u5305v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/manifest.json",
+    "manifest_sha256": "5c5471436c17d27763203216b4f23454af65147cec815508f70e1cd98a9c5a39",
+    "processing_schema": "d1max.flat_floor_planning/v1",
+    "planning_only": true,
+    "geometry_operation": "z_column_shift_from_trajectory_supported_floor",
+    "frame_id": "d1max_flat_floor_planning",
+    "output_path": "/home/dndx/\u667a\u5143\u56db\u8db3\u673a\u5668\u4ebaD1 Max\u4e8c\u6b21\u5f00\u53d1\u6587\u6863\u8d44\u6599\u5305v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/processed_map.pcd",
+    "output_sha256": "8ea5a159ba3f780b5eea6189e8327a9bb653024cadbf6fbe82475aeb70f9a30a",
+    "original_source_pcd": "/home/dndx/\u667a\u5143\u56db\u8db3\u673a\u5668\u4ebaD1 Max\u4e8c\u6b21\u5f00\u53d1\u6587\u6863\u8d44\u6599\u5305v0.1.0/d1max_ros2/map_manager/data/processed/20260922_164231_sc-pgo-0919-structure-v1_572b51/processed_map.pcd",
+    "original_source_sha256": "9acb981006da500e927be60763656c3fe29bfcef8081f7bdcacce70846694b9c"
+  },
+  "planning_only": true,
+  "processing_schema": "d1max.flat_floor_planning/v1",
+  "geometry_operation": "z_column_shift_from_trajectory_supported_floor",
+  "ground_semantics": "input_derived_surface",
+  "ceiling_semantics": "input_derived_upper_surface_or_nan_unobserved"
+}

@@ -1,0 +1,5571 @@
+{
+  "tomogram": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v3_20260922/tomogram.npz",
+  "source0_components_8": 8,
+  "source0_components_4": 30,
+  "source0_component_sizes_8": [
+    163219,
+    4458,
+    6,
+    1638,
+    519,
+    2,
+    3204,
+    2,
+    7
+  ],
+  "optimistic_low_surface_union_components_8": 7,
+  "breaks": [
+    {
+      "id": "B1",
+      "start_xy": [
+        -18.78,
+        34.7
+      ],
+      "end_xy": [
+        -19.57,
+        34.31
+      ],
+      "optimized_pose_indices": [
+        210,
+        212
+      ],
+      "source0_component_ids": [
+        6,
+        4
+      ],
+      "approximate_centerline_gap_m": 0.88,
+      "optimistic_all_low_surfaces_endpoint_components": [
+        4,
+        4
+      ],
+      "still_disconnected_even_optimistic_union": false,
+      "region_halfwidth_m": 0.8,
+      "region_known_surface_cells": 87,
+      "raw_blocked_seed_cells": 5,
+      "original_floor_count_at_seeds_min_median_max": [
+        4.0,
+        9.0,
+        13.0
+      ],
+      "seed_ceilings_min_median_max": [
+        0.15679098665714264,
+        0.2648369073867798,
+        0.37382760643959045
+      ],
+      "seed_records": [
+        {
+          "world_xy": [
+            -19.911784362792968,
+            35.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.7948571822142217,
+          "cell_ij": [
+            302,
+            352
+          ],
+          "ground": 0.1439231038093567,
+          "ceiling": 0.2648369073867798,
+          "original_source_floor_support_points": 4,
+          "conditioned_floor_points_within_5_5cm": 4,
+          "ceiling_point_xyz": [
+            -19.987430572509766,
+            35.11445617675781,
+            0.2648369073867798
+          ],
+          "ceiling_point_source_index": 68035,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -19.511784362792966,
+            35.2277099609375
+          ],
+          "distance_to_reference_segment_m": 0.7971272727415616,
+          "cell_ij": [
+            304,
+            353
+          ],
+          "ground": 0.05703667551279068,
+          "ceiling": 0.341086208820343,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -19.50811195373535,
+            35.237098693847656,
+            0.341086208820343
+          ],
+          "ceiling_point_source_index": 80759,
+          "local_component_id": 12
+        },
+        {
+          "world_xy": [
+            -19.111784362792967,
+            34.427709960937506
+          ],
+          "distance_to_reference_segment_m": 0.09728839503041115,
+          "cell_ij": [
+            306,
+            349
+          ],
+          "ground": 0.13308687508106232,
+          "ceiling": 0.15679098665714264,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -19.046646118164062,
+            34.361412048339844,
+            0.15679098665714264
+          ],
+          "ceiling_point_source_index": 57185,
+          "local_component_id": 9
+        },
+        {
+          "world_xy": [
+            -19.111784362792967,
+            35.427709960937506
+          ],
+          "distance_to_reference_segment_m": 0.7997766254658838,
+          "cell_ij": [
+            306,
+            354
+          ],
+          "ground": 0.056883443146944046,
+          "ceiling": 0.37382760643959045,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -19.202062606811523,
+            35.429378509521484,
+            0.37382760643959045
+          ],
+          "ceiling_point_source_index": 96229,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -18.511784362792966,
+            34.2277099609375
+          ],
+          "distance_to_reference_segment_m": 0.5431367314406509,
+          "cell_ij": [
+            309,
+            348
+          ],
+          "ground": 0.1490374356508255,
+          "ceiling": 0.1894804686307907,
+          "original_source_floor_support_points": 13,
+          "conditioned_floor_points_within_5_5cm": 13,
+          "ceiling_point_xyz": [
+            -18.450191497802734,
+            34.16813278198242,
+            0.1894804686307907
+          ],
+          "ceiling_point_source_index": 67895,
+          "local_component_id": 9
+        }
+      ],
+      "components": [
+        {
+          "component_id_local": 0,
+          "points": 1656,
+          "seed_cells": 2,
+          "center_xyz": [
+            -19.574981888711164,
+            35.36016927479546,
+            0.9693836112133258
+          ],
+          "minimum_xyz": [
+            -20.88541030883789,
+            34.57994079589844,
+            0.10040271282196045
+          ],
+          "maximum_xyz": [
+            -18.29871368408203,
+            36.08936309814453,
+            1.7987176179885864
+          ],
+          "extent_xyz": [
+            2.5866966247558594,
+            1.5094223022460938,
+            1.698314905166626
+          ],
+          "touches_analysis_crop_or_tall_band": true,
+          "covariance_eigenvalues": [
+            0.0013147735874118305,
+            0.23681331834214647,
+            0.7142504789068576
+          ],
+          "interpretation": "preserve: tall/large/cropped structure"
+        },
+        {
+          "component_id_local": 9,
+          "points": 17,
+          "seed_cells": 2,
+          "center_xyz": [
+            -18.77197041231043,
+            34.176710689769074,
+            0.13223266075639165
+          ],
+          "minimum_xyz": [
+            -19.046646118164062,
+            33.98945617675781,
+            0.11215254664421082
+          ],
+          "maximum_xyz": [
+            -18.450191497802734,
+            34.40454864501953,
+            0.1894804686307907
+          ],
+          "extent_xyz": [
+            0.5964546203613281,
+            0.41509246826171875,
+            0.0773279219865799
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.00020237487844186524,
+            0.005639687328800502,
+            0.051834434969162374
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 12,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -19.50811195373535,
+            35.237098693847656,
+            0.341086208820343
+          ],
+          "minimum_xyz": [
+            -19.50811195373535,
+            35.237098693847656,
+            0.341086208820343
+          ],
+          "maximum_xyz": [
+            -19.50811195373535,
+            35.237098693847656,
+            0.341086208820343
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "start_xy": [
+        -34.79,
+        25.97
+      ],
+      "end_xy": [
+        -35.64,
+        25.52
+      ],
+      "optimized_pose_indices": [
+        245,
+        247
+      ],
+      "source0_component_ids": [
+        4,
+        3
+      ],
+      "approximate_centerline_gap_m": 0.96,
+      "optimistic_all_low_surfaces_endpoint_components": [
+        4,
+        3
+      ],
+      "still_disconnected_even_optimistic_union": true,
+      "region_halfwidth_m": 0.8,
+      "region_known_surface_cells": 88,
+      "raw_blocked_seed_cells": 20,
+      "original_floor_count_at_seeds_min_median_max": [
+        4.0,
+        8.0,
+        10.0
+      ],
+      "seed_ceilings_min_median_max": [
+        0.1515444964170456,
+        0.19556929171085358,
+        0.4495784342288971
+      ],
+      "seed_records": [
+        {
+          "world_xy": [
+            -36.31178436279297,
+            25.8277099609375
+          ],
+          "distance_to_reference_segment_m": 0.7389043579200997,
+          "cell_ij": [
+            220,
+            306
+          ],
+          "ground": 0.0,
+          "ceiling": 0.36858850717544556,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -36.40606689453125,
+            25.886058807373047,
+            0.36858850717544556
+          ],
+          "ceiling_point_source_index": 176493,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -36.11178436279297,
+            26.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.693072787960344,
+          "cell_ij": [
+            221,
+            307
+          ],
+          "ground": 0.054084014147520065,
+          "ceiling": 0.23898988962173462,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -36.04695510864258,
+            26.079524993896484,
+            0.23898988962173462
+          ],
+          "ceiling_point_source_index": 116310,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.91178436279297,
+            26.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.575878584680781,
+          "cell_ij": [
+            222,
+            307
+          ],
+          "ground": 0.1419522613286972,
+          "ceiling": 0.2423846274614334,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -35.9530029296875,
+            26.106067657470703,
+            0.2423846274614334
+          ],
+          "ceiling_point_source_index": 116327,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.91178436279297,
+            26.227709960937503
+          ],
+          "distance_to_reference_segment_m": 0.752630077707757,
+          "cell_ij": [
+            222,
+            308
+          ],
+          "ground": 0.125508114695549,
+          "ceiling": 0.16133320331573486,
+          "original_source_floor_support_points": 4,
+          "conditioned_floor_points_within_5_5cm": 4,
+          "ceiling_point_xyz": [
+            -35.853336334228516,
+            26.179161071777344,
+            0.16133320331573486
+          ],
+          "ceiling_point_source_index": 94735,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.71178436279297,
+            26.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.48229495035453523,
+          "cell_ij": [
+            223,
+            307
+          ],
+          "ground": 0.07618623226881027,
+          "ceiling": 0.2218361347913742,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -35.70254135131836,
+            26.08718490600586,
+            0.2218361347913742
+          ],
+          "ceiling_point_source_index": 116329,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.71178436279297,
+            26.227709960937503
+          ],
+          "distance_to_reference_segment_m": 0.6590525336239507,
+          "cell_ij": [
+            223,
+            308
+          ],
+          "ground": 0.14874425530433655,
+          "ceiling": 0.1645963042974472,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -35.714656829833984,
+            26.280887603759766,
+            0.1645963042974472
+          ],
+          "ceiling_point_source_index": 94762,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.511784362792966,
+            25.8277099609375
+          ],
+          "distance_to_reference_segment_m": 0.21195982300131655,
+          "cell_ij": [
+            224,
+            306
+          ],
+          "ground": 0.13856418430805206,
+          "ceiling": 0.24534088373184204,
+          "original_source_floor_support_points": 4,
+          "conditioned_floor_points_within_5_5cm": 4,
+          "ceiling_point_xyz": [
+            -35.509037017822266,
+            25.86859130859375,
+            0.24534088373184204
+          ],
+          "ceiling_point_source_index": 116285,
+          "local_component_id": 5
+        },
+        {
+          "world_xy": [
+            -35.511784362792966,
+            26.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.38871740627072865,
+          "cell_ij": [
+            224,
+            307
+          ],
+          "ground": 0.12301737070083618,
+          "ceiling": 0.15591363608837128,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -35.60916519165039,
+            25.991016387939453,
+            0.15591363608837128
+          ],
+          "ceiling_point_source_index": 94686,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.511784362792966,
+            26.227709960937503
+          ],
+          "distance_to_reference_segment_m": 0.5654749895401441,
+          "cell_ij": [
+            224,
+            308
+          ],
+          "ground": 0.14712151885032654,
+          "ceiling": 0.15496748685836792,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -35.427982330322266,
+            26.14293670654297,
+            0.15496748685836792
+          ],
+          "ceiling_point_source_index": 94719,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.511784362792966,
+            26.427709960937502
+          ],
+          "distance_to_reference_segment_m": 0.7422325728095563,
+          "cell_ij": [
+            224,
+            309
+          ],
+          "ground": 0.10545777529478073,
+          "ceiling": 0.15533983707427979,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -35.5666389465332,
+            26.368541717529297,
+            0.15533983707427979
+          ],
+          "ceiling_point_source_index": 94789,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.31178436279297,
+            24.8277099609375
+          ],
+          "distance_to_reference_segment_m": 0.7661533806571457,
+          "cell_ij": [
+            225,
+            301
+          ],
+          "ground": 0.11946763098239899,
+          "ceiling": 0.1560080498456955,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -35.29591369628906,
+            24.77659034729004,
+            0.1560080498456955
+          ],
+          "ceiling_point_source_index": 94481,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -35.31178436279297,
+            25.8277099609375
+          ],
+          "distance_to_reference_segment_m": 0.11838227891750998,
+          "cell_ij": [
+            225,
+            306
+          ],
+          "ground": 0.06984195113182068,
+          "ceiling": 0.3106444180011749,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -35.41058349609375,
+            25.889345169067383,
+            0.3106444180011749
+          ],
+          "ceiling_point_source_index": 143461,
+          "local_component_id": 5
+        },
+        {
+          "world_xy": [
+            -35.31178436279297,
+            26.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.2951398621869254,
+          "cell_ij": [
+            225,
+            307
+          ],
+          "ground": 0.1278233826160431,
+          "ceiling": 0.18844856321811676,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -35.32001495361328,
+            26.114328384399414,
+            0.18844856321811676
+          ],
+          "ceiling_point_source_index": 94720,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.31178436279297,
+            26.227709960937503
+          ],
+          "distance_to_reference_segment_m": 0.4718974454563408,
+          "cell_ij": [
+            225,
+            308
+          ],
+          "ground": 0.11990594118833542,
+          "ceiling": 0.1515444964170456,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -35.33048629760742,
+            26.204265594482422,
+            0.1515444964170456
+          ],
+          "ceiling_point_source_index": 94742,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.31178436279297,
+            26.427709960937502
+          ],
+          "distance_to_reference_segment_m": 0.6486550287257531,
+          "cell_ij": [
+            225,
+            309
+          ],
+          "ground": 0.13647760450839996,
+          "ceiling": 0.15519627928733826,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -35.30910873413086,
+            26.428722381591797,
+            0.15519627928733826
+          ],
+          "ceiling_point_source_index": 94813,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -35.11178436279297,
+            25.8277099609375
+          ],
+          "distance_to_reference_segment_m": 0.024804734833706724,
+          "cell_ij": [
+            226,
+            306
+          ],
+          "ground": 0.0,
+          "ceiling": 0.2683703899383545,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -35.14877700805664,
+            25.82620620727539,
+            0.2683703899383545
+          ],
+          "ceiling_point_source_index": 116274,
+          "local_component_id": 9
+        },
+        {
+          "world_xy": [
+            -35.11178436279297,
+            26.6277099609375
+          ],
+          "distance_to_reference_segment_m": 0.7322073264141024,
+          "cell_ij": [
+            226,
+            310
+          ],
+          "ground": 0.13160836696624756,
+          "ceiling": 0.4347377419471741,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -35.17317199707031,
+            26.702045440673828,
+            0.4347377419471741
+          ],
+          "ceiling_point_source_index": 176677,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -34.91178436279297,
+            25.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.7758031423277486,
+          "cell_ij": [
+            227,
+            302
+          ],
+          "ground": 0.13732603192329407,
+          "ceiling": 0.1647951453924179,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -34.990814208984375,
+            24.92850685119629,
+            0.1647951453924179
+          ],
+          "ceiling_point_source_index": 94512,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -34.91178436279297,
+            26.6277099609375
+          ],
+          "distance_to_reference_segment_m": 0.6688899937488237,
+          "cell_ij": [
+            227,
+            310
+          ],
+          "ground": 0.10283511877059937,
+          "ceiling": 0.4495784342288971,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -34.996116638183594,
+            26.672420501708984,
+            0.4495784342288971
+          ],
+          "ceiling_point_source_index": 176679,
+          "local_component_id": 1
+        },
+        {
+          "world_xy": [
+            -34.511784362792966,
+            25.227709960937503
+          ],
+          "distance_to_reference_segment_m": 0.7862006472259526,
+          "cell_ij": [
+            229,
+            303
+          ],
+          "ground": 0.1293887495994568,
+          "ceiling": 0.2026900202035904,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -34.578468322753906,
+            25.133075714111328,
+            0.2026900202035904
+          ],
+          "ceiling_point_source_index": 116183,
+          "local_component_id": 0
+        }
+      ],
+      "components": [
+        {
+          "component_id_local": 1,
+          "points": 3250,
+          "seed_cells": 14,
+          "center_xyz": [
+            -35.631263981745796,
+            26.59296819481483,
+            0.9389419830487324
+          ],
+          "minimum_xyz": [
+            -37.072837829589844,
+            25.670928955078125,
+            0.10051668435335159
+          ],
+          "maximum_xyz": [
+            -34.32632827758789,
+            27.539674758911133,
+            1.7986856698989868
+          ],
+          "extent_xyz": [
+            2.746509552001953,
+            1.8687458038330078,
+            1.6981689855456352
+          ],
+          "touches_analysis_crop_or_tall_band": true,
+          "covariance_eigenvalues": [
+            0.022568233878894124,
+            0.2283878290369483,
+            0.721661410232016
+          ],
+          "interpretation": "preserve: tall/large/cropped structure"
+        },
+        {
+          "component_id_local": 0,
+          "points": 2740,
+          "seed_cells": 3,
+          "center_xyz": [
+            -34.72234964997229,
+            24.807836145554145,
+            0.9744417607838655
+          ],
+          "minimum_xyz": [
+            -36.082763671875,
+            24.069660186767578,
+            0.10042181611061096
+          ],
+          "maximum_xyz": [
+            -33.36375427246094,
+            25.591838836669922,
+            1.7995100021362305
+          ],
+          "extent_xyz": [
+            2.7190093994140625,
+            1.5221786499023438,
+            1.6990881860256195
+          ],
+          "touches_analysis_crop_or_tall_band": true,
+          "covariance_eigenvalues": [
+            0.010033838400521284,
+            0.2367952989470567,
+            0.6457950872887648
+          ],
+          "interpretation": "preserve: tall/large/cropped structure"
+        },
+        {
+          "component_id_local": 5,
+          "points": 3,
+          "seed_cells": 2,
+          "center_xyz": [
+            -35.48261006673177,
+            25.88565444946289,
+            0.231516495347023
+          ],
+          "minimum_xyz": [
+            -35.5282096862793,
+            25.86859130859375,
+            0.13856418430805206
+          ],
+          "maximum_xyz": [
+            -35.41058349609375,
+            25.89902687072754,
+            0.3106444180011749
+          ],
+          "extent_xyz": [
+            0.11762619018554688,
+            0.030435562133789062,
+            0.17208023369312286
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            2.9832673334730597e-19,
+            0.000879516930331489,
+            0.010891284943644532
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 9,
+          "points": 3,
+          "seed_cells": 1,
+          "center_xyz": [
+            -35.17259852091471,
+            25.78831418355306,
+            0.33514004945755005
+          ],
+          "minimum_xyz": [
+            -35.188419342041016,
+            25.761613845825195,
+            0.2683703899383545
+          ],
+          "maximum_xyz": [
+            -35.14877700805664,
+            25.82620620727539,
+            0.38536298274993896
+          ],
+          "extent_xyz": [
+            0.039642333984375,
+            0.06459236145019531,
+            0.11699259281158447
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            1.2908475081898677e-19,
+            5.107697374612622e-06,
+            0.005199925235487876
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "start_xy": [
+        -75.79,
+        3.52
+      ],
+      "end_xy": [
+        -77.03,
+        2.9
+      ],
+      "optimized_pose_indices": [
+        336,
+        338
+      ],
+      "source0_component_ids": [
+        3,
+        1
+      ],
+      "approximate_centerline_gap_m": 1.38,
+      "optimistic_all_low_surfaces_endpoint_components": [
+        3,
+        1
+      ],
+      "still_disconnected_even_optimistic_union": true,
+      "region_halfwidth_m": 0.8,
+      "region_known_surface_cells": 106,
+      "raw_blocked_seed_cells": 11,
+      "original_floor_count_at_seeds_min_median_max": [
+        5.0,
+        9.0,
+        15.0
+      ],
+      "seed_ceilings_min_median_max": [
+        0.1544688493013382,
+        0.19056692719459534,
+        0.45961034297943115
+      ],
+      "seed_records": [
+        {
+          "world_xy": [
+            -76.91178436279297,
+            3.2277099609374997
+          ],
+          "distance_to_reference_segment_m": 0.24024505966434465,
+          "cell_ij": [
+            17,
+            193
+          ],
+          "ground": 0.0,
+          "ceiling": 0.39517754316329956,
+          "original_source_floor_support_points": 15,
+          "conditioned_floor_points_within_5_5cm": 15,
+          "ceiling_point_xyz": [
+            -77.01058959960938,
+            3.2356815338134766,
+            0.39517754316329956
+          ],
+          "ceiling_point_source_index": 408354,
+          "local_component_id": 18
+        },
+        {
+          "world_xy": [
+            -76.51178436279298,
+            2.6277099609374996
+          ],
+          "distance_to_reference_segment_m": 0.47529669313558154,
+          "cell_ij": [
+            19,
+            190
+          ],
+          "ground": 0.0,
+          "ceiling": 0.45961034297943115,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -76.52769470214844,
+            2.6988179683685303,
+            0.45961034297943115
+          ],
+          "ceiling_point_source_index": 408277,
+          "local_component_id": 15
+        },
+        {
+          "world_xy": [
+            -76.11178436279297,
+            3.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.2964112549356018,
+          "cell_ij": [
+            21,
+            192
+          ],
+          "ground": 0.12223269790410995,
+          "ceiling": 0.15753932297229767,
+          "original_source_floor_support_points": 11,
+          "conditioned_floor_points_within_5_5cm": 11,
+          "ceiling_point_xyz": [
+            -76.09457397460938,
+            3.0858497619628906,
+            0.15753932297229767
+          ],
+          "ceiling_point_source_index": 348404,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -75.91178436279297,
+            2.6277099609374996
+          ],
+          "distance_to_reference_segment_m": 0.7436248504355617,
+          "cell_ij": [
+            22,
+            190
+          ],
+          "ground": 0.14417415857315063,
+          "ceiling": 0.20577028393745422,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -75.8585205078125,
+            2.7144060134887695,
+            0.20577028393745422
+          ],
+          "ceiling_point_source_index": 363505,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -75.91178436279297,
+            2.8277099609375
+          ],
+          "distance_to_reference_segment_m": 0.5647394122355796,
+          "cell_ij": [
+            22,
+            191
+          ],
+          "ground": 0.05336012318730354,
+          "ceiling": 0.19056692719459534,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -75.90440368652344,
+            2.8451991081237793,
+            0.19056692719459534
+          ],
+          "ceiling_point_source_index": 363529,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -75.91178436279297,
+            3.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.38585397403559746,
+          "cell_ij": [
+            22,
+            192
+          ],
+          "ground": 0.12116611003875732,
+          "ceiling": 0.16527970135211945,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -75.93350219726562,
+            2.942840099334717,
+            0.16527970135211945
+          ],
+          "ceiling_point_source_index": 348372,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -75.91178436279297,
+            3.8277099609375
+          ],
+          "distance_to_reference_segment_m": 0.33093330307034113,
+          "cell_ij": [
+            22,
+            196
+          ],
+          "ground": 0.0,
+          "ceiling": 0.420322984457016,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -76.00390625,
+            3.7765464782714844,
+            0.420322984457016
+          ],
+          "ceiling_point_source_index": 408425,
+          "local_component_id": 19
+        },
+        {
+          "world_xy": [
+            -75.91178436279297,
+            4.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.5221118993626236,
+          "cell_ij": [
+            22,
+            197
+          ],
+          "ground": 0.14394378662109375,
+          "ceiling": 0.16133922338485718,
+          "original_source_floor_support_points": 12,
+          "conditioned_floor_points_within_5_5cm": 12,
+          "ceiling_point_xyz": [
+            -75.8271484375,
+            4.034747123718262,
+            0.16133922338485718
+          ],
+          "ceiling_point_source_index": 363722,
+          "local_component_id": 7
+        },
+        {
+          "world_xy": [
+            -75.91178436279297,
+            4.2277099609375
+          ],
+          "distance_to_reference_segment_m": 0.7181119827931063,
+          "cell_ij": [
+            22,
+            198
+          ],
+          "ground": 0.10563540458679199,
+          "ceiling": 0.1544688493013382,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -75.97653198242188,
+            4.279038429260254,
+            0.1544688493013382
+          ],
+          "ceiling_point_source_index": 363755,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -75.51178436279298,
+            2.8277099609375
+          ],
+          "distance_to_reference_segment_m": 0.7436248504355593,
+          "cell_ij": [
+            24,
+            191
+          ],
+          "ground": 0.14942076802253723,
+          "ceiling": 0.17126889526844025,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 11,
+          "ceiling_point_xyz": [
+            -75.54912567138672,
+            2.8137922286987305,
+            0.17126889526844025
+          ],
+          "ceiling_point_source_index": 348360,
+          "local_component_id": 0
+        },
+        {
+          "world_xy": [
+            -75.31178436279296,
+            3.0277099609375
+          ],
+          "distance_to_reference_segment_m": 0.6863233044487824,
+          "cell_ij": [
+            25,
+            192
+          ],
+          "ground": 0.06113499775528908,
+          "ceiling": 0.22892870008945465,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -75.21605682373047,
+            2.979682445526123,
+            0.22892870008945465
+          ],
+          "ceiling_point_source_index": 363554,
+          "local_component_id": 0
+        }
+      ],
+      "components": [
+        {
+          "component_id_local": 0,
+          "points": 1050,
+          "seed_cells": 6,
+          "center_xyz": [
+            -75.37042804536365,
+            2.7227101707458496,
+            0.9117872125974723
+          ],
+          "minimum_xyz": [
+            -76.20809936523438,
+            2.0399675369262695,
+            0.10082662105560303
+          ],
+          "maximum_xyz": [
+            -74.44236755371094,
+            3.2916598320007324,
+            1.7983806133270264
+          ],
+          "extent_xyz": [
+            1.7657318115234375,
+            1.251692295074463,
+            1.6975539922714233
+          ],
+          "touches_analysis_crop_or_tall_band": true,
+          "covariance_eigenvalues": [
+            0.03361653598231802,
+            0.22853218256671687,
+            0.29185210962130625
+          ],
+          "interpretation": "preserve: tall/large/cropped structure"
+        },
+        {
+          "component_id_local": 18,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -77.01058959960938,
+            3.2356815338134766,
+            0.39517754316329956
+          ],
+          "minimum_xyz": [
+            -77.01058959960938,
+            3.2356815338134766,
+            0.39517754316329956
+          ],
+          "maximum_xyz": [
+            -77.01058959960938,
+            3.2356815338134766,
+            0.39517754316329956
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 15,
+          "points": 2,
+          "seed_cells": 1,
+          "center_xyz": [
+            -76.55291366577148,
+            2.704641342163086,
+            0.463041290640831
+          ],
+          "minimum_xyz": [
+            -76.57813262939453,
+            2.6988179683685303,
+            0.45961034297943115
+          ],
+          "maximum_xyz": [
+            -76.52769470214844,
+            2.7104647159576416,
+            0.46647223830223083
+          ],
+          "extent_xyz": [
+            0.05043792724609375,
+            0.011646747589111328,
+            0.006861895322799683
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 19,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -76.00390625,
+            3.7765464782714844,
+            0.420322984457016
+          ],
+          "minimum_xyz": [
+            -76.00390625,
+            3.7765464782714844,
+            0.420322984457016
+          ],
+          "maximum_xyz": [
+            -76.00390625,
+            3.7765464782714844,
+            0.420322984457016
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 7,
+          "points": 8,
+          "seed_cells": 1,
+          "center_xyz": [
+            -75.87132549285889,
+            4.0224609375,
+            0.15906814858317375
+          ],
+          "minimum_xyz": [
+            -75.92664337158203,
+            3.938260078430176,
+            0.11070019006729126
+          ],
+          "maximum_xyz": [
+            -75.80314636230469,
+            4.124026298522949,
+            0.19702459871768951
+          ],
+          "extent_xyz": [
+            0.12349700927734375,
+            0.18576622009277344,
+            0.08632440865039825
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0002449011287184909,
+            0.0019369637682123597,
+            0.004220191309143549
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 8,
+          "points": 9,
+          "seed_cells": 1,
+          "center_xyz": [
+            -76.0195558336046,
+            4.3497329288058815,
+            0.13322402122947904
+          ],
+          "minimum_xyz": [
+            -76.14064025878906,
+            4.220767974853516,
+            0.1000756174325943
+          ],
+          "maximum_xyz": [
+            -75.90129852294922,
+            4.504227161407471,
+            0.17844370007514954
+          ],
+          "extent_xyz": [
+            0.23934173583984375,
+            0.2834591865539551,
+            0.07836808264255524
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0009065154155387123,
+            0.0019059019750358838,
+            0.010660354870705597
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "start_xy": [
+        -10.23,
+        -7.67
+      ],
+      "end_xy": [
+        -3.72,
+        -4.07
+      ],
+      "optimized_pose_indices": [
+        619,
+        633
+      ],
+      "source0_component_ids": [
+        1,
+        6
+      ],
+      "approximate_centerline_gap_m": 7.44,
+      "optimistic_all_low_surfaces_endpoint_components": [
+        1,
+        4
+      ],
+      "still_disconnected_even_optimistic_union": true,
+      "region_halfwidth_m": 0.8,
+      "region_known_surface_cells": 347,
+      "raw_blocked_seed_cells": 108,
+      "original_floor_count_at_seeds_min_median_max": [
+        1.0,
+        7.0,
+        12.0
+      ],
+      "seed_ceilings_min_median_max": [
+        0.1505056470632553,
+        0.24647416174411774,
+        0.6750531792640686
+      ],
+      "seed_records": [
+        {
+          "world_xy": [
+            -9.911784362792968,
+            -8.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7710204217330991,
+          "cell_ij": [
+            352,
+            135
+          ],
+          "ground": 0.14780257642269135,
+          "ceiling": 0.2071397602558136,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -9.88495922088623,
+            -8.455726623535156,
+            0.2071397602558136
+          ],
+          "ceiling_point_source_index": 256097,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -9.711784362792969,
+            -7.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.3402947852495712,
+          "cell_ij": [
+            353,
+            138
+          ],
+          "ground": 0.09398427605628967,
+          "ceiling": 0.1621125489473343,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -9.728809356689453,
+            -7.716209411621094,
+            0.1621125489473343
+          ],
+          "ceiling_point_source_index": 238843,
+          "local_component_id": 13
+        },
+        {
+          "world_xy": [
+            -9.711784362792969,
+            -7.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.16527344126991836,
+          "cell_ij": [
+            353,
+            139
+          ],
+          "ground": 0.07411185652017593,
+          "ceiling": 0.15791016817092896,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -9.74960708618164,
+            -7.66783332824707,
+            0.15791016817092896
+          ],
+          "ceiling_point_source_index": 238860,
+          "local_component_id": 13
+        },
+        {
+          "world_xy": [
+            -9.511784362792966,
+            -8.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7871234698796579,
+          "cell_ij": [
+            354,
+            136
+          ],
+          "ground": 0.0,
+          "ceiling": 0.1916794627904892,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -9.438410758972168,
+            -8.225752830505371,
+            0.1916794627904892
+          ],
+          "ceiling_point_source_index": 256244,
+          "local_component_id": 73
+        },
+        {
+          "world_xy": [
+            -9.511784362792966,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.08798325001861361,
+          "cell_ij": [
+            354,
+            141
+          ],
+          "ground": 0.0,
+          "ceiling": 0.18439947068691254,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -9.437199592590332,
+            -7.234148025512695,
+            0.18439947068691254
+          ],
+          "ceiling_point_source_index": 238938,
+          "local_component_id": 21
+        },
+        {
+          "world_xy": [
+            -9.511784362792966,
+            -6.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.2630045939982681,
+          "cell_ij": [
+            354,
+            142
+          ],
+          "ground": 0.1335355043411255,
+          "ceiling": 0.19127672910690308,
+          "original_source_floor_support_points": 4,
+          "conditioned_floor_points_within_5_5cm": 4,
+          "ceiling_point_xyz": [
+            -9.453125,
+            -7.069607734680176,
+            0.19127672910690308
+          ],
+          "ceiling_point_source_index": 256662,
+          "local_component_id": 21
+        },
+        {
+          "world_xy": [
+            -9.311784362792967,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.008802746652163346,
+          "cell_ij": [
+            355,
+            141
+          ],
+          "ground": 0.0,
+          "ceiling": 0.3945830762386322,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -9.390079498291016,
+            -7.148090839385986,
+            0.3945830762386322
+          ],
+          "ceiling_point_source_index": 290171,
+          "local_component_id": 95
+        },
+        {
+          "world_xy": [
+            -9.111784362792967,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.10558874332293954,
+          "cell_ij": [
+            356,
+            141
+          ],
+          "ground": 0.0,
+          "ceiling": 0.4423631727695465,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -9.180354118347168,
+            -7.199824810028076,
+            0.4423631727695465
+          ],
+          "ceiling_point_source_index": 309159,
+          "local_component_id": 119
+        },
+        {
+          "world_xy": [
+            -8.911784362792968,
+            -7.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7274387719326783,
+          "cell_ij": [
+            357,
+            138
+          ],
+          "ground": 0.0026814269367605448,
+          "ceiling": 0.4945378303527832,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -8.819551467895508,
+            -7.854785919189453,
+            0.4945378303527832
+          ],
+          "ceiling_point_source_index": 308971,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -8.911784362792968,
+            -7.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.5524174279530237,
+          "cell_ij": [
+            357,
+            139
+          ],
+          "ground": 0.10786481946706772,
+          "ceiling": 0.1566169261932373,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -8.837503433227539,
+            -7.667129993438721,
+            0.1566169261932373
+          ],
+          "ceiling_point_source_index": 238863,
+          "local_component_id": 15
+        },
+        {
+          "world_xy": [
+            -8.911784362792968,
+            -7.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.3773960839733694,
+          "cell_ij": [
+            357,
+            140
+          ],
+          "ground": 0.04246499389410019,
+          "ceiling": 0.472150057554245,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -8.868265151977539,
+            -7.471517562866211,
+            0.472150057554245
+          ],
+          "ceiling_point_source_index": 309076,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -8.911784362792968,
+            -6.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.1476679479655932,
+          "cell_ij": [
+            357,
+            143
+          ],
+          "ground": 0.0,
+          "ceiling": 0.5408565402030945,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -8.876940727233887,
+            -6.674559116363525,
+            0.5408565402030945
+          ],
+          "ceiling_point_source_index": 328506,
+          "local_component_id": 141
+        },
+        {
+          "world_xy": [
+            -8.711784362792969,
+            -7.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6492034246238,
+          "cell_ij": [
+            358,
+            139
+          ],
+          "ground": 0.05525160953402519,
+          "ceiling": 0.1864253580570221,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -8.804649353027344,
+            -7.655902862548828,
+            0.1864253580570221
+          ],
+          "ceiling_point_source_index": 256482,
+          "local_component_id": 15
+        },
+        {
+          "world_xy": [
+            -8.711784362792969,
+            -7.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.4741820806441455,
+          "cell_ij": [
+            358,
+            140
+          ],
+          "ground": 0.14801615476608276,
+          "ceiling": 0.21320840716362,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -8.67894458770752,
+            -7.384990692138672,
+            0.21320840716362
+          ],
+          "ceiling_point_source_index": 256564,
+          "local_component_id": 17
+        },
+        {
+          "world_xy": [
+            -8.711784362792969,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.2991607366644919,
+          "cell_ij": [
+            358,
+            141
+          ],
+          "ground": 0.0,
+          "ceiling": 0.17996269464492798,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -8.808780670166016,
+            -7.258371353149414,
+            0.17996269464492798
+          ],
+          "ceiling_point_source_index": 256615,
+          "local_component_id": 18
+        },
+        {
+          "world_xy": [
+            -8.511784362792966,
+            -7.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7459894212945786,
+          "cell_ij": [
+            359,
+            139
+          ],
+          "ground": 0.13438089191913605,
+          "ceiling": 0.15979500114917755,
+          "original_source_floor_support_points": 12,
+          "conditioned_floor_points_within_5_5cm": 12,
+          "ceiling_point_xyz": [
+            -8.51865005493164,
+            -7.642526149749756,
+            0.15979500114917755
+          ],
+          "ceiling_point_source_index": 238865,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -8.511784362792966,
+            -7.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.5709680773149234,
+          "cell_ij": [
+            359,
+            140
+          ],
+          "ground": 0.1488303393125534,
+          "ceiling": 0.23782899975776672,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -8.544672966003418,
+            -7.302761077880859,
+            0.23782899975776672
+          ],
+          "ceiling_point_source_index": 256590,
+          "local_component_id": 18
+        },
+        {
+          "world_xy": [
+            -8.511784362792966,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.39594673333526964,
+          "cell_ij": [
+            359,
+            141
+          ],
+          "ground": 0.08189848065376282,
+          "ceiling": 0.290833055973053,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -8.58093547821045,
+            -7.211850166320801,
+            0.290833055973053
+          ],
+          "ceiling_point_source_index": 272987,
+          "local_component_id": 18
+        },
+        {
+          "world_xy": [
+            -8.511784362792966,
+            -6.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.22092538935561437,
+          "cell_ij": [
+            359,
+            142
+          ],
+          "ground": 0.12400375306606293,
+          "ceiling": 0.4105733633041382,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -8.4222412109375,
+            -6.887845993041992,
+            0.4105733633041382
+          ],
+          "ceiling_point_source_index": 290226,
+          "local_component_id": 23
+        },
+        {
+          "world_xy": [
+            -8.511784362792966,
+            -6.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.045904045375960705,
+          "cell_ij": [
+            359,
+            143
+          ],
+          "ground": 0.1373618096113205,
+          "ceiling": 0.28891199827194214,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -8.43643569946289,
+            -6.862506866455078,
+            0.28891199827194214
+          ],
+          "ceiling_point_source_index": 273265,
+          "local_component_id": 85
+        },
+        {
+          "world_xy": [
+            -8.511784362792966,
+            -6.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.12911729860369212,
+          "cell_ij": [
+            359,
+            144
+          ],
+          "ground": 0.135623961687088,
+          "ceiling": 0.3203801214694977,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -8.428739547729492,
+            -6.504558086395264,
+            0.3203801214694977
+          ],
+          "ceiling_point_source_index": 273491,
+          "local_component_id": 87
+        },
+        {
+          "world_xy": [
+            -8.311784362792967,
+            -7.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.6677540739857003,
+          "cell_ij": [
+            360,
+            140
+          ],
+          "ground": 0.0,
+          "ceiling": 0.2523263394832611,
+          "original_source_floor_support_points": 4,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -8.247245788574219,
+            -7.4698286056518555,
+            0.2523263394832611
+          ],
+          "ceiling_point_source_index": 256539,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -8.311784362792967,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.4927327300060458,
+          "cell_ij": [
+            360,
+            141
+          ],
+          "ground": 0.12244437634944916,
+          "ceiling": 0.2503947615623474,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -8.37281322479248,
+            -7.193508148193359,
+            0.2503947615623474
+          ],
+          "ceiling_point_source_index": 256642,
+          "local_component_id": 20
+        },
+        {
+          "world_xy": [
+            -8.311784362792967,
+            -6.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.3177113860263906,
+          "cell_ij": [
+            360,
+            142
+          ],
+          "ground": 0.06025166064500809,
+          "ceiling": 0.15067632496356964,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -8.34739875793457,
+            -6.930883407592773,
+            0.15067632496356964
+          ],
+          "ceiling_point_source_index": 238993,
+          "local_component_id": 23
+        },
+        {
+          "world_xy": [
+            -8.311784362792967,
+            -6.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.03233130193291594,
+          "cell_ij": [
+            360,
+            144
+          ],
+          "ground": 0.0,
+          "ceiling": 0.20007561147212982,
+          "original_source_floor_support_points": 4,
+          "conditioned_floor_points_within_5_5cm": 4,
+          "ceiling_point_xyz": [
+            -8.343149185180664,
+            -6.592504501342773,
+            0.20007561147212982
+          ],
+          "ceiling_point_source_index": 256757,
+          "local_component_id": 76
+        },
+        {
+          "world_xy": [
+            -8.311784362792967,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.20735264591257116,
+          "cell_ij": [
+            360,
+            145
+          ],
+          "ground": 0.0,
+          "ceiling": 0.4082283079624176,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -8.401017189025879,
+            -6.435418128967285,
+            0.4082283079624176
+          ],
+          "ceiling_point_source_index": 290375,
+          "local_component_id": 87
+        },
+        {
+          "world_xy": [
+            -8.111784362792967,
+            -7.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7645400706564756,
+          "cell_ij": [
+            361,
+            140
+          ],
+          "ground": 0.1430162936449051,
+          "ceiling": 0.19973376393318176,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 11,
+          "ceiling_point_xyz": [
+            -8.065705299377441,
+            -7.453629493713379,
+            0.19973376393318176
+          ],
+          "ceiling_point_source_index": 256542,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -8.111784362792967,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.589518726676822,
+          "cell_ij": [
+            361,
+            141
+          ],
+          "ground": 0.06266382336616516,
+          "ceiling": 0.4881766140460968,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -8.085927963256836,
+            -7.146058082580566,
+            0.4881766140460968
+          ],
+          "ceiling_point_source_index": 309161,
+          "local_component_id": 120
+        },
+        {
+          "world_xy": [
+            -8.111784362792967,
+            -6.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.41449738269716674,
+          "cell_ij": [
+            361,
+            142
+          ],
+          "ground": 0.13914179801940918,
+          "ceiling": 0.15797071158885956,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -8.029557228088379,
+            -6.990918159484863,
+            0.15797071158885956
+          ],
+          "ceiling_point_source_index": 238979,
+          "local_component_id": 23
+        },
+        {
+          "world_xy": [
+            -8.111784362792967,
+            -6.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.23947603871751308,
+          "cell_ij": [
+            361,
+            143
+          ],
+          "ground": 0.13619737327098846,
+          "ceiling": 0.3769755959510803,
+          "original_source_floor_support_points": 11,
+          "conditioned_floor_points_within_5_5cm": 11,
+          "ceiling_point_xyz": [
+            -8.022284507751465,
+            -6.871433258056641,
+            0.3769755959510803
+          ],
+          "ceiling_point_source_index": 290247,
+          "local_component_id": 99
+        },
+        {
+          "world_xy": [
+            -8.111784362792967,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.11056664924179585,
+          "cell_ij": [
+            361,
+            145
+          ],
+          "ground": 0.12751126289367676,
+          "ceiling": 0.6750531792640686,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -8.150510787963867,
+            -6.460330009460449,
+            0.6750531792640686
+          ],
+          "ceiling_point_source_index": 361784,
+          "local_component_id": 170
+        },
+        {
+          "world_xy": [
+            -7.911784362792968,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.686304723347599,
+          "cell_ij": [
+            362,
+            141
+          ],
+          "ground": 0.02973584644496441,
+          "ceiling": 0.3260558545589447,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 12,
+          "ceiling_point_xyz": [
+            -7.865786552429199,
+            -7.225945949554443,
+            0.3260558545589447
+          ],
+          "ceiling_point_source_index": 272989,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -7.911784362792968,
+            -6.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.5112833793679437,
+          "cell_ij": [
+            362,
+            142
+          ],
+          "ground": 0.0,
+          "ceiling": 0.1578526645898819,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -7.960592746734619,
+            -7.038434982299805,
+            0.1578526645898819
+          ],
+          "ceiling_point_source_index": 238980,
+          "local_component_id": 23
+        },
+        {
+          "world_xy": [
+            -7.911784362792968,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.013780652571019241,
+          "cell_ij": [
+            362,
+            145
+          ],
+          "ground": 0.0,
+          "ceiling": 0.19834548234939575,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -7.81881856918335,
+            -6.303558349609375,
+            0.19834548234939575
+          ],
+          "ceiling_point_source_index": 256844,
+          "local_component_id": 79
+        },
+        {
+          "world_xy": [
+            -7.911784362792968,
+            -6.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.1888019965506725,
+          "cell_ij": [
+            362,
+            146
+          ],
+          "ground": 0.12492616474628448,
+          "ceiling": 0.4726240932941437,
+          "original_source_floor_support_points": 4,
+          "conditioned_floor_points_within_5_5cm": 4,
+          "ceiling_point_xyz": [
+            -7.939449787139893,
+            -6.223973751068115,
+            0.4726240932941437
+          ],
+          "ceiling_point_source_index": 309389,
+          "local_component_id": 122
+        },
+        {
+          "world_xy": [
+            -7.711784362792969,
+            -7.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7830907200183743,
+          "cell_ij": [
+            363,
+            141
+          ],
+          "ground": 0.14344771206378937,
+          "ceiling": 0.15193262696266174,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -7.800443172454834,
+            -7.25172758102417,
+            0.15193262696266174
+          ],
+          "ceiling_point_source_index": 238940,
+          "local_component_id": 8
+        },
+        {
+          "world_xy": [
+            -7.711784362792969,
+            -6.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.43304803205906545,
+          "cell_ij": [
+            363,
+            143
+          ],
+          "ground": 0.10317383706569672,
+          "ceiling": 0.22438108921051025,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -7.738214015960693,
+            -6.840795040130615,
+            0.22438108921051025
+          ],
+          "ceiling_point_source_index": 256715,
+          "local_component_id": 75
+        },
+        {
+          "world_xy": [
+            -7.711784362792969,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.08300534409975652,
+          "cell_ij": [
+            363,
+            145
+          ],
+          "ground": 0.0,
+          "ceiling": 0.537472128868103,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -7.746618747711182,
+            -6.380367279052734,
+            0.537472128868103
+          ],
+          "ceiling_point_source_index": 328588,
+          "local_component_id": 142
+        },
+        {
+          "world_xy": [
+            -7.511784362792966,
+            -6.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7048553727094977,
+          "cell_ij": [
+            364,
+            142
+          ],
+          "ground": 0.10358807444572449,
+          "ceiling": 0.38288307189941406,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -7.537135124206543,
+            -6.957250595092773,
+            0.38288307189941406
+          ],
+          "ceiling_point_source_index": 290228,
+          "local_component_id": 98
+        },
+        {
+          "world_xy": [
+            -7.511784362792966,
+            -6.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.5298340287298432,
+          "cell_ij": [
+            364,
+            143
+          ],
+          "ground": 0.11335866898298264,
+          "ceiling": 0.3236355483531952,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -7.57706356048584,
+            -6.813093185424805,
+            0.3236355483531952
+          ],
+          "ceiling_point_source_index": 273266,
+          "local_component_id": 86
+        },
+        {
+          "world_xy": [
+            -7.311784362792967,
+            -5.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.24848669449765132,
+          "cell_ij": [
+            365,
+            148
+          ],
+          "ground": 0.001852368121035397,
+          "ceiling": 0.16407263278961182,
+          "original_source_floor_support_points": 1,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -7.3183698654174805,
+            -5.780040740966797,
+            0.16407263278961182
+          ],
+          "ceiling_point_source_index": 239208,
+          "local_component_id": 44
+        },
+        {
+          "world_xy": [
+            -7.311784362792967,
+            -5.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.773550726436613,
+          "cell_ij": [
+            365,
+            151
+          ],
+          "ground": 0.13728941977024078,
+          "ceiling": 0.1982814073562622,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -7.395565032958984,
+            -5.073751926422119,
+            0.1982814073562622
+          ],
+          "ceiling_point_source_index": 256996,
+          "local_component_id": 2
+        },
+        {
+          "world_xy": [
+            -7.111784362792967,
+            -6.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7234060220713964,
+          "cell_ij": [
+            366,
+            143
+          ],
+          "ground": 0.0,
+          "ceiling": 0.37505966424942017,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -7.049916744232178,
+            -6.849095344543457,
+            0.37505966424942017
+          ],
+          "ceiling_point_source_index": 290249,
+          "local_component_id": 100
+        },
+        {
+          "world_xy": [
+            -7.111784362792967,
+            -6.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.5483846780917426,
+          "cell_ij": [
+            366,
+            144
+          ],
+          "ground": 0.0,
+          "ceiling": 0.3862593472003937,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -7.052773475646973,
+            -6.549976348876953,
+            0.3862593472003937
+          ],
+          "ceiling_point_source_index": 290342,
+          "local_component_id": 101
+        },
+        {
+          "world_xy": [
+            -7.111784362792967,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.3733633341120874,
+          "cell_ij": [
+            366,
+            145
+          ],
+          "ground": 0.06480605155229568,
+          "ceiling": 0.15663594007492065,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -7.160651206970215,
+            -6.4372944831848145,
+            0.15663594007492065
+          ],
+          "ceiling_point_source_index": 239092,
+          "local_component_id": 36
+        },
+        {
+          "world_xy": [
+            -7.111784362792967,
+            -5.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.15170069782687515,
+          "cell_ij": [
+            366,
+            148
+          ],
+          "ground": 0.0,
+          "ceiling": 0.3875975012779236,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -7.063049793243408,
+            -5.690516948699951,
+            0.3875975012779236
+          ],
+          "ceiling_point_source_index": 290612,
+          "local_component_id": 104
+        },
+        {
+          "world_xy": [
+            -7.111784362792967,
+            -5.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.3267220418065288,
+          "cell_ij": [
+            366,
+            149
+          ],
+          "ground": 0.11024884134531021,
+          "ceiling": 0.6006436347961426,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -7.036435604095459,
+            -5.484120845794678,
+            0.6006436347961426
+          ],
+          "ceiling_point_source_index": 346219,
+          "local_component_id": 159
+        },
+        {
+          "world_xy": [
+            -7.111784362792967,
+            -5.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.5017433857861836,
+          "cell_ij": [
+            366,
+            150
+          ],
+          "ground": 0.0,
+          "ceiling": 0.36966824531555176,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -7.065174102783203,
+            -5.385758399963379,
+            0.36966824531555176
+          ],
+          "ceiling_point_source_index": 290748,
+          "local_component_id": 107
+        },
+        {
+          "world_xy": [
+            -7.111784362792967,
+            -5.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6767647297658377,
+          "cell_ij": [
+            366,
+            151
+          ],
+          "ground": 0.13331516087055206,
+          "ceiling": 0.15145090222358704,
+          "original_source_floor_support_points": 11,
+          "conditioned_floor_points_within_5_5cm": 11,
+          "ceiling_point_xyz": [
+            -7.024547576904297,
+            -5.087985038757324,
+            0.15145090222358704
+          ],
+          "ceiling_point_source_index": 239333,
+          "local_component_id": 52
+        },
+        {
+          "world_xy": [
+            -6.911784362792968,
+            -6.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6451706747625188,
+          "cell_ij": [
+            367,
+            144
+          ],
+          "ground": 0.0,
+          "ceiling": 0.2434697449207306,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -6.986123561859131,
+            -6.545910835266113,
+            0.2434697449207306
+          ],
+          "ceiling_point_source_index": 256777,
+          "local_component_id": 78
+        },
+        {
+          "world_xy": [
+            -6.911784362792968,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.4701493307828636,
+          "cell_ij": [
+            367,
+            145
+          ],
+          "ground": 0.14791902899742126,
+          "ceiling": 0.2664368748664856,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -6.866899490356445,
+            -6.281802654266357,
+            0.2664368748664856
+          ],
+          "ceiling_point_source_index": 273677,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -6.911784362792968,
+            -6.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.2951279868032091,
+          "cell_ij": [
+            367,
+            146
+          ],
+          "ground": 0.040111832320690155,
+          "ceiling": 0.37263554334640503,
+          "original_source_floor_support_points": 11,
+          "conditioned_floor_points_within_5_5cm": 11,
+          "ceiling_point_xyz": [
+            -6.827415466308594,
+            -6.272093772888184,
+            0.37263554334640503
+          ],
+          "ceiling_point_source_index": 290428,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -6.911784362792968,
+            -5.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.22993604513575264,
+          "cell_ij": [
+            367,
+            149
+          ],
+          "ground": 0.13231121003627777,
+          "ceiling": 0.1812485009431839,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -6.996750354766846,
+            -5.604960918426514,
+            0.1812485009431839
+          ],
+          "ceiling_point_source_index": 256926,
+          "local_component_id": 80
+        },
+        {
+          "world_xy": [
+            -6.911784362792968,
+            -4.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7550000770747163,
+          "cell_ij": [
+            367,
+            152
+          ],
+          "ground": 0.10095076262950897,
+          "ceiling": 0.16915076971054077,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -6.939593315124512,
+            -4.99104118347168,
+            0.16915076971054077
+          ],
+          "ceiling_point_source_index": 239354,
+          "local_component_id": 54
+        },
+        {
+          "world_xy": [
+            -6.711784362792969,
+            -6.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.741956671433295,
+          "cell_ij": [
+            368,
+            144
+          ],
+          "ground": 0.1399485468864441,
+          "ceiling": 0.24640217423439026,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -6.74849796295166,
+            -6.500847816467285,
+            0.24640217423439026
+          ],
+          "ceiling_point_source_index": 256778,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -6.711784362792969,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.5669353274536397,
+          "cell_ij": [
+            368,
+            145
+          ],
+          "ground": 0.14955812692642212,
+          "ceiling": 0.15962865948677063,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -6.679161548614502,
+            -6.352560043334961,
+            0.15962865948677063
+          ],
+          "ceiling_point_source_index": 239123,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -6.711784362792969,
+            -5.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.21689263949433085,
+          "cell_ij": [
+            368,
+            147
+          ],
+          "ground": 0.03904697299003601,
+          "ceiling": 0.31763821840286255,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -6.673988342285156,
+            -5.894768714904785,
+            0.31763821840286255
+          ],
+          "ceiling_point_source_index": 273944,
+          "local_component_id": 89
+        },
+        {
+          "world_xy": [
+            -6.711784362792969,
+            -5.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.13315004846497602,
+          "cell_ij": [
+            368,
+            149
+          ],
+          "ground": 0.12428440153598785,
+          "ceiling": 0.4982088506221771,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -6.619583606719971,
+            -5.516440391540527,
+            0.4982088506221771
+          ],
+          "ceiling_point_source_index": 309514,
+          "local_component_id": 105
+        },
+        {
+          "world_xy": [
+            -6.711784362792969,
+            -5.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.4831927364242854,
+          "cell_ij": [
+            368,
+            151
+          ],
+          "ground": 0.0,
+          "ceiling": 0.45735737681388855,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -6.73296594619751,
+            -5.131676197052002,
+            0.45735737681388855
+          ],
+          "ceiling_point_source_index": 309582,
+          "local_component_id": 125
+        },
+        {
+          "world_xy": [
+            -6.511784362792966,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.6637213241244175,
+          "cell_ij": [
+            369,
+            145
+          ],
+          "ground": 0.11379225552082062,
+          "ceiling": 0.1505056470632553,
+          "original_source_floor_support_points": 11,
+          "conditioned_floor_points_within_5_5cm": 11,
+          "ceiling_point_xyz": [
+            -6.466142654418945,
+            -6.284671306610107,
+            0.1505056470632553
+          ],
+          "ceiling_point_source_index": 239141,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -6.511784362792966,
+            -5.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.3136786361651082,
+          "cell_ij": [
+            369,
+            147
+          ],
+          "ground": 0.11941371113061905,
+          "ceiling": 0.2577786147594452,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -6.535634994506836,
+            -6.002748489379883,
+            0.2577786147594452
+          ],
+          "ceiling_point_source_index": 273836,
+          "local_component_id": 88
+        },
+        {
+          "world_xy": [
+            -6.511784362792966,
+            -5.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.036364051794198715,
+          "cell_ij": [
+            369,
+            149
+          ],
+          "ground": 0.0,
+          "ceiling": 0.36989402770996094,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -6.603986740112305,
+            -5.531721591949463,
+            0.36989402770996094
+          ],
+          "ceiling_point_source_index": 290679,
+          "local_component_id": 105
+        },
+        {
+          "world_xy": [
+            -6.511784362792966,
+            -5.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.21138539577385396,
+          "cell_ij": [
+            369,
+            150
+          ],
+          "ground": 0.0,
+          "ceiling": 0.3967912197113037,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -6.594864845275879,
+            -5.457437992095947,
+            0.3967912197113037
+          ],
+          "ceiling_point_source_index": 290715,
+          "local_component_id": 105
+        },
+        {
+          "world_xy": [
+            -6.31178436279297,
+            -6.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7605073207951917,
+          "cell_ij": [
+            370,
+            145
+          ],
+          "ground": 0.14152343571186066,
+          "ceiling": 0.16806666553020477,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -6.341428756713867,
+            -6.4640913009643555,
+            0.16806666553020477
+          ],
+          "ceiling_point_source_index": 256806,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -6.31178436279297,
+            -4.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6396634310420415,
+          "cell_ij": [
+            370,
+            153
+          ],
+          "ground": 0.0,
+          "ceiling": 0.42692288756370544,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -6.265439033508301,
+            -4.69381046295166,
+            0.42692288756370544
+          ],
+          "ceiling_point_source_index": 309686,
+          "local_component_id": 128
+        },
+        {
+          "world_xy": [
+            -6.111784362792967,
+            -6.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6822719734863159,
+          "cell_ij": [
+            371,
+            146
+          ],
+          "ground": 0.09831121563911438,
+          "ceiling": 0.5516780614852905,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -6.02153205871582,
+            -6.271746635437012,
+            0.5516780614852905
+          ],
+          "ceiling_point_source_index": 328610,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -6.111784362792967,
+            -5.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.3322292855270073,
+          "cell_ij": [
+            371,
+            148
+          ],
+          "ground": 0.14928123354911804,
+          "ceiling": 0.18526285886764526,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -6.031118392944336,
+            -5.808103084564209,
+            0.18526285886764526
+          ],
+          "ceiling_point_source_index": 256906,
+          "local_component_id": 43
+        },
+        {
+          "world_xy": [
+            -5.9117843627929645,
+            -6.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7790579701570948,
+          "cell_ij": [
+            372,
+            146
+          ],
+          "ground": 0.14652873575687408,
+          "ceiling": 0.2300519198179245,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -5.893775939941406,
+            -6.2261128425598145,
+            0.2300519198179245
+          ],
+          "ceiling_point_source_index": 256858,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.9117843627929645,
+            -5.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.6040366261774391,
+          "cell_ij": [
+            372,
+            147
+          ],
+          "ground": 0.08446600288152695,
+          "ceiling": 0.5960158109664917,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -5.987632751464844,
+            -5.933744430541992,
+            0.5960158109664917
+          ],
+          "ceiling_point_source_index": 346131,
+          "local_component_id": 157
+        },
+        {
+          "world_xy": [
+            -5.9117843627929645,
+            -4.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6211127816801396,
+          "cell_ij": [
+            372,
+            154
+          ],
+          "ground": 0.05882423371076584,
+          "ceiling": 0.4613857567310333,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -5.858134746551514,
+            -4.6497368812561035,
+            0.4613857567310333
+          ],
+          "ceiling_point_source_index": 309687,
+          "local_component_id": 109
+        },
+        {
+          "world_xy": [
+            -5.9117843627929645,
+            -4.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7961341256597941,
+          "cell_ij": [
+            372,
+            155
+          ],
+          "ground": 0.10950014740228653,
+          "ceiling": 0.3603012263774872,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -5.8141632080078125,
+            -4.332980155944824,
+            0.3603012263774872
+          ],
+          "ceiling_point_source_index": 291319,
+          "local_component_id": 110
+        },
+        {
+          "world_xy": [
+            -5.711784362792969,
+            -5.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7008226228482133,
+          "cell_ij": [
+            373,
+            147
+          ],
+          "ground": 0.13855457305908203,
+          "ceiling": 0.2558950185775757,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -5.613178730010986,
+            -5.94044303894043,
+            0.2558950185775757
+          ],
+          "ceiling_point_source_index": 273891,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.711784362792969,
+            -4.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.524326785009365,
+          "cell_ij": [
+            373,
+            154
+          ],
+          "ground": 0.0,
+          "ceiling": 0.3835267424583435,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -5.809333801269531,
+            -4.577942848205566,
+            0.3835267424583435
+          ],
+          "ceiling_point_source_index": 291168,
+          "local_component_id": 109
+        },
+        {
+          "world_xy": [
+            -5.711784362792969,
+            -4.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.6993481289890199,
+          "cell_ij": [
+            373,
+            155
+          ],
+          "ground": 0.0,
+          "ceiling": 0.4328307509422302,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -5.7695207595825195,
+            -4.356752395629883,
+            0.4328307509422302
+          ],
+          "ceiling_point_source_index": 309748,
+          "local_component_id": 110
+        },
+        {
+          "world_xy": [
+            -5.511784362792966,
+            -5.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.797608619518991,
+          "cell_ij": [
+            374,
+            147
+          ],
+          "ground": 0.1361943632364273,
+          "ceiling": 0.1567908376455307,
+          "original_source_floor_support_points": 1,
+          "conditioned_floor_points_within_5_5cm": 2,
+          "ceiling_point_xyz": [
+            -5.568531036376953,
+            -6.045164108276367,
+            0.1567908376455307
+          ],
+          "ceiling_point_source_index": 239179,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.511784362792966,
+            -5.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6225872755393382,
+          "cell_ij": [
+            374,
+            148
+          ],
+          "ground": 0.09215651452541351,
+          "ceiling": 0.5536273121833801,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -5.49912166595459,
+            -5.7566399574279785,
+            0.5536273121833801
+          ],
+          "ceiling_point_source_index": 328691,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.511784362792966,
+            -5.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.4475659315596842,
+          "cell_ij": [
+            374,
+            149
+          ],
+          "ground": 0.1430773288011551,
+          "ceiling": 0.1805124431848526,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -5.431243419647217,
+            -5.497320175170898,
+            0.1805124431848526
+          ],
+          "ceiling_point_source_index": 239267,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.511784362792966,
+            -5.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.2725445875800293,
+          "cell_ij": [
+            374,
+            150
+          ],
+          "ground": 0.14497050642967224,
+          "ceiling": 0.1777985841035843,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -5.421543121337891,
+            -5.352558135986328,
+            0.1777985841035843
+          ],
+          "ceiling_point_source_index": 239290,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.31178436279297,
+            -5.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.719373272210112,
+          "cell_ij": [
+            375,
+            148
+          ],
+          "ground": 0.14454568922519684,
+          "ceiling": 0.15207520127296448,
+          "original_source_floor_support_points": 2,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -5.220520973205566,
+            -5.805085182189941,
+            0.15207520127296448
+          ],
+          "ceiling_point_source_index": 239212,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.31178436279297,
+            -5.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.5443519282304584,
+          "cell_ij": [
+            375,
+            149
+          ],
+          "ground": 0.1432890146970749,
+          "ceiling": 0.22547800838947296,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -5.334225654602051,
+            -5.556313514709473,
+            0.22547800838947296
+          ],
+          "ceiling_point_source_index": 256934,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.31178436279297,
+            -5.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.36933058425080345,
+          "cell_ij": [
+            375,
+            150
+          ],
+          "ground": 0.14495660364627838,
+          "ceiling": 0.22910718619823456,
+          "original_source_floor_support_points": 3,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -5.296838760375977,
+            -5.371732711791992,
+            0.22910718619823456
+          ],
+          "ceiling_point_source_index": 256955,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.31178436279297,
+            -5.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.1943092402711498,
+          "cell_ij": [
+            375,
+            151
+          ],
+          "ground": 0.13102450966835022,
+          "ceiling": 0.30223512649536133,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -5.311882972717285,
+            -5.14530611038208,
+            0.30223512649536133
+          ],
+          "ceiling_point_source_index": 274412,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.31178436279297,
+            -4.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.019287896291494213,
+          "cell_ij": [
+            375,
+            152
+          ],
+          "ground": 0.1386997103691101,
+          "ceiling": 0.4432750344276428,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -5.347635269165039,
+            -4.972559452056885,
+            0.4432750344276428
+          ],
+          "ceiling_point_source_index": 309612,
+          "local_component_id": 127
+        },
+        {
+          "world_xy": [
+            -5.31178436279297,
+            -4.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.5057761356474679,
+          "cell_ij": [
+            375,
+            155
+          ],
+          "ground": 0.0,
+          "ceiling": 0.5462563633918762,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -5.3199615478515625,
+            -4.286667346954346,
+            0.5462563633918762
+          ],
+          "ceiling_point_source_index": 328952,
+          "local_component_id": 150
+        },
+        {
+          "world_xy": [
+            -5.111784362792967,
+            -5.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6411379249012364,
+          "cell_ij": [
+            376,
+            149
+          ],
+          "ground": 0.13366645574569702,
+          "ceiling": 0.15661166608333588,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -5.100845813751221,
+            -5.572021484375,
+            0.15661166608333588
+          ],
+          "ceiling_point_source_index": 239252,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.111784362792967,
+            -5.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.46611658092158126,
+          "cell_ij": [
+            376,
+            150
+          ],
+          "ground": 0.13909167051315308,
+          "ceiling": 0.30486008524894714,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -5.200300693511963,
+            -5.4565229415893555,
+            0.30486008524894714
+          ],
+          "ceiling_point_source_index": 274212,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -5.111784362792967,
+            -3.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7590328269359983,
+          "cell_ij": [
+            376,
+            157
+          ],
+          "ground": 0.10304299741983414,
+          "ceiling": 0.29260051250457764,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -5.05678129196167,
+            -3.95770525932312,
+            0.29260051250457764
+          ],
+          "ceiling_point_source_index": 274935,
+          "local_component_id": 82
+        },
+        {
+          "world_xy": [
+            -4.9117843627929645,
+            -5.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7379239215720138,
+          "cell_ij": [
+            377,
+            149
+          ],
+          "ground": 0.14123950898647308,
+          "ceiling": 0.1523885726928711,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -4.898739814758301,
+            -5.652560710906982,
+            0.1523885726928711
+          ],
+          "ceiling_point_source_index": 239240,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -4.9117843627929645,
+            -4.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.48722548628556533,
+          "cell_ij": [
+            377,
+            156
+          ],
+          "ground": 0.058587606996297836,
+          "ceiling": 0.41366344690322876,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -4.97206974029541,
+            -4.084519386291504,
+            0.41366344690322876
+          ],
+          "ceiling_point_source_index": 291475,
+          "local_component_id": 111
+        },
+        {
+          "world_xy": [
+            -4.9117843627929645,
+            -3.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.6622468302652206,
+          "cell_ij": [
+            377,
+            157
+          ],
+          "ground": 0.10287969559431076,
+          "ceiling": 0.2010255604982376,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -5.002376556396484,
+            -4.045239448547363,
+            0.2010255604982376
+          ],
+          "ceiling_point_source_index": 257157,
+          "local_component_id": 82
+        },
+        {
+          "world_xy": [
+            -4.711784362792969,
+            -3.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.565460833594446,
+          "cell_ij": [
+            378,
+            157
+          ],
+          "ground": 0.1495554894208908,
+          "ceiling": 0.1604989618062973,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -4.73451566696167,
+            -3.9824297428131104,
+            0.1604989618062973
+          ],
+          "ceiling_point_source_index": 239511,
+          "local_component_id": 2
+        },
+        {
+          "world_xy": [
+            -4.711784362792969,
+            -3.7722900390625007
+          ],
+          "distance_to_reference_segment_m": 0.7404821775740996,
+          "cell_ij": [
+            378,
+            158
+          ],
+          "ground": 0.14431652426719666,
+          "ceiling": 0.17702214419841766,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -4.633498668670654,
+            -3.85762882232666,
+            0.17702214419841766
+          ],
+          "ceiling_point_source_index": 239524,
+          "local_component_id": 2
+        },
+        {
+          "world_xy": [
+            -4.511784362792966,
+            -5.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7564745709339112,
+          "cell_ij": [
+            379,
+            150
+          ],
+          "ground": 0.14724239706993103,
+          "ceiling": 0.1693333387374878,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -4.53830623626709,
+            -5.45107364654541,
+            0.1693333387374878
+          ],
+          "ceiling_point_source_index": 239272,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -4.511784362792966,
+            -3.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.4686748369236682,
+          "cell_ij": [
+            379,
+            157
+          ],
+          "ground": 0.0,
+          "ceiling": 0.4471815228462219,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -4.603221416473389,
+            -3.875579595565796,
+            0.4471815228462219
+          ],
+          "ceiling_point_source_index": 309838,
+          "local_component_id": 2
+        },
+        {
+          "world_xy": [
+            -4.511784362792966,
+            -3.7722900390625007
+          ],
+          "distance_to_reference_segment_m": 0.6436961809033215,
+          "cell_ij": [
+            379,
+            158
+          ],
+          "ground": 0.03713493049144745,
+          "ceiling": 0.16082394123077393,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -4.539889812469482,
+            -3.6999495029449463,
+            0.16082394123077393
+          ],
+          "ceiling_point_source_index": 239553,
+          "local_component_id": 2
+        },
+        {
+          "world_xy": [
+            -4.31178436279297,
+            -5.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.6782392236250326,
+          "cell_ij": [
+            380,
+            151
+          ],
+          "ground": 0.11264953762292862,
+          "ceiling": 0.4330032169818878,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -4.25443172454834,
+            -5.261966705322266,
+            0.4330032169818878
+          ],
+          "ceiling_point_source_index": 309563,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -4.111784362792967,
+            -5.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7750252202958108,
+          "cell_ij": [
+            381,
+            151
+          ],
+          "ground": 0.14866921305656433,
+          "ceiling": 0.1511623114347458,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -4.027774333953857,
+            -5.1697001457214355,
+            0.1511623114347458
+          ],
+          "ceiling_point_source_index": 239317,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -4.111784362792967,
+            -4.172290039062501
+          ],
+          "distance_to_reference_segment_m": 0.10008149960246102,
+          "cell_ij": [
+            381,
+            156
+          ],
+          "ground": 0.0,
+          "ceiling": 0.4487515985965729,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -4.08299446105957,
+            -4.22067928314209,
+            0.4487515985965729
+          ],
+          "ceiling_point_source_index": 309779,
+          "local_component_id": 129
+        },
+        {
+          "world_xy": [
+            -3.9117843627929645,
+            -4.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.696789872986933,
+          "cell_ij": [
+            382,
+            152
+          ],
+          "ground": 0.07615551352500916,
+          "ceiling": 0.15756183862686157,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -3.822199583053589,
+            -5.052409648895264,
+            0.15756183862686157
+          ],
+          "ceiling_point_source_index": 239339,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -3.9117843627929645,
+            -4.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.5217685290072797,
+          "cell_ij": [
+            382,
+            153
+          ],
+          "ground": 0.08753331005573273,
+          "ceiling": 0.16211657226085663,
+          "original_source_floor_support_points": 7,
+          "conditioned_floor_points_within_5_5cm": 7,
+          "ceiling_point_xyz": [
+            -3.880126476287842,
+            -4.760006904602051,
+            0.16211657226085663
+          ],
+          "ceiling_point_source_index": 239405,
+          "local_component_id": 58
+        },
+        {
+          "world_xy": [
+            -3.7117843627929688,
+            -4.9722900390625
+          ],
+          "distance_to_reference_segment_m": 0.7935758696577079,
+          "cell_ij": [
+            383,
+            152
+          ],
+          "ground": 0.1427256017923355,
+          "ceiling": 0.16263653337955475,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -3.7090530395507812,
+            -5.012061595916748,
+            0.16263653337955475
+          ],
+          "ceiling_point_source_index": 239359,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -3.7117843627929688,
+            -4.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.44353318169840017,
+          "cell_ij": [
+            383,
+            154
+          ],
+          "ground": 0.06102926284074783,
+          "ceiling": 0.15542380511760712,
+          "original_source_floor_support_points": 8,
+          "conditioned_floor_points_within_5_5cm": 8,
+          "ceiling_point_xyz": [
+            -3.61246395111084,
+            -4.582861423492432,
+            0.15542380511760712
+          ],
+          "ceiling_point_source_index": 239424,
+          "local_component_id": 62
+        },
+        {
+          "world_xy": [
+            -3.511784362792966,
+            -4.772290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7153405223488316,
+          "cell_ij": [
+            384,
+            153
+          ],
+          "ground": 0.053873833268880844,
+          "ceiling": 0.15342803299427032,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 11,
+          "ceiling_point_xyz": [
+            -3.4840688705444336,
+            -4.859348297119141,
+            0.15342803299427032
+          ],
+          "ceiling_point_source_index": 239394,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -3.511784362792966,
+            -4.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.5403191783691779,
+          "cell_ij": [
+            384,
+            154
+          ],
+          "ground": 0.12898831069469452,
+          "ceiling": 0.15154887735843658,
+          "original_source_floor_support_points": 6,
+          "conditioned_floor_points_within_5_5cm": 6,
+          "ceiling_point_xyz": [
+            -3.417201280593872,
+            -4.518302917480469,
+            0.15154887735843658
+          ],
+          "ceiling_point_source_index": 239432,
+          "local_component_id": 63
+        },
+        {
+          "world_xy": [
+            -3.31178436279297,
+            -4.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.64725210683454,
+          "cell_ij": [
+            385,
+            154
+          ],
+          "ground": 0.11694613099098206,
+          "ceiling": 0.48900607228279114,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -3.3820605278015137,
+            -4.647380352020264,
+            0.48900607228279114
+          ],
+          "ceiling_point_source_index": 309688,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -3.31178436279297,
+            -4.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.5079559766128849,
+          "cell_ij": [
+            385,
+            155
+          ],
+          "ground": 0.1473100483417511,
+          "ceiling": 0.3182043433189392,
+          "original_source_floor_support_points": 10,
+          "conditioned_floor_points_within_5_5cm": 10,
+          "ceiling_point_xyz": [
+            -3.2821292877197266,
+            -4.461692810058594,
+            0.3182043433189392
+          ],
+          "ceiling_point_source_index": 274804,
+          "local_component_id": 92
+        },
+        {
+          "world_xy": [
+            -3.1117843627929673,
+            -4.572290039062501
+          ],
+          "distance_to_reference_segment_m": 0.7888102082786241,
+          "cell_ij": [
+            386,
+            154
+          ],
+          "ground": 0.12745068967342377,
+          "ceiling": 0.16165070235729218,
+          "original_source_floor_support_points": 5,
+          "conditioned_floor_points_within_5_5cm": 5,
+          "ceiling_point_xyz": [
+            -3.0959057807922363,
+            -4.654117584228516,
+            0.16165070235729218
+          ],
+          "ceiling_point_source_index": 239418,
+          "local_component_id": 33
+        },
+        {
+          "world_xy": [
+            -3.1117843627929673,
+            -4.3722900390625
+          ],
+          "distance_to_reference_segment_m": 0.6791947651885764,
+          "cell_ij": [
+            386,
+            155
+          ],
+          "ground": 0.14653874933719635,
+          "ceiling": 0.24654614925384521,
+          "original_source_floor_support_points": 9,
+          "conditioned_floor_points_within_5_5cm": 9,
+          "ceiling_point_xyz": [
+            -3.01863956451416,
+            -4.280935764312744,
+            0.24654614925384521
+          ],
+          "ceiling_point_source_index": 257116,
+          "local_component_id": 65
+        }
+      ],
+      "components": [
+        {
+          "component_id_local": 33,
+          "points": 2223,
+          "seed_cells": 28,
+          "center_xyz": [
+            -4.841865151517304,
+            -5.579929460987978,
+            0.9331215341456881
+          ],
+          "minimum_xyz": [
+            -6.999592304229736,
+            -7.0013580322265625,
+            0.10109312832355499
+          ],
+          "maximum_xyz": [
+            -2.463383197784424,
+            -4.294332981109619,
+            1.7999560832977295
+          ],
+          "extent_xyz": [
+            4.5362091064453125,
+            2.7070250511169434,
+            1.6988629549741745
+          ],
+          "touches_analysis_crop_or_tall_band": true,
+          "covariance_eigenvalues": [
+            0.02189851121131102,
+            0.23213455736535976,
+            1.965474748020172
+          ],
+          "interpretation": "preserve: tall/large/cropped structure"
+        },
+        {
+          "component_id_local": 8,
+          "points": 1719,
+          "seed_cells": 8,
+          "center_xyz": [
+            -8.99996788908119,
+            -8.001087401480506,
+            0.9217171747109584
+          ],
+          "minimum_xyz": [
+            -10.70694637298584,
+            -8.920674324035645,
+            0.10126381367444992
+          ],
+          "maximum_xyz": [
+            -7.245336532592773,
+            -6.787493705749512,
+            1.799981951713562
+          ],
+          "extent_xyz": [
+            3.4616098403930664,
+            2.133180618286133,
+            1.698718138039112
+          ],
+          "touches_analysis_crop_or_tall_band": true,
+          "covariance_eigenvalues": [
+            0.023719115824443377,
+            0.21566986333485988,
+            1.087148553769098
+          ],
+          "interpretation": "preserve: tall/large/cropped structure"
+        },
+        {
+          "component_id_local": 2,
+          "points": 2321,
+          "seed_cells": 5,
+          "center_xyz": [
+            -5.77333596984357,
+            -4.013188695969226,
+            0.9434322717052654
+          ],
+          "minimum_xyz": [
+            -8.04649543762207,
+            -5.28817892074585,
+            0.10091628134250641
+          ],
+          "maximum_xyz": [
+            -3.3625917434692383,
+            -2.5858845710754395,
+            1.7987576723098755
+          ],
+          "extent_xyz": [
+            4.683903694152832,
+            2.70229434967041,
+            1.697841390967369
+          ],
+          "touches_analysis_crop_or_tall_band": true,
+          "covariance_eigenvalues": [
+            0.0162940047183359,
+            0.23268013255761424,
+            2.4082432121583084
+          ],
+          "interpretation": "preserve: tall/large/cropped structure"
+        },
+        {
+          "component_id_local": 23,
+          "points": 21,
+          "seed_cells": 4,
+          "center_xyz": [
+            -8.239362921033587,
+            -6.935727119445801,
+            0.2795532856668745
+          ],
+          "minimum_xyz": [
+            -8.441669464111328,
+            -7.038434982299805,
+            0.12400375306606293
+          ],
+          "maximum_xyz": [
+            -7.960592746734619,
+            -6.812096118927002,
+            0.5326277017593384
+          ],
+          "extent_xyz": [
+            0.481076717376709,
+            0.22633886337280273,
+            0.40862394869327545
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.001749497609048614,
+            0.011086317493791222,
+            0.031746403722733185
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 18,
+          "points": 12,
+          "seed_cells": 3,
+          "center_xyz": [
+            -8.68811305363973,
+            -7.250573039054871,
+            0.2283265901108583
+          ],
+          "minimum_xyz": [
+            -8.861943244934082,
+            -7.363011837005615,
+            0.11208372563123703
+          ],
+          "maximum_xyz": [
+            -8.537199020385742,
+            -7.138528823852539,
+            0.3517760634422302
+          ],
+          "extent_xyz": [
+            0.32474422454833984,
+            0.22448301315307617,
+            0.2396923378109932
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.001993457895431664,
+            0.002936844533976041,
+            0.01824873317926704
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 105,
+          "points": 6,
+          "seed_cells": 3,
+          "center_xyz": [
+            -6.596852779388428,
+            -5.46335498491923,
+            0.465065062046051
+          ],
+          "minimum_xyz": [
+            -6.619583606719971,
+            -5.531721591949463,
+            0.36989402770996094
+          ],
+          "maximum_xyz": [
+            -6.58111047744751,
+            -5.399570941925049,
+            0.5342727899551392
+          ],
+          "extent_xyz": [
+            0.03847312927246094,
+            0.13215065002441406,
+            0.16437876224517822
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            3.063198299496899e-05,
+            0.002004618940593798,
+            0.005706974230327255
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 13,
+          "points": 5,
+          "seed_cells": 2,
+          "center_xyz": [
+            -9.731911659240723,
+            -7.729207992553711,
+            0.1903632640838623
+          ],
+          "minimum_xyz": [
+            -9.784603118896484,
+            -7.793781280517578,
+            0.15791016817092896
+          ],
+          "maximum_xyz": [
+            -9.667632102966309,
+            -7.66783332824707,
+            0.27534571290016174
+          ],
+          "extent_xyz": [
+            0.11697101593017578,
+            0.1259479522705078,
+            0.11743554472923279
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.00038611600434489737,
+            0.0013541442891158457,
+            0.004775733838309165
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 21,
+          "points": 4,
+          "seed_cells": 2,
+          "center_xyz": [
+            -9.45394492149353,
+            -7.1300965547561646,
+            0.17464317381381989
+          ],
+          "minimum_xyz": [
+            -9.510415077209473,
+            -7.234148025512695,
+            0.1335355043411255
+          ],
+          "maximum_xyz": [
+            -9.415040016174316,
+            -7.066405773162842,
+            0.19127672910690308
+          ],
+          "extent_xyz": [
+            0.09537506103515625,
+            0.16774225234985352,
+            0.05774122476577759
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            7.103246383409898e-05,
+            0.0013439154221482703,
+            0.007321427719588576
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 15,
+          "points": 11,
+          "seed_cells": 2,
+          "center_xyz": [
+            -8.816985390403055,
+            -7.57700911435214,
+            0.22854300046508963
+          ],
+          "minimum_xyz": [
+            -8.93648910522461,
+            -7.667129993438721,
+            0.10786481946706772
+          ],
+          "maximum_xyz": [
+            -8.62350845336914,
+            -7.478443145751953,
+            0.3043974041938782
+          ],
+          "extent_xyz": [
+            0.31298065185546875,
+            0.18868684768676758,
+            0.19653258472681046
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0015072411573776158,
+            0.004440605450006067,
+            0.010092256973176532
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 87,
+          "points": 5,
+          "seed_cells": 2,
+          "center_xyz": [
+            -8.374911117553712,
+            -6.5013243675231935,
+            0.36945820450782774
+          ],
+          "minimum_xyz": [
+            -8.428739547729492,
+            -6.5382537841796875,
+            0.3203801214694977
+          ],
+          "maximum_xyz": [
+            -8.29884147644043,
+            -6.435418128967285,
+            0.4082283079624176
+          ],
+          "extent_xyz": [
+            0.1298980712890625,
+            0.10283565521240234,
+            0.08784818649291992
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0005034883111553942,
+            0.0018620077383993663,
+            0.004064214487731198
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 109,
+          "points": 3,
+          "seed_cells": 2,
+          "center_xyz": [
+            -5.82142702738444,
+            -4.613265673319499,
+            0.4318974216779073
+          ],
+          "minimum_xyz": [
+            -5.858134746551514,
+            -4.6497368812561035,
+            0.3835267424583435
+          ],
+          "maximum_xyz": [
+            -5.796812534332275,
+            -4.577942848205566,
+            0.4613857567310333
+          ],
+          "extent_xyz": [
+            0.06132221221923828,
+            0.07179403305053711,
+            0.07785901427268982
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            -4.877687775356106e-19,
+            0.0007203668870826984,
+            0.003401919728721905
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 110,
+          "points": 3,
+          "seed_cells": 2,
+          "center_xyz": [
+            -5.801459630330403,
+            -4.372536341349284,
+            0.40902600685755414
+          ],
+          "minimum_xyz": [
+            -5.820694923400879,
+            -4.4278764724731445,
+            0.3603012263774872
+          ],
+          "maximum_xyz": [
+            -5.7695207595825195,
+            -4.332980155944824,
+            0.43394604325294495
+          ],
+          "extent_xyz": [
+            0.051174163818359375,
+            0.09489631652832031,
+            0.07364481687545776
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            1.2027867851011065e-19,
+            0.0013767356795336089,
+            0.0036180653188210895
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 82,
+          "points": 3,
+          "seed_cells": 2,
+          "center_xyz": [
+            -5.030252297719319,
+            -4.021590153376262,
+            0.26610234876473743
+          ],
+          "minimum_xyz": [
+            -5.05678129196167,
+            -4.061825752258301,
+            0.2010255604982376
+          ],
+          "maximum_xyz": [
+            -5.002376556396484,
+            -3.95770525932312,
+            0.3046809732913971
+          ],
+          "extent_xyz": [
+            0.05440473556518555,
+            0.10412049293518066,
+            0.10365541279315948
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            5.988671777091581e-20,
+            0.0023312225555614206,
+            0.004752568348543405
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 73,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -9.438410758972168,
+            -8.225752830505371,
+            0.1916794627904892
+          ],
+          "minimum_xyz": [
+            -9.438410758972168,
+            -8.225752830505371,
+            0.1916794627904892
+          ],
+          "maximum_xyz": [
+            -9.438410758972168,
+            -8.225752830505371,
+            0.1916794627904892
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 95,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -9.390079498291016,
+            -7.148090839385986,
+            0.3945830762386322
+          ],
+          "minimum_xyz": [
+            -9.390079498291016,
+            -7.148090839385986,
+            0.3945830762386322
+          ],
+          "maximum_xyz": [
+            -9.390079498291016,
+            -7.148090839385986,
+            0.3945830762386322
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 119,
+          "points": 5,
+          "seed_cells": 1,
+          "center_xyz": [
+            -9.194840621948241,
+            -7.194507217407226,
+            0.5054014623165131
+          ],
+          "minimum_xyz": [
+            -9.20858097076416,
+            -7.256773948669434,
+            0.4423631727695465
+          ],
+          "maximum_xyz": [
+            -9.180354118347168,
+            -7.155901908874512,
+            0.5568997859954834
+          ],
+          "extent_xyz": [
+            0.028226852416992188,
+            0.10087203979492188,
+            0.11453661322593689
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            8.31958987252594e-05,
+            0.001042366626417261,
+            0.00351230289681269
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 141,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -8.876940727233887,
+            -6.674559116363525,
+            0.5408565402030945
+          ],
+          "minimum_xyz": [
+            -8.876940727233887,
+            -6.674559116363525,
+            0.5408565402030945
+          ],
+          "maximum_xyz": [
+            -8.876940727233887,
+            -6.674559116363525,
+            0.5408565402030945
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 17,
+          "points": 3,
+          "seed_cells": 1,
+          "center_xyz": [
+            -8.710257212320963,
+            -7.42480452855428,
+            0.15750976155201593
+          ],
+          "minimum_xyz": [
+            -8.749496459960938,
+            -7.4530415534973145,
+            0.11130472272634506
+          ],
+          "maximum_xyz": [
+            -8.67894458770752,
+            -7.384990692138672,
+            0.21320840716362
+          ],
+          "extent_xyz": [
+            0.07055187225341797,
+            0.06805086135864258,
+            0.10190368443727493
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            3.425306447425604e-19,
+            0.0009619588020101654,
+            0.004251489890703341
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 85,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -8.43643569946289,
+            -6.862506866455078,
+            0.28891199827194214
+          ],
+          "minimum_xyz": [
+            -8.43643569946289,
+            -6.862506866455078,
+            0.28891199827194214
+          ],
+          "maximum_xyz": [
+            -8.43643569946289,
+            -6.862506866455078,
+            0.28891199827194214
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 20,
+          "points": 3,
+          "seed_cells": 1,
+          "center_xyz": [
+            -8.408750851949057,
+            -7.252350012461345,
+            0.22213418781757355
+          ],
+          "minimum_xyz": [
+            -8.427772521972656,
+            -7.285351753234863,
+            0.1488303393125534
+          ],
+          "maximum_xyz": [
+            -8.37281322479248,
+            -7.193508148193359,
+            0.2671774625778198
+          ],
+          "extent_xyz": [
+            0.05495929718017578,
+            0.0918436050415039,
+            0.11834712326526642
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            3.0334581004163727e-19,
+            0.0021450940879604876,
+            0.005534750553958504
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 76,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -8.343149185180664,
+            -6.592504501342773,
+            0.20007561147212982
+          ],
+          "minimum_xyz": [
+            -8.343149185180664,
+            -6.592504501342773,
+            0.20007561147212982
+          ],
+          "maximum_xyz": [
+            -8.343149185180664,
+            -6.592504501342773,
+            0.20007561147212982
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 120,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -8.085927963256836,
+            -7.146058082580566,
+            0.4881766140460968
+          ],
+          "minimum_xyz": [
+            -8.085927963256836,
+            -7.146058082580566,
+            0.4881766140460968
+          ],
+          "maximum_xyz": [
+            -8.085927963256836,
+            -7.146058082580566,
+            0.4881766140460968
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 99,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -8.022284507751465,
+            -6.871433258056641,
+            0.3769755959510803
+          ],
+          "minimum_xyz": [
+            -8.022284507751465,
+            -6.871433258056641,
+            0.3769755959510803
+          ],
+          "maximum_xyz": [
+            -8.022284507751465,
+            -6.871433258056641,
+            0.3769755959510803
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 170,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -8.150510787963867,
+            -6.460330009460449,
+            0.6750531792640686
+          ],
+          "minimum_xyz": [
+            -8.150510787963867,
+            -6.460330009460449,
+            0.6750531792640686
+          ],
+          "maximum_xyz": [
+            -8.150510787963867,
+            -6.460330009460449,
+            0.6750531792640686
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 79,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.81881856918335,
+            -6.303558349609375,
+            0.19834548234939575
+          ],
+          "minimum_xyz": [
+            -7.81881856918335,
+            -6.303558349609375,
+            0.19834548234939575
+          ],
+          "maximum_xyz": [
+            -7.81881856918335,
+            -6.303558349609375,
+            0.19834548234939575
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 122,
+          "points": 3,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.9083560307820635,
+            -6.213901837666829,
+            0.5107398529847463
+          ],
+          "minimum_xyz": [
+            -7.939449787139893,
+            -6.223981857299805,
+            0.4726240932941437
+          ],
+          "maximum_xyz": [
+            -7.855862140655518,
+            -6.193749904632568,
+            0.5598522424697876
+          ],
+          "extent_xyz": [
+            0.083587646484375,
+            0.030231952667236328,
+            0.08722814917564392
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            2.7920770718388536e-19,
+            5.3435450280962445e-05,
+            0.004334219727377306
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 75,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.738214015960693,
+            -6.840795040130615,
+            0.22438108921051025
+          ],
+          "minimum_xyz": [
+            -7.738214015960693,
+            -6.840795040130615,
+            0.22438108921051025
+          ],
+          "maximum_xyz": [
+            -7.738214015960693,
+            -6.840795040130615,
+            0.22438108921051025
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 142,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.746618747711182,
+            -6.380367279052734,
+            0.537472128868103
+          ],
+          "minimum_xyz": [
+            -7.746618747711182,
+            -6.380367279052734,
+            0.537472128868103
+          ],
+          "maximum_xyz": [
+            -7.746618747711182,
+            -6.380367279052734,
+            0.537472128868103
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 98,
+          "points": 4,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.508734107017517,
+            -6.949486017227173,
+            0.4265357032418251
+          ],
+          "minimum_xyz": [
+            -7.537135124206543,
+            -6.977441310882568,
+            0.38288307189941406
+          ],
+          "maximum_xyz": [
+            -7.471385478973389,
+            -6.896329402923584,
+            0.46190497279167175
+          ],
+          "extent_xyz": [
+            0.0657496452331543,
+            0.08111190795898438,
+            0.07902190089225769
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.00023368305163379142,
+            0.0010895605929018073,
+            0.002312857073675478
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 86,
+          "points": 3,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.661589622497559,
+            -6.810743967692058,
+            0.3442401985327403
+          ],
+          "minimum_xyz": [
+            -7.720956325531006,
+            -6.830075263977051,
+            0.3236355483531952
+          ],
+          "maximum_xyz": [
+            -7.57706356048584,
+            -6.789063453674316,
+            0.3608750104904175
+          ],
+          "extent_xyz": [
+            0.14389276504516602,
+            0.041011810302734375,
+            0.03723946213722229
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            9.779637475001392e-20,
+            0.0004848280754897322,
+            0.005949344251486268
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 44,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.3183698654174805,
+            -5.780040740966797,
+            0.16407263278961182
+          ],
+          "minimum_xyz": [
+            -7.3183698654174805,
+            -5.780040740966797,
+            0.16407263278961182
+          ],
+          "maximum_xyz": [
+            -7.3183698654174805,
+            -5.780040740966797,
+            0.16407263278961182
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 100,
+          "points": 8,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.155987083911896,
+            -6.880925357341766,
+            0.49388403445482254
+          ],
+          "minimum_xyz": [
+            -7.281079292297363,
+            -6.906202793121338,
+            0.37505966424942017
+          ],
+          "maximum_xyz": [
+            -7.049916744232178,
+            -6.847076892852783,
+            0.6051263213157654
+          ],
+          "extent_xyz": [
+            0.23116254806518555,
+            0.05912590026855469,
+            0.23006665706634521
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0005407087365393102,
+            0.004317947185688563,
+            0.008218231828185044
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 101,
+          "points": 7,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.028400693620954,
+            -6.495770250047956,
+            0.47296019962855745
+          ],
+          "minimum_xyz": [
+            -7.085413932800293,
+            -6.549976348876953,
+            0.3776249587535858
+          ],
+          "maximum_xyz": [
+            -6.968715190887451,
+            -6.4077534675598145,
+            0.5439490079879761
+          ],
+          "extent_xyz": [
+            0.1166987419128418,
+            0.14222288131713867,
+            0.16632404923439026
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0015716048994931801,
+            0.0019258696814565199,
+            0.005997371215261048
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 36,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.160651206970215,
+            -6.4372944831848145,
+            0.15663594007492065
+          ],
+          "minimum_xyz": [
+            -7.160651206970215,
+            -6.4372944831848145,
+            0.15663594007492065
+          ],
+          "maximum_xyz": [
+            -7.160651206970215,
+            -6.4372944831848145,
+            0.15663594007492065
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 104,
+          "points": 4,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.0234986543655396,
+            -5.660522222518921,
+            0.46012959629297256
+          ],
+          "minimum_xyz": [
+            -7.063049793243408,
+            -5.693464279174805,
+            0.38269278407096863
+          ],
+          "maximum_xyz": [
+            -6.982541084289551,
+            -5.625057220458984,
+            0.5657714009284973
+          ],
+          "extent_xyz": [
+            0.08050870895385742,
+            0.06840705871582031,
+            0.1830786168575287
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            6.389485503134878e-06,
+            0.0025292383295971634,
+            0.008521239775809809
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 159,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.036435604095459,
+            -5.484120845794678,
+            0.6006436347961426
+          ],
+          "minimum_xyz": [
+            -7.036435604095459,
+            -5.484120845794678,
+            0.6006436347961426
+          ],
+          "maximum_xyz": [
+            -7.036435604095459,
+            -5.484120845794678,
+            0.6006436347961426
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 107,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.065174102783203,
+            -5.385758399963379,
+            0.36966824531555176
+          ],
+          "minimum_xyz": [
+            -7.065174102783203,
+            -5.385758399963379,
+            0.36966824531555176
+          ],
+          "maximum_xyz": [
+            -7.065174102783203,
+            -5.385758399963379,
+            0.36966824531555176
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 52,
+          "points": 2,
+          "seed_cells": 1,
+          "center_xyz": [
+            -7.066219806671143,
+            -5.0685038566589355,
+            0.13286634534597397
+          ],
+          "minimum_xyz": [
+            -7.107892036437988,
+            -5.087985038757324,
+            0.1142817884683609
+          ],
+          "maximum_xyz": [
+            -7.024547576904297,
+            -5.049022674560547,
+            0.15145090222358704
+          ],
+          "extent_xyz": [
+            0.0833444595336914,
+            0.038962364196777344,
+            0.037169113755226135
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 78,
+          "points": 2,
+          "seed_cells": 1,
+          "center_xyz": [
+            -6.956921815872192,
+            -6.594960927963257,
+            0.26097384095191956
+          ],
+          "minimum_xyz": [
+            -6.986123561859131,
+            -6.6440110206604,
+            0.2434697449207306
+          ],
+          "maximum_xyz": [
+            -6.927720069885254,
+            -6.545910835266113,
+            0.2784779369831085
+          ],
+          "extent_xyz": [
+            0.05840349197387695,
+            0.09810018539428711,
+            0.03500819206237793
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 80,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -6.996750354766846,
+            -5.604960918426514,
+            0.1812485009431839
+          ],
+          "minimum_xyz": [
+            -6.996750354766846,
+            -5.604960918426514,
+            0.1812485009431839
+          ],
+          "maximum_xyz": [
+            -6.996750354766846,
+            -5.604960918426514,
+            0.1812485009431839
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 54,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -6.939593315124512,
+            -4.99104118347168,
+            0.16915076971054077
+          ],
+          "minimum_xyz": [
+            -6.939593315124512,
+            -4.99104118347168,
+            0.16915076971054077
+          ],
+          "maximum_xyz": [
+            -6.939593315124512,
+            -4.99104118347168,
+            0.16915076971054077
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 89,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -6.673988342285156,
+            -5.894768714904785,
+            0.31763821840286255
+          ],
+          "minimum_xyz": [
+            -6.673988342285156,
+            -5.894768714904785,
+            0.31763821840286255
+          ],
+          "maximum_xyz": [
+            -6.673988342285156,
+            -5.894768714904785,
+            0.31763821840286255
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 125,
+          "points": 4,
+          "seed_cells": 1,
+          "center_xyz": [
+            -6.733428716659546,
+            -5.1604883670806885,
+            0.5482855513691902
+          ],
+          "minimum_xyz": [
+            -6.746898174285889,
+            -5.241987705230713,
+            0.45735737681388855
+          ],
+          "maximum_xyz": [
+            -6.714753150939941,
+            -5.099255561828613,
+            0.586295485496521
+          ],
+          "extent_xyz": [
+            0.032145023345947266,
+            0.1427321434020996,
+            0.12893810868263245
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0001794882172002401,
+            0.0024489144190443513,
+            0.005033306378861211
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 88,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -6.535634994506836,
+            -6.002748489379883,
+            0.2577786147594452
+          ],
+          "minimum_xyz": [
+            -6.535634994506836,
+            -6.002748489379883,
+            0.2577786147594452
+          ],
+          "maximum_xyz": [
+            -6.535634994506836,
+            -6.002748489379883,
+            0.2577786147594452
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 128,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -6.265439033508301,
+            -4.69381046295166,
+            0.42692288756370544
+          ],
+          "minimum_xyz": [
+            -6.265439033508301,
+            -4.69381046295166,
+            0.42692288756370544
+          ],
+          "maximum_xyz": [
+            -6.265439033508301,
+            -4.69381046295166,
+            0.42692288756370544
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 43,
+          "points": 5,
+          "seed_cells": 1,
+          "center_xyz": [
+            -6.0713249206542965,
+            -5.810892868041992,
+            0.19005751013755798
+          ],
+          "minimum_xyz": [
+            -6.122649192810059,
+            -5.8669915199279785,
+            0.13900336623191833
+          ],
+          "maximum_xyz": [
+            -6.031118392944336,
+            -5.758633136749268,
+            0.25188687443733215
+          ],
+          "extent_xyz": [
+            0.09153079986572266,
+            0.10835838317871094,
+            0.11288350820541382
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            8.074403983860983e-05,
+            0.0005366948945085888,
+            0.005086214817479888
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 157,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -5.987632751464844,
+            -5.933744430541992,
+            0.5960158109664917
+          ],
+          "minimum_xyz": [
+            -5.987632751464844,
+            -5.933744430541992,
+            0.5960158109664917
+          ],
+          "maximum_xyz": [
+            -5.987632751464844,
+            -5.933744430541992,
+            0.5960158109664917
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 127,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -5.347635269165039,
+            -4.972559452056885,
+            0.4432750344276428
+          ],
+          "minimum_xyz": [
+            -5.347635269165039,
+            -4.972559452056885,
+            0.4432750344276428
+          ],
+          "maximum_xyz": [
+            -5.347635269165039,
+            -4.972559452056885,
+            0.4432750344276428
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 150,
+          "points": 8,
+          "seed_cells": 1,
+          "center_xyz": [
+            -5.3005951046943665,
+            -4.286988079547882,
+            0.7170320972800255
+          ],
+          "minimum_xyz": [
+            -5.414111614227295,
+            -4.321880340576172,
+            0.5462563633918762
+          ],
+          "maximum_xyz": [
+            -5.238670349121094,
+            -4.234102249145508,
+            0.8934224843978882
+          ],
+          "extent_xyz": [
+            0.17544126510620117,
+            0.08777809143066406,
+            0.34716612100601196
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.00040498458125683747,
+            0.00255010496608284,
+            0.014385120188667659
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 111,
+          "points": 14,
+          "seed_cells": 1,
+          "center_xyz": [
+            -4.983046531677246,
+            -4.0784428630556375,
+            0.6171357035636902
+          ],
+          "minimum_xyz": [
+            -5.073939800262451,
+            -4.131256103515625,
+            0.41366344690322876
+          ],
+          "maximum_xyz": [
+            -4.873362064361572,
+            -3.9471688270568848,
+            0.9032984375953674
+          ],
+          "extent_xyz": [
+            0.2005777359008789,
+            0.18408727645874023,
+            0.48963499069213867
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0012989789164531923,
+            0.005962247952842985,
+            0.024930055352085752
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 129,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -4.08299446105957,
+            -4.22067928314209,
+            0.4487515985965729
+          ],
+          "minimum_xyz": [
+            -4.08299446105957,
+            -4.22067928314209,
+            0.4487515985965729
+          ],
+          "maximum_xyz": [
+            -4.08299446105957,
+            -4.22067928314209,
+            0.4487515985965729
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 58,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -3.880126476287842,
+            -4.760006904602051,
+            0.16211657226085663
+          ],
+          "minimum_xyz": [
+            -3.880126476287842,
+            -4.760006904602051,
+            0.16211657226085663
+          ],
+          "maximum_xyz": [
+            -3.880126476287842,
+            -4.760006904602051,
+            0.16211657226085663
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 62,
+          "points": 1,
+          "seed_cells": 1,
+          "center_xyz": [
+            -3.61246395111084,
+            -4.582861423492432,
+            0.15542380511760712
+          ],
+          "minimum_xyz": [
+            -3.61246395111084,
+            -4.582861423492432,
+            0.15542380511760712
+          ],
+          "maximum_xyz": [
+            -3.61246395111084,
+            -4.582861423492432,
+            0.15542380511760712
+          ],
+          "extent_xyz": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 63,
+          "points": 2,
+          "seed_cells": 1,
+          "center_xyz": [
+            -3.4437273740768433,
+            -4.553243398666382,
+            0.14026859402656555
+          ],
+          "minimum_xyz": [
+            -3.4702534675598145,
+            -4.588183879852295,
+            0.12898831069469452
+          ],
+          "maximum_xyz": [
+            -3.417201280593872,
+            -4.518302917480469,
+            0.15154887735843658
+          ],
+          "extent_xyz": [
+            0.05305218696594238,
+            0.06988096237182617,
+            0.022560566663742065
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 92,
+          "points": 3,
+          "seed_cells": 1,
+          "center_xyz": [
+            -3.243997097015381,
+            -4.422857920328776,
+            0.34350695212682086
+          ],
+          "minimum_xyz": [
+            -3.2821292877197266,
+            -4.461692810058594,
+            0.3182043433189392
+          ],
+          "maximum_xyz": [
+            -3.2195732593536377,
+            -4.387913703918457,
+            0.35702526569366455
+          ],
+          "extent_xyz": [
+            0.06255602836608887,
+            0.07377910614013672,
+            0.03882092237472534
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            -1.6543480987761368e-19,
+            9.321162597880343e-05,
+            0.002879152096732159
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        },
+        {
+          "component_id_local": 65,
+          "points": 6,
+          "seed_cells": 1,
+          "center_xyz": [
+            -3.0584664742151895,
+            -4.326617161432902,
+            0.2631803850332896
+          ],
+          "minimum_xyz": [
+            -3.098191738128662,
+            -4.381337642669678,
+            0.14471907913684845
+          ],
+          "maximum_xyz": [
+            -3.01863956451416,
+            -4.280935764312744,
+            0.36180490255355835
+          ],
+          "extent_xyz": [
+            0.07955217361450195,
+            0.1004018783569336,
+            0.2170858234167099
+          ],
+          "touches_analysis_crop_or_tall_band": false,
+          "covariance_eigenvalues": [
+            4.119723356070713e-07,
+            0.003499645997895703,
+            0.010028758706589508
+          ],
+          "interpretation": "finite floating fragment candidate, not semantic proof"
+        }
+      ]
+    }
+  ],
+  "important_limits": [
+    "B1 is connected only in an optimistic XY union of low surfaces; native layer-switch validation still required.",
+    "B2/B3/B4 remain disconnected even under that optimistic union, so at least these three must be addressed.",
+    "Historical trajectory is a diagnostic reference only; no tube or cells were made free.",
+    "Small floating clusters supported by measured floor are candidates for review, not proof every cluster is a human ghost.",
+    "Tall connected wall/structure components and all unknown areas must remain protected."
+  ],
+  "production_inputs_modified": false
+}

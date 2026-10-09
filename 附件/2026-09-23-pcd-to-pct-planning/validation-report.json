@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "archived_source_files": 37,
+  "evidence_files": 30,
+  "checked_links": 8,
+  "source_comparison": false,
+  "images": [
+    {
+      "file": "01-source-map-comparison.png",
+      "width": 2240,
+      "height": 1920
+    },
+    {
+      "file": "02-early-cost-stages.png",
+      "width": 2400,
+      "height": 1095
+    },
+    {
+      "file": "03-observed-floor-height.png",
+      "width": 2550,
+      "height": 1020
+    },
+    {
+      "file": "04-compact-vs-v3.png",
+      "width": 2550,
+      "height": 1190
+    },
+    {
+      "file": "05-v3-breaks-diagnosis.png",
+      "width": 2100,
+      "height": 2700
+    },
+    {
+      "file": "06-compact-vs-v6.png",
+      "width": 2550,
+      "height": 1190
+    },
+    {
+      "file": "07-path-quality-before-after.png",
+      "width": 2240,
+      "height": 1760
+    }
+  ],
+  "native_cases": "10/10",
+  "path_quality_cases": "14/14",
+  "live_message_check": "PASS",
+  "point_accounting": "PASS"
+}

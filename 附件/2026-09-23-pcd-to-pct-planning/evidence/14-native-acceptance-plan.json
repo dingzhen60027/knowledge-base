@@ -1,0 +1,1188 @@
+{
+  "schema": "d1max.offline_native_acceptance/v1",
+  "tomogram": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/tomogram.npz",
+  "tomogram_sha256": "fb6897abb9624e493bea6f7c6ac723c20627bcd51f0dc97af9e320c6aab59433",
+  "provenance": {
+    "verified": true,
+    "tomogram_sha256": "fb6897abb9624e493bea6f7c6ac723c20627bcd51f0dc97af9e320c6aab59433",
+    "source_pcd": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/processed_map.pcd",
+    "source_sha256": "8ea5a159ba3f780b5eea6189e8327a9bb653024cadbf6fbe82475aeb70f9a30a",
+    "frame_id": "d1max_flat_floor_planning",
+    "upstream_commit": "35cd73fd82bcd51bc538429294af7646b2a09815",
+    "source_processing_manifest": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/manifest.json",
+    "source_processing_manifest_sha256": "5c5471436c17d27763203216b4f23454af65147cec815508f70e1cd98a9c5a39",
+    "processing_schema": "d1max.flat_floor_planning/v1",
+    "geometry_operation": "z_column_shift_from_trajectory_supported_floor",
+    "original_source_pcd": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_164231_sc-pgo-0919-structure-v1_572b51/processed_map.pcd",
+    "original_source_sha256": "9acb981006da500e927be60763656c3fe29bfcef8081f7bdcacce70846694b9c",
+    "ground_semantics": "input_derived_surface",
+    "ceiling_semantics": "input_derived_upper_surface_or_nan_unobserved",
+    "planning_only": true
+  },
+  "reference_breaks": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/connectivity_repair_20260922/breaks.json",
+  "breaks_sha256": "0e086f0446ffece9979bc4c8842224dc3f975013909e56debcc1c7ade5b04e1f",
+  "reference_landmarks": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/connectivity_v3_strict/connectivity.json",
+  "landmarks_sha256": "c144b6885476f6d0aa2535c32c1cb86c5aebac10ab620a4fca7dfe36696d4e7f",
+  "script": "/home/dndx/d1max_nav_ws/log/pct_preview/flat_floor_20260922_audit/native_acceptance.py",
+  "script_sha256": "b1eeae801cececf8f53919d4e3d8f8a041958ae38f5982e51e9d447224f155ea",
+  "parameters": {
+    "astar_cost_weight": 2.0,
+    "optimizer_cost_margin": 8.0,
+    "cost_threshold": 20.0,
+    "minimum_headroom_m": 0.55,
+    "max_ground_step_m": 0.17,
+    "unknown_ceiling_policy": "allow_unobserved"
+  },
+  "required_curve_guard": "quintic_cell_boundary_roots_and_interval_interiors",
+  "case_timeout_s": 30,
+  "ros_or_robot_used": false,
+  "cases": [
+    {
+      "name": "preserved_user_39m",
+      "category": "preserved_user_goal",
+      "start_reference": [
+        -4.111784362792967,
+        7.0277099609375,
+        0.0
+      ],
+      "goal_reference": [
+        -10.766804695129395,
+        39.87092590332031,
+        0.0
+      ],
+      "allow_association": false,
+      "start": {
+        "reference_xyz": [
+          -4.111784362792967,
+          7.0277099609375,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": false,
+        "association_radius_m": 0.0,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -4.111784362792967,
+          7.0277099609375,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            381,
+            212
+          ],
+          "xyz": [
+            -4.111784362792967,
+            7.0277099609375,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.568540573120117,
+          "ceiling_state": "measured",
+          "headroom_m": 2.568540573120117,
+          "cost": 3.682507276535034,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -10.766804695129395,
+          39.87092590332031,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": false,
+        "association_radius_m": 0.0,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -10.766804695129395,
+          39.87092590332031,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            348,
+            376
+          ],
+          "xyz": [
+            -10.766804695129395,
+            39.87092590332031,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.38671875,
+          "ceiling_state": "measured",
+          "headroom_m": 2.38671875,
+          "cost": 0.0035421515349298716,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 33.5106867888708,
+      "selected_euclidean_xy_m": 33.5106867888708,
+      "maximum_local_route_length_m": null,
+      "acceptance_rule": "strict_native_curve"
+    },
+    {
+      "name": "preserved_user_29m",
+      "category": "preserved_user_goal",
+      "start_reference": [
+        -4.111784362792967,
+        7.0277099609375,
+        0.0
+      ],
+      "goal_reference": [
+        -16.842252731323242,
+        31.174543380737305,
+        0.0
+      ],
+      "allow_association": false,
+      "start": {
+        "reference_xyz": [
+          -4.111784362792967,
+          7.0277099609375,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": false,
+        "association_radius_m": 0.0,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -4.111784362792967,
+          7.0277099609375,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            381,
+            212
+          ],
+          "xyz": [
+            -4.111784362792967,
+            7.0277099609375,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.568540573120117,
+          "ceiling_state": "measured",
+          "headroom_m": 2.568540573120117,
+          "cost": 3.682507276535034,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -16.842252731323242,
+          31.174543380737305,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": false,
+        "association_radius_m": 0.0,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -16.842252731323242,
+          31.174543380737305,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            317,
+            333
+          ],
+          "xyz": [
+            -16.842252731323242,
+            31.174543380737305,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.6412057876586914,
+          "ceiling_state": "measured",
+          "headroom_m": 2.6412057876586914,
+          "cost": 0.04035640135407448,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 27.297149834473757,
+      "selected_euclidean_xy_m": 27.297149834473757,
+      "maximum_local_route_length_m": null,
+      "acceptance_rule": "strict_native_curve"
+    },
+    {
+      "name": "break_B1",
+      "category": "previous_gap",
+      "start_reference": [
+        -18.78,
+        34.7,
+        0.0
+      ],
+      "goal_reference": [
+        -19.57,
+        34.31,
+        0.0
+      ],
+      "allow_association": true,
+      "reference_break_id": "B1",
+      "reference_pose_indices": [
+        210,
+        212
+      ],
+      "previous_approximate_gap_m": 0.88,
+      "start": {
+        "reference_xyz": [
+          -18.78,
+          34.7,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -18.78,
+          34.7,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            308,
+            350
+          ],
+          "xyz": [
+            -18.78,
+            34.7,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.3146255016326904,
+          "ceiling_state": "measured",
+          "headroom_m": 2.3146255016326904,
+          "cost": 19.09830093383789,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -19.57,
+          34.31,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -19.57,
+          34.31,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            304,
+            348
+          ],
+          "xyz": [
+            -19.57,
+            34.31,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.2534472942352295,
+          "ceiling_state": "measured",
+          "headroom_m": 2.2534472942352295,
+          "cost": 19.09830093383789,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 0.8810221336606698,
+      "selected_euclidean_xy_m": 0.8810221336606698,
+      "maximum_local_route_length_m": 5.0,
+      "acceptance_rule": "strict_native_curve_and_local_length_at_most_max_5m_3x_straight_xy"
+    },
+    {
+      "name": "break_B2",
+      "category": "previous_gap",
+      "start_reference": [
+        -34.79,
+        25.97,
+        0.0
+      ],
+      "goal_reference": [
+        -35.64,
+        25.52,
+        0.0
+      ],
+      "allow_association": true,
+      "reference_break_id": "B2",
+      "reference_pose_indices": [
+        245,
+        247
+      ],
+      "previous_approximate_gap_m": 0.96,
+      "start": {
+        "reference_xyz": [
+          -34.79,
+          25.97,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -34.79,
+          25.97,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            228,
+            307
+          ],
+          "xyz": [
+            -34.79,
+            25.97,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.070517063140869,
+          "ceiling_state": "measured",
+          "headroom_m": 2.070517063140869,
+          "cost": 0.959778904914856,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -35.64,
+          25.52,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -35.64,
+          25.52,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            223,
+            304
+          ],
+          "xyz": [
+            -35.64,
+            25.52,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.207350730895996,
+          "ceiling_state": "measured",
+          "headroom_m": 2.207350730895996,
+          "cost": 3.3978586196899414,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 0.9617692030835682,
+      "selected_euclidean_xy_m": 0.9617692030835682,
+      "maximum_local_route_length_m": 5.0,
+      "acceptance_rule": "strict_native_curve_and_local_length_at_most_max_5m_3x_straight_xy"
+    },
+    {
+      "name": "break_B3",
+      "category": "previous_gap",
+      "start_reference": [
+        -75.79,
+        3.52,
+        0.0
+      ],
+      "goal_reference": [
+        -77.03,
+        2.9,
+        0.0
+      ],
+      "allow_association": true,
+      "reference_break_id": "B3",
+      "reference_pose_indices": [
+        336,
+        338
+      ],
+      "previous_approximate_gap_m": 1.38,
+      "start": {
+        "reference_xyz": [
+          -75.79,
+          3.52,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -75.79,
+          3.52,
+          0.04733488708734512
+        ],
+        "z_adjustment_m": 0.04733488708734512,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            23,
+            194
+          ],
+          "xyz": [
+            -75.79,
+            3.52,
+            0.04733488708734512
+          ],
+          "ground_z": 0.04733488708734512,
+          "ceiling_z": 0.8241705298423767,
+          "ceiling_state": "measured",
+          "headroom_m": 0.7768356204032898,
+          "cost": 7.502681732177734,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -77.03,
+          2.9,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -77.03,
+          2.9,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            16,
+            191
+          ],
+          "xyz": [
+            -77.03,
+            2.9,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.368441581726074,
+          "ceiling_state": "measured",
+          "headroom_m": 2.368441581726074,
+          "cost": 8.389815330505371,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 1.3863621460498652,
+      "selected_euclidean_xy_m": 1.3863621460498652,
+      "maximum_local_route_length_m": 5.0,
+      "acceptance_rule": "strict_native_curve_and_local_length_at_most_max_5m_3x_straight_xy"
+    },
+    {
+      "name": "break_B4",
+      "category": "previous_gap",
+      "start_reference": [
+        -10.23,
+        -7.67,
+        0.0
+      ],
+      "goal_reference": [
+        -3.72,
+        -4.07,
+        0.0
+      ],
+      "allow_association": true,
+      "reference_break_id": "B4",
+      "reference_pose_indices": [
+        619,
+        633
+      ],
+      "previous_approximate_gap_m": 7.44,
+      "start": {
+        "reference_xyz": [
+          -10.23,
+          -7.67,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -10.23,
+          -7.67,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            350,
+            139
+          ],
+          "xyz": [
+            -10.23,
+            -7.67,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.368896961212158,
+          "ceiling_state": "measured",
+          "headroom_m": 2.368896961212158,
+          "cost": 2.9531309604644775,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -3.72,
+          -4.07,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -3.72,
+          -4.07,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            383,
+            157
+          ],
+          "xyz": [
+            -3.72,
+            -4.07,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.245882987976074,
+          "ceiling_state": "measured",
+          "headroom_m": 2.245882987976074,
+          "cost": 3.5154995918273926,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 7.439092686611721,
+      "selected_euclidean_xy_m": 7.439092686611721,
+      "maximum_local_route_length_m": 22.31727805983516,
+      "acceptance_rule": "strict_native_curve_and_local_length_at_most_max_5m_3x_straight_xy"
+    },
+    {
+      "name": "ring_quadrant_1",
+      "category": "ring_quadrant",
+      "reference_pose_indices": [
+        0,
+        80
+      ],
+      "start_reference": [
+        -0.000548146,
+        -0.000512312,
+        0.0
+      ],
+      "goal_reference": [
+        -18.4797,
+        34.5914,
+        0.0
+      ],
+      "allow_association": true,
+      "start": {
+        "reference_xyz": [
+          -0.000548146,
+          -0.000512312,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -0.000548146,
+          -0.000512312,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            402,
+            177
+          ],
+          "xyz": [
+            -0.000548146,
+            -0.000512312,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.6953773498535156,
+          "ceiling_state": "measured",
+          "headroom_m": 2.6953773498535156,
+          "cost": 0.9924247860908508,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -18.4797,
+          34.5914,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -18.4797,
+          34.5914,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            309,
+            350
+          ],
+          "xyz": [
+            -18.4797,
+            34.5914,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.388573169708252,
+          "ceiling_state": "measured",
+          "headroom_m": 2.388573169708252,
+          "cost": 15.371734619140625,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 39.21835604209193,
+      "selected_euclidean_xy_m": 39.21835604209193,
+      "maximum_local_route_length_m": null,
+      "acceptance_rule": "strict_native_curve"
+    },
+    {
+      "name": "ring_quadrant_2",
+      "category": "ring_quadrant",
+      "reference_pose_indices": [
+        80,
+        360
+      ],
+      "start_reference": [
+        -18.4797,
+        34.5914,
+        0.0
+      ],
+      "goal_reference": [
+        -77.3642,
+        2.72913,
+        0.0
+      ],
+      "allow_association": true,
+      "start": {
+        "reference_xyz": [
+          -18.4797,
+          34.5914,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -18.4797,
+          34.5914,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            309,
+            350
+          ],
+          "xyz": [
+            -18.4797,
+            34.5914,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.388573169708252,
+          "ceiling_state": "measured",
+          "headroom_m": 2.388573169708252,
+          "cost": 15.371734619140625,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -77.3642,
+          2.72913,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -77.3642,
+          2.72913,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            15,
+            191
+          ],
+          "xyz": [
+            -77.3642,
+            2.72913,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.3540596961975098,
+          "ceiling_state": "measured",
+          "headroom_m": 2.3540596961975098,
+          "cost": 8.389815330505371,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 66.95213655890974,
+      "selected_euclidean_xy_m": 66.95213655890974,
+      "maximum_local_route_length_m": null,
+      "acceptance_rule": "strict_native_curve"
+    },
+    {
+      "name": "ring_quadrant_3",
+      "category": "ring_quadrant",
+      "reference_pose_indices": [
+        360,
+        440
+      ],
+      "start_reference": [
+        -77.3642,
+        2.72913,
+        0.0
+      ],
+      "goal_reference": [
+        -58.8763,
+        -32.4107,
+        0.0
+      ],
+      "allow_association": true,
+      "start": {
+        "reference_xyz": [
+          -77.3642,
+          2.72913,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -77.3642,
+          2.72913,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            15,
+            191
+          ],
+          "xyz": [
+            -77.3642,
+            2.72913,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.3540596961975098,
+          "ceiling_state": "measured",
+          "headroom_m": 2.3540596961975098,
+          "cost": 8.389815330505371,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -58.8763,
+          -32.4107,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -58.8763,
+          -32.4107,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            107,
+            15
+          ],
+          "xyz": [
+            -58.8763,
+            -32.4107,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.7169086933135986,
+          "ceiling_state": "measured",
+          "headroom_m": 2.7169086933135986,
+          "cost": 1.644277572631836,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 39.706549822905785,
+      "selected_euclidean_xy_m": 39.706549822905785,
+      "maximum_local_route_length_m": null,
+      "acceptance_rule": "strict_native_curve"
+    },
+    {
+      "name": "ring_quadrant_4",
+      "category": "ring_quadrant",
+      "reference_pose_indices": [
+        440,
+        643
+      ],
+      "start_reference": [
+        -58.8763,
+        -32.4107,
+        0.0
+      ],
+      "goal_reference": [
+        -0.083452,
+        -1.89067,
+        0.0
+      ],
+      "allow_association": true,
+      "start": {
+        "reference_xyz": [
+          -58.8763,
+          -32.4107,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -58.8763,
+          -32.4107,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            107,
+            15
+          ],
+          "xyz": [
+            -58.8763,
+            -32.4107,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.7169086933135986,
+          "ceiling_state": "measured",
+          "headroom_m": 2.7169086933135986,
+          "cost": 1.644277572631836,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "goal": {
+        "reference_xyz": [
+          -0.083452,
+          -1.89067,
+          0.0
+        ],
+        "layer_id": 0,
+        "source_layer": 0,
+        "association_allowed": true,
+        "association_radius_m": 0.6,
+        "xy_changed": false,
+        "xy_distance_m": 0.0,
+        "selection_mode": "ground_follow_layer_0",
+        "association": "none_exact_reference_xy",
+        "valid": true,
+        "selected_xyz": [
+          -0.083452,
+          -1.89067,
+          0.0
+        ],
+        "z_adjustment_m": 0.0,
+        "surface": {
+          "layer_id": 0,
+          "source_layer": 0,
+          "cell_xy": [
+            401,
+            167
+          ],
+          "xyz": [
+            -0.083452,
+            -1.89067,
+            0.0
+          ],
+          "ground_z": 0.0,
+          "ceiling_z": 2.719508171081543,
+          "ceiling_state": "measured",
+          "headroom_m": 2.719508171081543,
+          "cost": 4.503859996795654,
+          "valid": true,
+          "reason_code": null,
+          "boundary_cells": 1,
+          "selection_mode": "free_xyz",
+          "height_error_m": 0.0
+        }
+      },
+      "endpoints_valid": true,
+      "reference_euclidean_xy_m": 66.2425181220642,
+      "selected_euclidean_xy_m": 66.2425181220642,
+      "maximum_local_route_length_m": null,
+      "acceptance_rule": "strict_native_curve"
+    }
+  ],
+  "limits": [
+    "Planning-only conditioned geometry, not a localization-map replacement.",
+    "Diagnostic cell-centre associations are explicit; preserved user XY never moves.",
+    "Passing routes do not certify a body footprint, turning clearance or live navigation.",
+    "Ring quadrant routes are independent global routes, not a forced ordered circuit.",
+    "B1-B4 also require length <= max(5m,3*selected endpoint XY distance); a longer valid detour is blocked_local_corridor, not a passed gap."
+  ]
+}

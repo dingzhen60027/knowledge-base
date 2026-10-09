@@ -1,0 +1,115 @@
+{
+  "recorded_date": "2026-09-19",
+  "source_run": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh",
+  "files": [
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/analysis/loop_result.png",
+      "attachment": "01-loop-comparison.png",
+      "size_bytes": 936073,
+      "sha256": "40ad9b9a0a52150a87dc94efa12a214999da9157d073f88b2a0dc136b084b60d"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/analysis/frontend_result.png",
+      "attachment": "02-frontend-diagnostics.png",
+      "size_bytes": 910561,
+      "sha256": "991a1c2ab739b36f636af2cec16881041b1f7636ae31021d361f104c9d857f59"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/REPORT.md",
+      "attachment": "evidence/run_report.md",
+      "size_bytes": 5721,
+      "sha256": "3450acb317890123ecfb8108b4cfe62446c42b12c681da20bb3187993384effe"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/result.json",
+      "attachment": "evidence/result.json",
+      "size_bytes": 5433,
+      "sha256": "bad74790b95331b59c1a0a7ecd6fc32056bd8d102ae81ef5dac03ccc69648367"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/manifest.json",
+      "attachment": "evidence/manifest.json",
+      "size_bytes": 4212,
+      "sha256": "7da4d77958ac303e0b76ac31194a5c98eed7e07051a4d08190377c9c2d32270b"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/central_imu_adapter.json",
+      "attachment": "evidence/central_imu_adapter.json",
+      "size_bytes": 3316,
+      "sha256": "59ba31a1b29f4c4719a7ac1f8b80993c1a6024622deb4cdd809fc61fc96d6d60"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/central_adapter.log",
+      "attachment": "evidence/central_adapter.log",
+      "size_bytes": 4013,
+      "sha256": "92f0be22febd78d82f561ad10bba738ce280435bac2f7e0493a9617ef8e8fb84"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/pgo_drain.json",
+      "attachment": "evidence/pgo_drain.json",
+      "size_bytes": 1145,
+      "sha256": "08d322004778b8e3041c81d66aefd55979a7f85e9568b8b120701401d5c3a3c2"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/analysis/loop_result.json",
+      "attachment": "evidence/loop_result.json",
+      "size_bytes": 33309,
+      "sha256": "ca9931663cbbb86dc9e146072bc1ccd698f9b1cfe4c45530c5c6c4b008d43212"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/analysis/frontend_result.json",
+      "attachment": "evidence/frontend_result.json",
+      "size_bytes": 67140,
+      "sha256": "91ee307039d271441cc95385bd9ba1586a886ffff663ef5c363ab1a336412fa9"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/loop_events.csv",
+      "attachment": "evidence/loop_events.csv",
+      "size_bytes": 14691,
+      "sha256": "e76d9c4f30a36e388a035e1cb49e77c7eb77fa99989b773b73cf14382b36a41f"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/odom_poses.txt",
+      "attachment": "evidence/odom_poses.txt",
+      "size_bytes": 75205,
+      "sha256": "4b6fa8c403e88a8ce9d970840d9f63af78c057044f4f75740d6a4ba1a1a4a5ed"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_poses.txt",
+      "attachment": "evidence/optimized_poses.txt",
+      "size_bytes": 76200,
+      "sha256": "95d490af3ca8eee59ffd23ef8edd5bfad349b63cb2e9060f95f58ef86c453da5"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/times.txt",
+      "attachment": "evidence/times.txt",
+      "size_bytes": 12078,
+      "sha256": "481f24f36716d73eff40966cf6414771b70324968e59c422da3738f8b322434f"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/config/frontend.yaml",
+      "attachment": "evidence/frontend_effective.yaml",
+      "size_bytes": 1802,
+      "sha256": "61611dac31320ba83cfc8004160e5bc2c10dd6136291e693de41c6f1a6d578e5"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/config/sc_pgo.yaml",
+      "attachment": "evidence/pgo_effective.yaml",
+      "size_bytes": 1693,
+      "sha256": "a678697fa85b48b80f174edfdf146f636ac30c39e2698388414356028fdcdd27"
+    },
+    {
+      "source": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/config/calibration.yaml",
+      "attachment": "evidence/calibration.yaml",
+      "size_bytes": 2539,
+      "sha256": "bb60c7f62193b68279a4bd080357ef012224c36dc36f5621126aa396724806bd"
+    }
+  ],
+  "copied_byte_for_byte": true,
+  "large_data_copied": false,
+  "notes": [
+    "Source run and knowledge-base pre-existing edits preserved.",
+    "Complete PCD, rosbag and frontend CSV are not bundled.",
+    "Absolute paths in evidence are provenance, not portable data locations."
+  ]
+}

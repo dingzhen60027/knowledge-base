@@ -1,0 +1,687 @@
+{
+  "source_pcd": "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_164231_sc-pgo-0919-structure-v1_572b51/processed_map.pcd",
+  "poses": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_poses.txt",
+  "hashes": {
+    "/home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_164231_sc-pgo-0919-structure-v1_572b51/processed_map.pcd": "9acb981006da500e927be60763656c3fe29bfcef8081f7bdcacce70846694b9c",
+    "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_poses.txt": "95d490af3ca8eee59ffd23ef8edd5bfad349b63cb2e9060f95f58ef86c453da5",
+    "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_compact_20260922/manifest.json": "402133deb64e5285e6e1290cb9528ae7f76f186d6530a0ff493803dffe34b982"
+  },
+  "poses_count": 644,
+  "xy_arclength_m": 254.8861070604775,
+  "coordinate_consistency": "Optimized KITTI pose translations and map use the same optimized graph; all 644 poses have dense local floor modes at a consistent approximately -0.49 m relative height.",
+  "mode_search": {
+    "xy_radius_m": 0.65,
+    "below_pose_z_interval_m": [
+      -1.4,
+      -0.2
+    ],
+    "histogram_bin_m": 0.04,
+    "peak_halfband_m": 0.08
+  },
+  "mode_absolute_z_m": {
+    "min": -1.3720812797546387,
+    "p05": -1.2065568029880525,
+    "p25": -1.0512122511863708,
+    "median": -0.6136868298053741,
+    "p75": -0.43811172991991043,
+    "p95": 0.04216941138729456,
+    "max": 0.09087499976158142
+  },
+  "mode_minus_pose_z_m": {
+    "min": -0.5143932882461548,
+    "p05": -0.5029645546843814,
+    "p25": -0.4948974653737545,
+    "median": -0.49017351462501524,
+    "p75": -0.4865108322718143,
+    "p95": -0.48121837083072666,
+    "max": -0.45900008208847043
+  },
+  "patch_p95_minus_p05_z_m": {
+    "min": 0.013944961130619049,
+    "p05": 0.024401467889547335,
+    "p25": 0.03351263254880902,
+    "median": 0.04338909089565279,
+    "p75": 0.057696266472339705,
+    "p95": 0.08042196512222291,
+    "max": 0.10965008735656734
+  },
+  "patch_support_points": {
+    "min": 196.0,
+    "p05": 210.0,
+    "p25": 235.0,
+    "median": 277.5,
+    "p75": 321.0,
+    "p95": 363.0,
+    "max": 402.0
+  },
+  "pose_z_m": {
+    "min": -0.897155,
+    "p05": -0.7132929,
+    "p25": -0.55811125,
+    "median": -0.1205165,
+    "p75": 0.04769725,
+    "p95": 0.5346926500000002,
+    "max": 0.587994
+  },
+  "single_plane_fit": {
+    "equation": "z = a*x + b*y + c",
+    "robust_abc": [
+      -0.008307109284741104,
+      -0.00873904430593969,
+      -0.9051989487384878
+    ],
+    "tilt_deg": 0.6908000604596025,
+    "residual_m": {
+      "min": -0.5628442034325318,
+      "p05": -0.5003343655415371,
+      "p25": -0.11180968107277744,
+      "median": -0.007953919766097939,
+      "p75": 0.17742322405959246,
+      "p95": 0.37663717199359126,
+      "max": 0.44968420370494444
+    },
+    "rms_m": 0.2429063364825451,
+    "within_5cm_fraction": 0.18788819875776397,
+    "within_10cm_fraction": 0.36180124223602483
+  },
+  "trajectory_band_PCT_counts": {
+    "0.1": {
+      "cells": 1227,
+      "supported": 1177,
+      "raw_pass": 1151,
+      "inflated_pass": 971,
+      "inflation_only_blocked": 180,
+      "no_matching_floor_layer": 50,
+      "no_matching_layer_despite_measured_floor_returns": 50,
+      "no_matching_layer_with_at_least_3_floor_returns": 50,
+      "no_matching_layer_and_no_floor_return_in_8cm_band": 0,
+      "raw_failure_causes_best_floor_layer": {
+        "height_step_or_adjacent_missing": 7,
+        "low_headroom": 17,
+        "no_floor_matching_layer_within_12cm": 50,
+        "too_few_flat_neighbors": 2
+      }
+    },
+    "0.4": {
+      "cells": 4868,
+      "supported": 4302,
+      "raw_pass": 4131,
+      "inflated_pass": 3115,
+      "inflation_only_blocked": 1016,
+      "no_matching_floor_layer": 566,
+      "no_matching_layer_despite_measured_floor_returns": 566,
+      "no_matching_layer_with_at_least_3_floor_returns": 566,
+      "no_matching_layer_and_no_floor_return_in_8cm_band": 0,
+      "raw_failure_causes_best_floor_layer": {
+        "height_step_or_adjacent_missing": 30,
+        "low_headroom": 131,
+        "no_floor_matching_layer_within_12cm": 566,
+        "too_few_flat_neighbors": 10
+      }
+    },
+    "0.65": {
+      "cells": 7833,
+      "supported": 7165,
+      "raw_pass": 6701,
+      "inflated_pass": 4450,
+      "inflation_only_blocked": 2251,
+      "no_matching_floor_layer": 668,
+      "no_matching_layer_despite_measured_floor_returns": 668,
+      "no_matching_layer_with_at_least_3_floor_returns": 668,
+      "no_matching_layer_and_no_floor_return_in_8cm_band": 0,
+      "raw_failure_causes_best_floor_layer": {
+        "height_step_or_adjacent_missing": 222,
+        "low_headroom": 229,
+        "no_floor_matching_layer_within_12cm": 668,
+        "too_few_flat_neighbors": 13
+      }
+    }
+  },
+  "missing_layer_examples": [
+    {
+      "world_xy": [
+        -77.1359245300293,
+        2.9418060302734386
+      ],
+      "reference_local_floor_z": 0.08540672276701246,
+      "measured_floor_returns_in_8cm": 9,
+      "selected_layer_ground_z": [
+        null,
+        null,
+        null,
+        0.21667057275772095,
+        0.21667057275772095,
+        2.511434316635132,
+        2.511434316635132
+      ],
+      "selected_layer_ceiling_z": [
+        0.06100776791572571,
+        0.06100776791572571,
+        0.06100776791572571,
+        2.45839262008667,
+        2.45839262008667,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        0.0,
+        50.0,
+        39.64466094970703,
+        50.0,
+        5.696514129638672,
+        5.696514129638672
+      ]
+    },
+    {
+      "world_xy": [
+        -60.9359245300293,
+        -28.058193969726563
+      ],
+      "reference_local_floor_z": -0.5637715458869934,
+      "measured_floor_returns_in_8cm": 12,
+      "selected_layer_ground_z": [
+        null,
+        null,
+        -0.43994811177253723,
+        -0.43994811177253723,
+        -0.43994811177253723,
+        2.191354513168335,
+        2.191354513168335
+      ],
+      "selected_layer_ceiling_z": [
+        -0.5729118585586548,
+        -0.5729118585586548,
+        2.123063087463379,
+        2.123063087463379,
+        2.123063087463379,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        0.0,
+        8.024168014526367,
+        8.024168014526367,
+        8.024168014526367,
+        0.9103101491928101,
+        0.9103101491928101
+      ]
+    },
+    {
+      "world_xy": [
+        -38.1359245300293,
+        -22.858193969726564
+      ],
+      "reference_local_floor_z": -0.5729832053184509,
+      "measured_floor_returns_in_8cm": 16,
+      "selected_layer_ground_z": [
+        null,
+        null,
+        -0.4022328853607178,
+        -0.4022328853607178,
+        0.29413163661956787,
+        1.8075337409973145,
+        1.8075337409973145
+      ],
+      "selected_layer_ceiling_z": [
+        -0.6504848003387451,
+        -0.6504848003387451,
+        0.29413163661956787,
+        0.29413163661956787,
+        1.6685789823532104,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        39.64466094970703,
+        50.0,
+        50.0,
+        50.0,
+        3.9418578147888184,
+        3.9418578147888184
+      ]
+    },
+    {
+      "world_xy": [
+        -19.135924530029296,
+        -13.258193969726562
+      ],
+      "reference_local_floor_z": -0.47617825865745544,
+      "measured_floor_returns_in_8cm": 15,
+      "selected_layer_ground_z": [
+        null,
+        null,
+        -0.3378303349018097,
+        -0.3378303349018097,
+        -0.3378303349018097,
+        1.9493803977966309,
+        1.9493803977966309
+      ],
+      "selected_layer_ceiling_z": [
+        -0.5286892652511597,
+        -0.5286892652511597,
+        1.8905755281448364,
+        1.8905755281448364,
+        1.8905755281448364,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        0.0,
+        39.64466094970703,
+        39.64466094970703,
+        39.64466094970703,
+        14.9675874710083,
+        14.9675874710083
+      ]
+    },
+    {
+      "world_xy": [
+        -18.135924530029296,
+        34.74180603027344
+      ],
+      "reference_local_floor_z": -1.1347395522253854,
+      "measured_floor_returns_in_8cm": 9,
+      "selected_layer_ground_z": [
+        null,
+        -0.9888954758644104,
+        -0.9888954758644104,
+        -0.9888954758644104,
+        1.2478997707366943,
+        1.337026834487915,
+        1.337026834487915
+      ],
+      "selected_layer_ceiling_z": [
+        -1.141375184059143,
+        1.148244857788086,
+        1.148244857788086,
+        1.148244857788086,
+        1.2486180067062378,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        39.64466094970703,
+        39.64466094970703,
+        39.64466094970703,
+        50.0,
+        6.70827579498291,
+        6.70827579498291
+      ]
+    },
+    {
+      "world_xy": [
+        -16.135924530029296,
+        36.14180603027344
+      ],
+      "reference_local_floor_z": -1.15013587474823,
+      "measured_floor_returns_in_8cm": 7,
+      "selected_layer_ground_z": [
+        null,
+        -1.0123043060302734,
+        -1.0123043060302734,
+        -1.0123043060302734,
+        1.2476948499679565,
+        1.2837742567062378,
+        1.2837742567062378
+      ],
+      "selected_layer_ceiling_z": [
+        -1.155880331993103,
+        1.173234224319458,
+        1.173234224319458,
+        1.173234224319458,
+        1.2536823749542236,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        3.160816192626953,
+        3.160816192626953
+      ]
+    },
+    {
+      "world_xy": [
+        -12.935924530029297,
+        37.54180603027344
+      ],
+      "reference_local_floor_z": -1.1557722006525313,
+      "measured_floor_returns_in_8cm": 6,
+      "selected_layer_ground_z": [
+        null,
+        -0.9820163249969482,
+        -0.9820163249969482,
+        -0.9820163249969482,
+        1.2374187707901,
+        1.2374187707901,
+        1.2374187707901
+      ],
+      "selected_layer_ceiling_z": [
+        -1.1647157669067383,
+        1.1064600944519043,
+        1.1064600944519043,
+        1.1064600944519043,
+        null,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        10.435784339904785,
+        10.435784339904785
+      ]
+    },
+    {
+      "world_xy": [
+        -9.135924530029296,
+        41.34180603027344
+      ],
+      "reference_local_floor_z": -1.229403121130807,
+      "measured_floor_returns_in_8cm": 6,
+      "selected_layer_ground_z": [
+        null,
+        -1.0711638927459717,
+        -1.0711638927459717,
+        -1.0711638927459717,
+        1.2009923458099365,
+        1.5828907489776611,
+        1.5828907489776611
+      ],
+      "selected_layer_ceiling_z": [
+        -1.231125831604004,
+        1.2009923458099365,
+        1.2009923458099365,
+        1.2009923458099365,
+        1.2603702545166016,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ]
+    },
+    {
+      "world_xy": [
+        -7.735924530029294,
+        40.34180603027344
+      ],
+      "reference_local_floor_z": -1.1810804775782995,
+      "measured_floor_returns_in_8cm": 14,
+      "selected_layer_ground_z": [
+        null,
+        -0.9815202355384827,
+        -0.9815202355384827,
+        -0.9815202355384827,
+        1.2239630222320557,
+        1.2239630222320557,
+        1.2239630222320557
+      ],
+      "selected_layer_ceiling_z": [
+        -1.2441608905792236,
+        1.1573030948638916,
+        1.1573030948638916,
+        1.1573030948638916,
+        null,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        14.036775588989258,
+        14.036775588989258
+      ]
+    },
+    {
+      "world_xy": [
+        -5.3359245300292955,
+        -5.058193969726562
+      ],
+      "reference_local_floor_z": -0.42417418531009127,
+      "measured_floor_returns_in_8cm": 6,
+      "selected_layer_ground_z": [
+        null,
+        -0.9711695313453674,
+        -0.2864238917827606,
+        0.14981898665428162,
+        0.5865126848220825,
+        1.9806056022644043,
+        1.9806056022644043
+      ],
+      "selected_layer_ceiling_z": [
+        -0.9973300099372864,
+        -0.43568155169487,
+        -0.1225077211856842,
+        0.5137329697608948,
+        1.9165163040161133,
+        null,
+        null
+      ],
+      "selected_layer_costs": [
+        0.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        7.564465045928955,
+        7.564465045928955
+      ]
+    }
+  ],
+  "section_evidence": [
+    {
+      "pose_index": 0,
+      "xyz": [
+        -0.000548146,
+        -0.000512312,
+        6.29301e-05
+      ],
+      "floor_z": -0.48412612080574036,
+      "plane_residual_z": 0.421063797306755,
+      "support_points": 305
+    },
+    {
+      "pose_index": 40,
+      "xyz": [
+        -9.54037,
+        18.0154,
+        -0.346213
+      ],
+      "floor_z": -0.8365457057952881,
+      "plane_residual_z": 0.14683772552556018,
+      "support_points": 258
+    },
+    {
+      "pose_index": 80,
+      "xyz": [
+        -18.4797,
+        34.5914,
+        -0.642482
+      ],
+      "floor_z": -1.1352432370185852,
+      "plane_residual_z": -0.08126139852484537,
+      "support_points": 316
+    },
+    {
+      "pose_index": 120,
+      "xyz": [
+        -10.0955,
+        38.934,
+        -0.671046
+      ],
+      "floor_z": -1.1718021035194397,
+      "plane_residual_z": -0.010221625557599756,
+      "support_points": 268
+    },
+    {
+      "pose_index": 160,
+      "xyz": [
+        -10.3311,
+        42.8963,
+        -0.816524
+      ],
+      "floor_z": -1.2978452444076538,
+      "plane_residual_z": -0.10359520613987416,
+      "support_points": 257
+    },
+    {
+      "pose_index": 200,
+      "xyz": [
+        -13.9513,
+        37.2908,
+        -0.673029
+      ],
+      "floor_z": -1.1629209518432617,
+      "plane_residual_z": -0.04773102346504654,
+      "support_points": 265
+    },
+    {
+      "pose_index": 240,
+      "xyz": [
+        -32.2521,
+        27.3488,
+        -0.482023
+      ],
+      "floor_z": -0.9797776937484741,
+      "plane_residual_z": -0.10349808945810146,
+      "support_points": 226
+    },
+    {
+      "pose_index": 280,
+      "xyz": [
+        -50.4066,
+        17.1475,
+        -0.0529569
+      ],
+      "floor_z": -0.5408563911914825,
+      "plane_residual_z": 0.09546218491087521,
+      "support_points": 240
+    },
+    {
+      "pose_index": 320,
+      "xyz": [
+        -68.6683,
+        7.69526,
+        0.411852
+      ],
+      "floor_z": -0.07839766517281532,
+      "plane_residual_z": 0.3236154291540104,
+      "support_points": 314
+    },
+    {
+      "pose_index": 360,
+      "xyz": [
+        -77.3642,
+        2.72913,
+        0.579804
+      ],
+      "floor_z": 0.08901841193437576,
+      "plane_residual_z": 0.3753944845329651,
+      "support_points": 326
+    },
+    {
+      "pose_index": 400,
+      "xyz": [
+        -67.8298,
+        -14.535,
+        0.190554
+      ],
+      "floor_z": -0.2936934530735016,
+      "plane_residual_z": -0.07898607468397933,
+      "support_points": 219
+    },
+    {
+      "pose_index": 440,
+      "xyz": [
+        -58.8763,
+        -32.4107,
+        -0.175622
+      ],
+      "floor_z": -0.6700468063354492,
+      "plane_residual_z": -0.5371782592646835,
+      "support_points": 241
+    },
+    {
+      "pose_index": 480,
+      "xyz": [
+        -46.8716,
+        -26.9904,
+        -0.180042
+      ],
+      "floor_z": -0.675462931394577,
+      "plane_residual_z": -0.3955017876417949,
+      "support_points": 212
+    },
+    {
+      "pose_index": 520,
+      "xyz": [
+        -35.0485,
+        -24.3881,
+        -0.0777894
+      ],
+      "floor_z": -0.5670724809169769,
+      "plane_residual_z": -0.16615393838242543,
+      "support_points": 306
+    },
+    {
+      "pose_index": 560,
+      "xyz": [
+        -20.811,
+        -17.3892,
+        0.0196374
+      ],
+      "floor_z": -0.46556705236434937,
+      "plane_residual_z": 0.11478765580454486,
+      "support_points": 291
+    },
+    {
+      "pose_index": 600,
+      "xyz": [
+        -18.9563,
+        -12.3908,
+        0.0314081
+      ],
+      "floor_z": -0.4709658622741699,
+      "plane_residual_z": 0.16847728054394262,
+      "support_points": 308
+    },
+    {
+      "pose_index": 640,
+      "xyz": [
+        -0.815872,
+        -2.43812,
+        0.055648
+      ],
+      "floor_z": -0.4340032935142517,
+      "plane_residual_z": 0.44311127865467814,
+      "support_points": 273
+    }
+  ],
+  "limitations": [
+    "Local floor modes are supported geometric proxies, not labeled ground truth.",
+    "Walked trajectory is historical evidence, not proof of full body clearance, safe turning, or absence of current obstacles.",
+    "No input, active map, ROS session, planning state, thresholds, or source PCD modified."
+  ],
+  "input_hashes_unchanged": true
+}

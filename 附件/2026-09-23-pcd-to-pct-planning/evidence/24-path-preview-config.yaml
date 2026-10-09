@@ -1,0 +1,27 @@
+map_pcd: "/home/dndx/\u667A\u5143\u56DB\u8DB3\u673A\u5668\u4EBAD1 Max\u4E8C\u6B21\u5F00\
+  \u53D1\u6587\u6863\u8D44\u6599\u5305v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6/processed_map.pcd"
+map_backend: official_tomogram
+tomogram_path: /home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/tomogram.npz
+selection_mode: ground
+minimum_headroom_m: 0.55
+unknown_ceiling_policy: allow_unobserved
+vendor_root: /home/dndx/d1max_nav_ws/src/pct_planner_vendor
+planning_frame: d1max_flat_floor_planning
+initial_start_xyz: []
+place_endpoints_on_start: true
+placement_anchor_xy:
+- -4.1703269958496065
+- 6.977396392822266
+placement_anchor_z: 0.0
+max_follow_height_change_m: 0.3
+max_selection_height_error_m: 0.08
+selection_max_age_s: 5.0
+planning_timeout_s: 20.0
+map_display_max_points: 600000
+handle_scale_m: 1.2
+max_heading_rate: 1.0
+astar_cost_weight: 1.0
+optimizer_cost_margin: 8.0
+path_refinement: visibility_c2
+refinement_corner_cut_m: 1.5
+max_ground_step_m: 0.17

@@ -1,0 +1,246 @@
+{
+  "cases": [
+    {
+      "name": "preserved_user_39m",
+      "category": "preserved_user_goal",
+      "start": [
+        -4.111784362792967,
+        7.0277099609375,
+        0.0
+      ],
+      "goal": [
+        -10.766804695129395,
+        39.87092590332031,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": null
+    },
+    {
+      "name": "preserved_user_29m",
+      "category": "preserved_user_goal",
+      "start": [
+        -4.111784362792967,
+        7.0277099609375,
+        0.0
+      ],
+      "goal": [
+        -16.842252731323242,
+        31.174543380737305,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": null
+    },
+    {
+      "name": "break_B1",
+      "category": "previous_gap",
+      "start": [
+        -18.78,
+        34.7,
+        0.0
+      ],
+      "goal": [
+        -19.57,
+        34.31,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": 5.0
+    },
+    {
+      "name": "break_B2",
+      "category": "previous_gap",
+      "start": [
+        -34.79,
+        25.97,
+        0.0
+      ],
+      "goal": [
+        -35.64,
+        25.52,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": 5.0
+    },
+    {
+      "name": "break_B3",
+      "category": "previous_gap",
+      "start": [
+        -75.79,
+        3.52,
+        0.04733488708734512
+      ],
+      "goal": [
+        -77.03,
+        2.9,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": 5.0
+    },
+    {
+      "name": "break_B4",
+      "category": "previous_gap",
+      "start": [
+        -10.23,
+        -7.67,
+        0.0
+      ],
+      "goal": [
+        -3.72,
+        -4.07,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": 22.31727805983516
+    },
+    {
+      "name": "ring_quadrant_1",
+      "category": "ring_quadrant",
+      "start": [
+        -0.000548146,
+        -0.000512312,
+        0.0
+      ],
+      "goal": [
+        -18.4797,
+        34.5914,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": null
+    },
+    {
+      "name": "ring_quadrant_2",
+      "category": "ring_quadrant",
+      "start": [
+        -18.4797,
+        34.5914,
+        0.0
+      ],
+      "goal": [
+        -77.3642,
+        2.72913,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": null
+    },
+    {
+      "name": "ring_quadrant_3",
+      "category": "ring_quadrant",
+      "start": [
+        -77.3642,
+        2.72913,
+        0.0
+      ],
+      "goal": [
+        -58.8763,
+        -32.4107,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": null
+    },
+    {
+      "name": "ring_quadrant_4",
+      "category": "ring_quadrant",
+      "start": [
+        -58.8763,
+        -32.4107,
+        0.0
+      ],
+      "goal": [
+        -0.083452,
+        -1.89067,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "maximum_length_m": null
+    },
+    {
+      "name": "straight_23m",
+      "start": [
+        -4.111784362792967,
+        7.0277099609375,
+        0.0
+      ],
+      "goal": [
+        -15.075141906738281,
+        27.616825103759766,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "category": "straight"
+    },
+    {
+      "name": "straight_18m",
+      "start": [
+        -4.111784362792967,
+        7.0277099609375,
+        0.0
+      ],
+      "goal": [
+        -12.5,
+        23.1,
+        0.03835880011320114
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "category": "straight"
+    },
+    {
+      "name": "straight_11m",
+      "start": [
+        -6.437280654907227,
+        11.653109550476074,
+        0.06450923532247543
+      ],
+      "goal": [
+        -11.833974838256836,
+        21.566173553466797,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "category": "straight"
+    },
+    {
+      "name": "last_user_45m",
+      "start": [
+        -4.111784362792967,
+        7.0277099609375,
+        0.0
+      ],
+      "goal": [
+        -12.074018478393555,
+        45.023521423339844,
+        0.0
+      ],
+      "start_layer": 0,
+      "goal_layer": 0,
+      "category": "preserved_user_goal"
+    }
+  ],
+  "parameters": {
+    "astar_cost_weight": 1.0,
+    "optimizer_cost_margin": 8.0,
+    "max_heading_rate": 1.0,
+    "path_refinement": "visibility_c2"
+  },
+  "tomogram": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/tomogram.npz",
+  "prior_contract": "/home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923/audit/native_v6_final_2_8_20260923/acceptance_plan.json"
+}

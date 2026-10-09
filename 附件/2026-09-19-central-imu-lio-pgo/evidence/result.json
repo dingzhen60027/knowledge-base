@@ -1,0 +1,190 @@
+{
+  "complete": true,
+  "loop_closure_enabled": true,
+  "height_lock_enabled": false,
+  "ground_truth_accuracy_validated": false,
+  "pgo_drain": {
+    "passed": true,
+    "wait_sec": 15.011547415997484,
+    "stable_sec": 14.504027561997646,
+    "minimum_wait_sec": 15.0,
+    "maximum_wait_sec": 120.0,
+    "method": "Heuristic observable stability; no direct input/ICP queue API is available.",
+    "state": {
+      "keyframes": 644,
+      "odometry_rows": 644,
+      "optimized_rows": 644,
+      "loop_events": {
+        "candidate_hold": 21,
+        "candidate_queued": 92,
+        "reject_correction": 75,
+        "geometry_hold": 4,
+        "geometry_verified": 4,
+        "accepted": 4,
+        "reject_geometry": 9
+      },
+      "accepted_loops": 4,
+      "pending_candidates": [],
+      "file_fingerprints": {
+        "times.txt": [
+          12078,
+          1789794825707441926
+        ],
+        "odom_poses.txt": [
+          75205,
+          1789794825760441975
+        ],
+        "optimized_poses.txt": [
+          76200,
+          1789794825759441974
+        ],
+        "loop_events.csv": [
+          14691,
+          1789794820039436761
+        ]
+      }
+    },
+    "observed": {
+      "path_messages": 10075,
+      "keyframes": 644,
+      "accepted_loop_count_topic": 4,
+      "last_path_stamp_ns": 1772317421599980032,
+      "last_path_wall": 51208.024543316
+    }
+  },
+  "save_message": "Saved 2149746 points to /home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/d1max_map_20260919_131415.pcd",
+  "pgo": {
+    "keyframes": 644,
+    "odometry_rows": 644,
+    "optimized_rows": 644,
+    "loop_events": {
+      "candidate_hold": 21,
+      "candidate_queued": 92,
+      "reject_correction": 75,
+      "geometry_hold": 4,
+      "geometry_verified": 4,
+      "accepted": 4,
+      "reject_geometry": 9
+    },
+    "accepted_loops": 4,
+    "pending_candidates": [],
+    "file_fingerprints": {
+      "times.txt": [
+        12078,
+        1789794825707441926
+      ],
+      "odom_poses.txt": [
+        75205,
+        1789794825760441975
+      ],
+      "optimized_poses.txt": [
+        76200,
+        1789794825759441974
+      ],
+      "loop_events.csv": [
+        14691,
+        1789794820039436761
+      ]
+    },
+    "map": {
+      "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_map.pcd",
+      "points": 1127596,
+      "size_bytes": 18041728
+    },
+    "loop_closure_succeeded": true,
+    "note": "A saved optimized map and completed replay do not imply an accepted or geometrically validated loop."
+  },
+  "accepted_loops": 4,
+  "loop_closure_succeeded": true,
+  "segment_only": false,
+  "poses": 9050,
+  "sensor_seconds": 982.7000050544739,
+  "bag_coverage_fraction": 0.9976757740668027,
+  "endpoint_delta_xyz": [
+    0.04201090310551774,
+    -0.8188348766546084,
+    -4.392741360651715
+  ],
+  "frontend_map": {
+    "path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/d1max_map_20260919_131415.pcd",
+    "points": 2149746,
+    "size_bytes": 34396128
+  },
+  "map_path": "/home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/d1max_map_20260919_131415.pcd",
+  "pgo_observed": {
+    "path_messages": 10078,
+    "keyframes": 644,
+    "accepted_loop_count_topic": 4,
+    "last_path_stamp_ns": 1772317421599980032,
+    "last_path_wall": 51208.324236008
+  },
+  "pgo_final_state": {
+    "keyframes": 644,
+    "odometry_rows": 644,
+    "optimized_rows": 644,
+    "loop_events": {
+      "candidate_hold": 21,
+      "candidate_queued": 92,
+      "reject_correction": 75,
+      "geometry_hold": 4,
+      "geometry_verified": 4,
+      "accepted": 4,
+      "reject_geometry": 9
+    },
+    "accepted_loops": 4,
+    "pending_candidates": [],
+    "file_fingerprints": {
+      "times.txt": [
+        12078,
+        1789794825707441926
+      ],
+      "odom_poses.txt": [
+        75205,
+        1789794825760441975
+      ],
+      "optimized_poses.txt": [
+        76200,
+        1789794825759441974
+      ],
+      "loop_events.csv": [
+        14691,
+        1789794820039436761
+      ]
+    }
+  },
+  "pgo_map_exists": true,
+  "legacy_logs_restored": [
+    "/home/dndx/d1max_nav_ws/src/faster_lio/Log/traj.txt",
+    "/home/dndx/d1max_nav_ws/src/faster_lio/Log/imu_.txt"
+  ],
+  "observed_counts": {
+    "/imu_driver/imu_central": 130719,
+    "/d1max/slam/imu": 171884,
+    "/front_lidar": 9364,
+    "/rear_lidar": 9325,
+    "/d1max/slam/points": 9069,
+    "/d1max/faster_lio/odometry": 9050,
+    "/d1max/faster_lio/cloud_registered": 9050,
+    "/d1max/faster_lio/cloud_registered_body": 9050
+  },
+  "last_observed_stamp_ns": {
+    "/imu_driver/imu_central": 1772317426325128225,
+    "/d1max/slam/imu": 1772317426312128225,
+    "/front_lidar": 1772317426099988937,
+    "/rear_lidar": 1772317426099994898,
+    "/d1max/slam/points": 1772317426099988992,
+    "/d1max/faster_lio/odometry": 1772317426199983104,
+    "/d1max/faster_lio/cloud_registered": 1772317426199983104,
+    "/d1max/faster_lio/cloud_registered_body": 1772317426199983104
+  },
+  "observed_count_caveat": "Observer best-effort receipt counts, not proof of algorithm consumption; compare frontend_state.csv.",
+  "child_returncodes": {
+    "router": null,
+    "central_adapter": 1,
+    "frontend": 0,
+    "pgo": 0,
+    "rviz": 0,
+    "playback": 0
+  },
+  "source_unchanged": true
+}

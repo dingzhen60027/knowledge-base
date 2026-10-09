@@ -1,0 +1,144 @@
+schema: d1max.flat_floor_planning/v1
+id: sc-pgo-0919-flat-floor-v6
+name: SC-PGO 0919 · 单层平地规划副本
+prior:
+  single_level_flat_floor_confirmed: true
+  source: 用户确认本楼层地面水平；只用于离线规划地图，不修复SLAM
+input:
+  path: /home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260922_164231_sc-pgo-0919-structure-v1_572b51/processed_map.pcd
+  sha256: 9acb981006da500e927be60763656c3fe29bfcef8081f7bdcacce70846694b9c
+  source_id: 0f5ac7f8988dc383
+  source_name: SC-PGO 0919 · 建筑主体保留清理
+  frame_id: d1max_loc_map
+trajectory:
+  path: /home/dndx/d1max_nav_ws/maps/runs/20260919_125722_855277_central_imu_faster_lio_sc_pgo_zenoh/sc_pgo/optimized_poses.txt
+  sha256: 95d490af3ca8eee59ffd23ef8edd5bfad349b63cb2e9060f95f58ef86c453da5
+  format: kitti_3x4
+output:
+  directory: /home/dndx/智元四足机器人D1 Max二次开发文档资料包v0.1.0/d1max_ros2/map_manager/data/processed/20260923_flat_floor_sc_pgo_0919_v6
+  frame_id: d1max_flat_floor_planning
+  planning_only: true
+  maximum_removed_fraction: 0.05
+  maximum_unsupported_fraction: 0.8
+runtime:
+  maximum_points: 5000000
+conditioning:
+  anchor_radius_m: 0.6
+  anchor_offset_min_m: -0.8
+  anchor_offset_max_m: -0.15
+  anchor_mode_bin_m: 0.025
+  anchor_mode_halfwidth_m: 0.045
+  anchor_min_points: 12
+  anchor_residual_m: 0.025
+  anchor_max_tilt_deg: 8.0
+  anchor_min_xy_spread_m: 0.035
+  field_neighbors: 6
+  field_max_distance_m: 2.5
+  field_idw_softening_m: 0.15
+  field_max_disagreement_m: 0.2
+  reference_z_m: 0.0
+  planning_min_relative_z_m: -0.08
+  support_cell_m: 0.2
+  support_halfwidth_m: 0.055
+  support_min_points: 5
+  support_min_xy_spread_m: 0.02
+  conditioning_support_radius_m: 0.4
+  floor_snap_halfwidth_m: 0.035
+  near_ground_cleanup_enabled: true
+  near_ground_min_m: 0.045
+  near_ground_max_m: 0.35
+  structure_protection_radius_m: 0.18
+  structure_above_min_m: 0.4
+  structure_above_max_m: 0.9
+  structure_min_points: 3
+  low_object_neighbor_radius_m: 0.15
+  low_object_min_other_neighbors: 3
+  fragment_cleanup_enabled: true
+  fragment_min_height_m: 0.1
+  fragment_connection_radius_m: 0.15
+  fragment_max_points: 20
+  fragment_max_xy_extent_m: 0.25
+  fragment_max_z_extent_m: 0.15
+  fragment_planar_min_points: 8
+  fragment_planar_min_xy_spread_m: 0.025
+  fragment_planar_max_residual_m: 0.012
+  fragment_planar_max_tilt_deg: 10.0
+  workers: 2
+  maximum_points: 5000000
+obstacle_cleanup:
+  enabled: true
+  floor_reference_z_m: 0.0
+  floor_halfwidth_m: 0.035
+  support_cell_m: 0.15
+  support_cell_min_points: 3
+  support_mode: metric_disk
+  support_core_radius_m: 0.11
+  support_core_min_points: 3
+  support_radius_m: 0.22
+  support_min_neighbors: 10
+  candidate_min_height_m: 0.04
+  candidate_max_height_m: 0.7
+  structure_min_height_m: 0.04
+  structure_max_height_m: 1.5
+  normal_neighbors: 24
+  normal_min_neighbors: 8
+  normal_radius_m: 0.3
+  normal_max_plane_rms_m: 0.018
+  normal_min_second_spread_m: 0.04
+  vertical_normal_abs_z_max: 0.3
+  horizontal_normal_abs_z_min: 0.92
+  horizontal_plane_min_inlier_ratio: 0.8
+  vertical_column_cell_m: 0.15
+  vertical_bin_m: 0.1
+  vertical_column_max_height_m: 1.24
+  vertical_min_occupied_bins: 6
+  vertical_min_consecutive_bins: 5
+  vertical_bottom_max_height_m: 0.2
+  thin_post_min_points: 20
+  thin_post_max_xy_spread_m: 0.035
+  wall_protection_radius_m: 0.15
+  low_object_protection_radius_m: 0.1
+  low_object_top_tolerance_m: 0.035
+  workers: 2
+  maximum_points: 5000000
+  normal_batch_points: 40000
+  maximum_grid_cells: 4000000
+pct_pipeline:
+  output_directory: /home/dndx/d1max_nav_ws/maps/processed/sc_pgo_20260919_pct_flat_floor_v6_20260923
+  vendor_root: /home/dndx/d1max_nav_ws/src/pct_planner_vendor
+  preprocessing:
+    roi: null
+    voxel_size_m: 0.0
+    radius_outlier:
+      enabled: false
+      radius_m: 0.15
+      minimum_neighbors: 3
+  pct:
+    resolution: 0.2
+    slice_dh: 0.5
+    ground_height: -0.35
+    simplify_layers: true
+    limits:
+      max_axis_cells: 2000
+      max_layers: 128
+      max_total_cells: 25000000
+      max_working_bytes: 2500000000
+    traversability:
+      kernel_size: 7
+      interval_min: 0.55
+      interval_free: 0.7
+      slope_max_rad: 0.4
+      step_max: 0.17
+      standable_ratio: 0.2
+      cost_barrier: 50.0
+      safe_margin: 0.2
+      inflation: 0.2
+  export:
+    traversable_pcd: true
+  notes:
+  - Scene-specific flat-floor derivative; original source retained, no rigid TF to
+    localization map.
+  - Actual observed floor XY support only; no synthetic floor or trajectory-tube clearing.
+  - PCT equations and compact inflation parameters unchanged; first cut is 0.15m above
+    conditioned floor.
+  - Offline global planning only; no robot, controller, SDK or active-map changes.

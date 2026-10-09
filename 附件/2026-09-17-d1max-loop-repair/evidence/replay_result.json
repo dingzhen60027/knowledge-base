@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "source_bag": "/home/dndx/d1max_nav_ws/bags/slam_raw_20260917_171716_fe8f38",
+  "frontend_map": {
+    "path": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/scans.pcd",
+    "points": 2257595,
+    "bytes": 36121712
+  },
+  "pgo_map": {
+    "path": "/home/dndx/d1max_nav_ws/maps/runs/20260917_190115_bag_faster_lio_sc_pgo_loop_fix_zenoh/sc_pgo/optimized_map.pcd",
+    "points": 1088790,
+    "bytes": 17420832
+  },
+  "trajectory_coverage": 0.9976757740668027,
+  "odom_messages": 9050,
+  "keyframes": 647,
+  "accepted_loops": 2,
+  "loop_events": {
+    "candidate_hold": 22,
+    "candidate_queued": 27,
+    "geometry_hold": 2,
+    "geometry_verified": 2,
+    "accepted": 2,
+    "reject_correction": 23,
+    "reject_separation": 15
+  },
+  "geometric_accuracy_validated": false,
+  "note": "A saved optimized map does not imply any loop was accepted."
+}
